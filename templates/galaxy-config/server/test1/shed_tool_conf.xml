@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<toolbox tool_path="/cvmfs/soft.galaxy/galaxy/shed_tools">
+    <section id="textutil" name="Text Manipulation" version="">
+    </section>
+    <section id="datamash" name="Datamash" version="">
+    </section>
+    <section id="convert" name="Convert Formats" version="">
+    </section>
+    <section id="fasta_manipulation" name="FASTA manipulation" version="">
+    </section>
+    <section id="group" name="Join, Subtract and Group" version="">
+    </section>
+    <section id="cshl_library_information" name="QC and manipulation" version="">
+    </section>
+    <section id="ngs:_deeptools" name="DeepTools" version="">
+    </section>
+    <section id="ngs_mapping" name="Mapping" version="">
+    </section>
+    <section id="ngs-rna-tools" name="RNA Analysis" version="">
+    </section>
+    <section id="samtools" name="SAMtools" version="">
+    </section>
+    <section id="ngs:_bam_tools" name="BamTools" version="">
+    </section>
+    <section id="ngs:_picard" name="Picard" version="">
+    </section>
+    <section id="ngs:_vcf_manipulation" name="VCF Manipulation" version="">
+    </section>
+    <section id="peak_calling" name="Peak Calling" version="">
+    </section>
+    <section id="variant_detection" name="Variant Analysis" version="">
+    </section>
+    <section id="ngs_rna_structure" name="RNA Structure" version="">
+    </section>
+    <section id="ngs:_duplexnovo" name="Du Novo" version="">
+    </section>
+    <section id="ngs:_gemini" name="Gemini" version="">
+    </section>
+    <section id="ngs:_assembly" name="Assembly" version="">
+    </section>
+    <section id="bxops" name="Operate on Genomic Intervals" version="">
+    </section>
+    <section id="stats" name="Statistics" version="">
+    </section>
+    <section id="plots" name="Graph/Display Data" version="">
+    </section>
+    <section id="hgv" name="Phenotype Association" version="">
+    </section>
+    <section id="bedtools" name="BEDTools" version="">
+    </section>
+    <section id="genome_diversity" name="Genome Diversity" version="">
+    </section>
+    <section id="EMBOSSLite" name="EMBOSS" version="">
+    </section>
+    <section id="regVar" name="Regional Variation" version="">
+    </section>
+    <section id="clustal" name="Multiple Alignments" version="">
+    </section>
+    <section id="tax_manipulation" name="Metagenomic Analysis" version="">
+    </section>
+    <section id="multiple_regression" name="Multiple regression" version="">
+    </section>
+    <section id="multivariate_analysis" name="Multivariate Analysis" version="">
+    </section>
+    <section id="motifs" name="Motif Tools" version="">
+    </section>
+    <section id="str-fm:_microsatellite_analysis" name="Microsatellite Analysis" version="">
+    </section>
+    <section id="ncbi_sra_tools" name="NCBI SRA Tools" version="">
+    </section>
+    <section id="gatk" name="GATK Tools (beta)" version="">
+    </section>
+    <section id="cloudmap" name="CloudMap" version="">
+    </section>
+    <section id="java_genomics_toolkit" name="Java Genomics Toolkit" version="">
+    </section>
+    <section id="ncbi_blast" name="NCBI Blast" version="">
+    </section>
+
+</toolbox>

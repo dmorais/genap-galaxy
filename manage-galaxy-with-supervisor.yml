@@ -1,0 +1,34 @@
+---
+- name: Galaxy Status
+  hosts: galaxyservers
+  remote_user: galaxy
+  tasks:
+    - name: Restart Galaxy
+      become: yes
+      remote_user: galay
+      supervisorctl:
+        name=galaxy
+        config=/etc/supervisor/conf.d/galaxy.conf
+        state=restarted
+      tags:
+        - restart
+
+    - name: Check if Galaxy it is up
+      become: yes
+      remote_user: galaxy
+      supervisorctl:
+        name=galaxy
+        config=/etc/supervisor/conf.d/galaxy.conf
+        state=started
+      tags:
+        - start
+
+    - name: Stop Galaxy
+      become: yes
+      remote_user: galaxy
+      supervisorctl:
+        name=galaxy
+        config=/etc/supervisor/conf.d/galaxy.conf
+        state=stopped
+      tags:
+        - stop

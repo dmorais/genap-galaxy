@@ -1,0 +1,21 @@
+---
+- name: Install Galaxy tools
+  hosts: galaxyservers
+  become: yes
+  become_method: sudo
+  become_user: "{{ galaxy_user }}"
+  remote_user: root
+  gather_facts: False
+  #connection: local
+  vars:
+    galaxy_tools_admin_user_preset_api_key: yes
+    galaxy_tools_api_key: "{{ host_admin_api_key }}"
+    galaxy_tools_base_dir: /tmp
+    galaxy_server_dir: "{{ host_galaxy_server_dir }}"
+    galaxy_tools_galaxy_instance_url: "{{ host_galaxy_tools_galaxy_instance_url }}"
+    galaxy_tools_tool_list_files: [ "tool_list1.yaml"]
+    galaxy_config_file: "{{ galaxy_server_dir }}/config/galaxy.ini"
+  roles:
+    - galaxyprojectdotorg.galaxy-tools
+  tags: tools
+

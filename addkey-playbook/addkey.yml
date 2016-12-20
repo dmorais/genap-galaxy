@@ -1,0 +1,13 @@
+---
+- name: set up passwordless connection
+  hosts: galaxyservers
+  become: yes
+  become_user: root
+  remote_user: root
+  gather_facts: no
+
+  tasks:
+    - name: install ssh key
+      authorized_key: user=root
+                      key="{{ lookup('file', '/root/.ssh/id_rsa.pub') }}"
+                      state=present

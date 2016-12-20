@@ -1,0 +1,55 @@
+---
+- name: Create Galaxy user and install dependencies
+  hosts: galaxyservers
+  become_method: sudo
+  become: yes
+  #become_user: vagrant
+  remote_user: root
+  tasks:
+    - name: Create Galaxy user
+      user:
+        name: "{{ galaxy_user }}"
+        system: yes
+    - name: Create Galaxy server directory
+      file:
+        name: /srv/galaxy
+        state: directory
+        owner: "{{ galaxy_user }}"
+        group: "{{ galaxy_user }}"
+
+    - name: Create Depedency dirs
+      file:
+        name: "{{ host_tool_dependency_dir }}"
+        state: directory
+        owner: "{{ galaxy_user }}"
+        group: "{{ galaxy_user }}"
+
+    - name: Create Shed-tools directory
+      file:
+        name: "{{ host_shed_tools_dir }}"
+        state: directory
+        owner: "{{ galaxy_user }}"
+        group: "{{ galaxy_user }}"
+
+#    - name: Add EPEL repository
+#      yum_repository:
+#        name: epel
+#        description: EPEL YUM repo
+#        baseurl: http://download.fedoraproject.org/pub/epel/$releasever/$basearch/
+
+    - name: Add EPEL
+      command: yum install -y epel-release
+
+    - name: Clean EPEL
+      command: yum clean all
+
+    - name: Update EPEL
+      command: yum -y update
+
+
+
+
+
+
+
+

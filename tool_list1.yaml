@@ -1,0 +1,2189 @@
+---
+# This is a sample file to be used as a reference for populating a list of
+# tools that you wish to install into Galaxy from a Tool Shed via the
+# `install_tool_shed_tools.py` script.
+#
+# For each tool you want to install, you must provide the following keys:
+#  * name: this is is the name of the tool to install
+#  * owner: owner of the Tool Shed repository from where the tools is being
+#           installed
+# Further, you need to provide **one** of the following two keys:
+#  * tool_panel_section_id: ID of the tool panel section where you want the
+#                           tool to be installed. The section ID can be found
+#                           in Galaxy's `shed_tool_conf.xml` config file. Note
+#                           that the specified section must exist in this file.
+#                           Otherwise, the tool will be installed outside any
+#                           section.
+#  * tool_panel_section_label: Display label of a tool panel section where
+#                              you want the tool to be installed. If it does not
+#                              exist, this section will be created on the target
+#                              Galaxy instance (note that this is different than
+#                              when using the ID).
+#                              Multi-word labels need to be placed in quotes.
+#                              Each label will have a corresponding ID created;
+#                              the ID will be an all lowercase version of the
+#                              label, with multiple words joined with
+#                              underscores (e.g., 'BED tools' -> 'bed_tools').
+#
+# Tou can also specify the following optional keys to further define the
+# installation properties:
+#  * tool_shed_url: the URL of the Tool Shed from where the tool should be
+#                   installed. (default: https://toolshed.g2.bx.psu.edu)
+#  * revisions: a list of revisions of the tool, all of which will attempt to
+#               be installed. (default: latest)
+#  * install_tool_dependencies: True or False - whether to install tool
+#                               dependencies or not. (default: True)
+#  * install_repository_dependencies: True or False - whether to install repo
+#                               dependencies or not. (default: True)
+
+tools:
+- name: uniprot_rest_interface
+  owner: bgruening
+  tool_panel_section_label: 'Text Manipulation'
+  tool_panel_section_id: 'textutil'
+  install_resolver_dependencies: True
+  revisions:
+  - 48522382b6a4 # '0.1'
+- name: unique
+  owner: bgruening
+  tool_panel_section_label: 'Text Manipulation'
+  tool_panel_section_id: 'textutil'
+  install_resolver_dependencies: True
+  revisions:
+  - 7ce75adb93be # '0.3'
+- name: column_maker
+  owner: devteam
+  tool_panel_section_label: 'Text Manipulation'
+  tool_panel_section_id: 'textutil'
+  install_resolver_dependencies: True
+  revisions:
+  - 08a01b2ce4cd # 1.1.0
+- name: text_processing
+  owner: bgruening
+  tool_panel_section_label: 'Text Manipulation'
+  tool_panel_section_id: 'textutil'
+  install_resolver_dependencies: True
+  revisions:
+  - 288462ec2630 # 0.1.0
+  - 20344ce0c811 #  1.1.0
+- name: datamash_ops
+  owner: iuc
+  tool_panel_section_label: 'Datamash'
+  tool_panel_section_id: 'datamash'
+  install_resolver_dependencies: True
+  revisions:
+  - c4611129661b # 1.0.6
+- name: datamash_transpose
+  owner: iuc
+  tool_panel_section_label: 'Datamash'
+  tool_panel_section_id: 'datamash'
+  install_resolver_dependencies: True
+  revisions:
+  - 60e287a6d17d # 1.0.6
+- name: datamash_reverse
+  owner: iuc
+  tool_panel_section_label: 'Datamash'
+  tool_panel_section_id: 'datamash'
+  install_resolver_dependencies: True
+  revisions:
+  - 24b9a80cac40 # 1.0.6
+- name: bam_to_scidx
+  owner: iuc
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - 11fc60f0e942 # 1.0.0
+- name: bigwig_to_wig
+  owner: nikos
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - 974af3268394 # 1.0.2
+- name: bigwig_to_bedgraph
+  owner: bgruening
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - 3799012ce2ff # 0.1.0
+- name: sam_to_fastq
+  owner: drosofff
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - 8acb72264319 # 0.1
+- name: ucsc_twobittofa
+  owner: iuc
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - d025a40bbff1 #  332
+- name: tabular_to_fasta
+  owner: devteam
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 0b4e36026794 # 1.1.0
+- name: fasta_to_tabular
+  owner: devteam
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 7e801ab2b70e # 1.1.0
+- name: tabular_to_fastq
+  owner: devteam
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - b334cd1095ea # 1.0.0
+- name: fastq_to_tabular
+  owner: devteam
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - bc9269529e88 # 1.1.0
+- name: fastq_to_fasta
+  owner: devteam
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - 04614cf6ed39 # 1.0.0
+- name: fastqtofasta
+  owner: devteam
+  tool_panel_section_label: 'Convert Formats'
+  tool_panel_section_id: 'convert'
+  install_resolver_dependencies: True
+  revisions:
+  - 3571553aeb20 # 1.0.0
+- name: subtract_query
+  owner: devteam
+  tool_panel_section_label: 'Join, Subtract and Group'
+  tool_panel_section_id: 'group'
+  install_resolver_dependencies: True
+  revisions:
+  - 5f6ebef89722 # '0.1'
+- name: trim_galore
+  owner: bgruening
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - f1e71aeaa923 # 0.4.2
+- name: fastqc
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 3fdc1a74d866 # '0.65'
+  - 3a458e268066 # 0.67
+- name: fastq_paired_end_joiner
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 6a7f5da7c76d # 2.0.1
+- name: pear
+  owner: iuc
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 581e52f03c5d # 0.9.6.0
+  - 240f611a46f3 #  0.9.6.1
+- name: trimmomatic
+  owner: pjbriggs
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - f8a9a5eaca8a # 0.32.3
+  - 14d05f2d511d # 0.36.0
+- name: short_reads_trim_seq
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - f17a1585733b # 1.0.0
+- name: short_reads_figure_score
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - b52b9c7aabd9 # 1.0.2
+- name: fastq_quality_boxplot
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - e359ce20fbd9 # 1.0.0
+- name: fastq_quality_converter
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - b87c74b61d81 # 1.0.0
+- name: fastq_quality_filter
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 57adb07cccfc # 1.0.0
+- name: fastx_artifacts_filter
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - c8808979ba33 # 1.0.0
+- name: fastx_barcode_splitter
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - c5300ff2aa1e # 1.0.0
+- name: fastx_clipper
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 2fe2d2b9e8e4 # 1.0.1
+- name: fastx_collapser
+  owner: devteam
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 13c2d9e8c6d5 # 1.0.0
+- name: fastx_nucleotides_distribution
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 63d6e2daad48 # 1.0.0
+  - 18a51655db17 # 1.0.0
+- name: fastx_quality_statistics
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - c2af34024061 # 1.0.0
+- name: fastx_renamer
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - d7bce63e6e09 # 0.0.11
+- name: fastx_reverse_complement
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 5bd826723d61 # 1.0.0
+- name: fastx_trimmer
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - d77c9c6ecf68 # 1.0.0
+- name: fastq_combiner
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 94306bdd58f7 # 1.0.1
+- name: fastq_filter
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - b957f55f3955 # 1.0.0
+- name: fastq_manipulation
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 5d1e9e13e8db # 1.0.1
+- name: fastq_groomer
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 1298445c852b # 1.0.4
+- name: fastq_masker_by_quality
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 5a7b5751617b # 1.0.0
+- name: fastq_paired_end_splitter
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - c549e99026db # 1.0.0
+- name: fastq_stats
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - daaf552153fe # 1.0.0
+- name: fastq_trimmer
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 0b9feb0ed628 # 1.0.0
+- name: fastq_trimmer_by_quality
+  owner: devteam
+  tool_panel_section_label: 'QC and manipulation'
+  tool_panel_section_id: 'cshl_library_information'
+  install_resolver_dependencies: True
+  revisions:
+  - 1cdcaf5fc1da # 1.0.0
+- name: deeptools_plot_enrichment
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - a1124c201eee # 2.3.6.0
+  - 8e57345c05ef # 2.4.1.0
+- name: deeptools_plot_profile
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - ac1304435181 # 2.3.6.0
+  - 336225303945 # 2.4.1.0
+- name: deeptools_plot_pca
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 18fad2642adc # 2.3.6.0
+  - 21b1f17dd208 # 2.4.1.0
+- name: deeptools_plot_heatmap
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - f08d1cd387d6 # 2.3.6.0
+  - 7b38fcd4ff9e # 2.4.1.0
+- name: deeptools_plot_fingerprint
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - ef2bcce0be62 # 2.3.6.0
+  - 314348664620 # 2.4.1.0
+- name: deeptools_plot_coverage
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 71385153e5d5 # 2.3.6.0
+  - 3317eb43a3c1 # 2.4.1.0
+- name: deeptools_plot_correlation
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - cdde99ce71c8 # 2.3.6.0
+  - a5daff8fbee8 # 2.4.1.0
+- name: deeptools_multi_bigwig_summary
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 69004a60ad95 # 2.3.6.0
+  - 1903a836f5ee # 2.4.1.0
+- name: deeptools_multi_bam_summary
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - a74111e8cbc1 # 2.3.6.0
+  - d0800b8adbcb # 2.4.1.0
+- name: deeptools_correct_gc_bias
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 4eef86c1e82f # 2.3.6.0
+  - 297bccb7d5c6 # 2.4.1.0
+- name: deeptools_compute_matrix
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 4b3adcb7c7e9 # 2.3.6.0
+  - 6f334c8bd52f # 2.4.1.0
+- name: deeptools_compute_gc_bias
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 9ee37f06acbc # 2.3.6.0
+  - 4c03a58a512e # 2.4.1.0
+- name: deeptools_bigwig_compare
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 5b2abee3aff3 # 2.3.6.0
+  - 163f2951146c # 2.4.1.0
+- name: deeptools_bam_pe_fragmentsize
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 4efe24a9739e # 2.3.6.0
+  - 2a56d1eb6c46 # 2.4.1.0
+- name: deeptools_bam_coverage
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - e22b1110529c # 2.3.6.0
+  - aa33302db115 # 2.4.1.0
+- name: deeptools_bam_compare
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 6aee99aec0d1 # 2.3.6.0
+  - 9cc3a577f80d # 2.4.1.0
+- name: deeptools_compute_matrix_operations
+  owner: bgruening
+  tool_panel_section_label: 'DeepTools'
+  tool_panel_section_id: 'ngs:_deeptools'
+  install_resolver_dependencies: True
+  revisions:
+  - 1638c02b28b5 # 2.4.1.0
+- name: bowtie2
+  owner: devteam
+  tool_panel_section_label: 'Mapping'
+  tool_panel_section_id: 'ngs_mapping'
+  install_resolver_dependencies: True
+  revisions:
+  - a9d4f71dbfb0 # 2.2.6.2
+- name: bwa
+  owner: devteam
+  tool_panel_section_label: 'Mapping'
+  tool_panel_section_id: 'ngs_mapping'
+  install_resolver_dependencies: True
+  revisions:
+  - 546ada4a9f43 # 0.7.12.1
+- name: megablast_xml_parser
+  owner: devteam
+  tool_panel_section_label: 'Mapping'
+  tool_panel_section_id: 'ngs_mapping'
+  install_resolver_dependencies: True
+  revisions:
+  - 03ca082aeb2e # 1.0.0
+- name: megablast_wrapper
+  owner: devteam
+  tool_panel_section_label: 'Mapping'
+  tool_panel_section_id: 'ngs_mapping'
+  install_resolver_dependencies: True
+  revisions:
+  - fb2e0e1dac89 # 1.2.0
+- name: bwa_wrappers
+  owner: devteam
+  tool_panel_section_label: 'Mapping'
+  tool_panel_section_id: 'ngs_mapping'
+  install_resolver_dependencies: True
+  revisions:
+  - b4427dbb6ced # 1.2.3
+- name: bowtie_wrappers
+  owner: devteam
+  tool_panel_section_label: 'Mapping'
+  tool_panel_section_id: 'ngs_mapping'
+  install_resolver_dependencies: True
+  revisions:
+  - 42c4463baaad # 1.1.2
+  - 306077e393d4 # 1.1.5
+- name: lastz
+  owner: devteam
+  tool_panel_section_label: 'Mapping'
+  tool_panel_section_id: 'ngs_mapping'
+  install_resolver_dependencies: True
+  revisions:
+  - 60afcc2c1d05 # 1.2.2
+- name: deseq2
+  owner: iuc
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 4939397c4706 # 2.11.38
+- name: tophat2
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 758594ed0364 # 2.1.0
+- name: hisat2
+  owner: iuc
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 1eb21dccc2fa # 2.0.3
+  - 5f4da9ec47c7 # 2.0.3.1
+- name: htseq_count
+  owner: lparsons
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - a6dcb86af112 # 0.6.1galaxy1
+  - 6e5c95760ab1 # 0.6.1galaxy2
+- name: cummerbund
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - ba8fde59843d # 1.0.1
+- name: cummerbund_to_tabular
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 0761bbc0a4e7 # 1.0.1
+- name: cuffnorm
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 7d4c2097aac5 # 2.2.1.1
+- name: sailfish
+  owner: bgruening
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 20eab032389f # 0.7.6.0
+  - 1b4ed566a41c # 0.10.1
+- name: stringtie
+  owner: iuc
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - f504b3b7e49d # 1.1.0
+  - 3437d5a5041c # 1.2.3
+- name: cuffdiff
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 0f32ad418df8 # 2.2.1.3
+- name: cuffcompare
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - b77178f66fc3 # 2.2.1.0
+- name: cufflinks
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - a1ea9af8d5f4 # 2.2.1.0
+- name: gffread
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 48fe74f391ab # 2.2.1.0
+- name: cuffmerge
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 8160c8ea4eb9 # 2.2.1.0
+- name: cuffquant
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 986b63735a5e # 2.2.1.0
+- name: filter_transcripts_via_tracking
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 45f89dcf0b4c # '0.1'
+- name: tophat_fusion_post
+  owner: devteam
+  tool_panel_section_label: 'RNA Analysis'
+  tool_panel_section_id: 'ngs-rna-tools'
+  install_resolver_dependencies: True
+  revisions:
+  - f83394a2c2da # '0.1'
+- name: samtool_filter2
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - c31a37f6d48a # 1.1.2
+- name: filter_on_md
+  owner: boris
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - ac70bfaf1224 # 1.0.2
+- name: sam_merge
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 1977f1637890 # 1.2.0
+- name: sam_to_bam
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 881e16ad05c6 # '2.1'
+- name: pileup_interval
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - ef11139d4545 # 1.0.2
+- name: samtools_mpileup
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - bfc4517aa037 # 2.1.1
+- name: bcftools_view
+  owner: gregory-minevich
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 6572c40a8505 # 0.0.1
+- name: samtools_reheader
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 020e144b5f78 # '2.0'
+- name: samtools_split
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 57f3e32f809d # '1.1'
+- name: samtools_stats
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 8cfc17e27132 # '2.0'
+- name: bam_to_sam
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - af7c50162f0b # '2.0'
+- name: samtools_sort
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - a430da4f04cd # '2.0'
+- name: samtools_calmd
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 1ebb4ecdc1ef # '2.0'
+- name: samtools_bedcov
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 8c3472790020 # '2.0'
+- name: samtools_idxstats
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 87398ae795c7 # '2.0'
+- name: samtools_flagstat
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 0072bf593791 # '2.0'
+- name: samtools_slice_bam
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 2b474ebbfc7d # '2.0'
+- name: samtools_rmdup
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - bb40e4252392 # '2.0'
+- name: pileup_parser
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 1670f0565000 # 1.0.2
+- name: sam2interval
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 8c737b8ddc45 # 1.0.1
+- name: sam_bitwise_flag_filter
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 0b2424a404d9 # 1.0.0
+- name: sam_pileup
+  owner: devteam
+  tool_panel_section_label: 'SAMtools'
+  tool_panel_section_id: 'samtools'
+  install_resolver_dependencies: True
+  revisions:
+  - 890d97772e2a # 1.1.2
+- name: bamtools_split
+  owner: devteam
+  tool_panel_section_label: 'BamTools'
+  tool_panel_section_id: 'ngs:_bam_tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 4555f451dd79 # 0.0.2
+- name: bamtools_filter
+  owner: devteam
+  tool_panel_section_label: 'BamTools'
+  tool_panel_section_id: 'ngs:_bam_tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 2098a49ddf66 # 0.0.2
+- name: bamtools
+  owner: devteam
+  tool_panel_section_label: 'BamTools'
+  tool_panel_section_id: 'ngs:_bam_tools'
+  install_resolver_dependencies: True
+  revisions:
+  - ea3fc1adee75 # 0.0.2
+- name: picard
+  owner: devteam
+  tool_panel_section_label: 'Picard'
+  tool_panel_section_id: 'ngs:_picard'
+  install_resolver_dependencies: True
+  revisions:
+  - efc56ee1ade4 # 1.136.0
+  - 7e6fd3d0f16e #  2.7.1.0
+- name: vcfsort
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - a8c5440d69e3 # 1.0.0_rc1.0
+- name: vcfbedintersect
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 31a86dbe17c0 # 1.0.0_rc1.0
+- name: vcfcheck
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 40a339e4692e # 1.0.0_rc1.0
+- name: vcfgeno2haplo
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 5bd9783e982a # 1.0.0_rc1.0
+- name: vcfcommonsamples
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - d58a307b9cef # 1.0.0_rc1.0
+- name: vcfcombine
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 18f9f2624bd6 # 1.0.0_rc1.0
+- name: vcfaddinfo
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 196ed76d2619 # 1.0.0_rc1.0
+- name: vcfallelicprimitives
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 0a69cff7946e # 1.0.0_rc1.0
+- name: vcfflatten
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 1336a70f5c02 # 1.0.0_rc1.0
+- name: vcfdistance
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 48e458c721b3 # 1.0.0_rc1.0
+- name: vcf2tsv
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 8fb92fcd20ae # 1.0.0_rc1.0
+- name: vcfannotategenotypes
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - c96a7e49150a # 1.0.0_rc1.0
+- name: vcfhethom
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - c9bb9f126282 # 1.0.0_rc1.0
+- name: vcfrandomsample
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - c035d96c5cbe # 1.0.0_rc1.0
+- name: vcfannotate
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - d64204113938 # 1.0.0_rc1.0
+- name: vcfgenotypes
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 82635a34fbe6 # 1.0.0_rc1.0
+- name: vcfbreakcreatemulti
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 3aa04b92957f # 1.0.0_rc1.0
+- name: vcfprimers
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - bc5949d36b34 # 1.0.0_rc1.0
+- name: vcfleftalign
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 8e02d116b0f9 # 1.0.0_rc1.0
+- name: vcfselectsamples
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 43cecdfe7107 # 1.0.0_rc1.0
+- name: vcffilter
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 952059348a30 # 1.0.0_rc1.0
+- name: vcfvcfintersect
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 1bc1b2b8b341 # 1.0.0_rc1.0
+- name: vcffixup
+  owner: devteam
+  tool_panel_section_label: 'VCF Manipulation'
+  tool_panel_section_id: 'ngs:_vcf_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 9d7e64e4b9fc # 1.0.0_rc1.0
+- name: diffbind
+  owner: bgruening
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - d6dcb3dd5f8f # 2.1.0
+- name: macs2
+  owner: iuc
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - 6d4babad010f # 2.1.0.20151222.0
+- name: resize_coordinate_window
+  owner: iuc
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - 0164d2edba9f # 1.0.1
+- name: repmatch_gff3
+  owner: iuc
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - a072f0f30ea3 # 1.0.0
+- name: cwpair2
+  owner: iuc
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - d4db13c9dd7f # 1.0.0
+- name: genetrack
+  owner: iuc
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - 25cd59a002d9 # 1.0.0
+- name: ngsutils_bam_filter
+  owner: iuc
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - 8187a729d9f4 # 0.5.7.1
+  - 7a68005de299 #  0.5.8.1
+- name: macs
+  owner: devteam
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - ae2ec275332a # 1.0.1
+- name: sicer
+  owner: devteam
+  tool_panel_section_label: 'Peak Calling'
+  tool_panel_section_id: 'peak_calling'
+  install_resolver_dependencies: True
+  revisions:
+  - 4a14714649b4 # 0.0.1
+- name: table_annovar
+  owner: devteam
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - 08b003ee9db7 # '0.2'
+- name: snpeff
+  owner: iuc
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - e09ce114d240 # 4.0.0
+  - 2950d5afa3fe #  4.1.0
+- name: mutate_snp_codon
+  owner: devteam
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - 8f0af7251167 # 1.0.0
+- name: allele_counts
+  owner: nick
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - 411adeff1eec # '1.2'
+- name: freebayes
+  owner: devteam
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - 99684adf84de # 0.4.1
+- name: naive_variant_caller
+  owner: blankenberg
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - ac0235d2d459 # 0.0.2
+#- name: phylorelatives
+#  owner: boris
+#  tool_panel_section_label: 'Variant Analysis'
+#  tool_panel_section_id: 'variant_detection'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - 06d6e56e8c2b # 0.0.1
+#- name: hetbox
+#  owner: boris
+#  tool_panel_section_label: 'Variant Analysis'
+#  tool_panel_section_id: 'variant_detection'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - 8d2c4c11fd8f # '1.0'
+- name: getalleleseq
+  owner: boris
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - 5a89151b5e82 # 0.0.1
+- name: varscan_version_2
+  owner: devteam
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - 44d514f3df8f # varscan_version_2
+- name: vcftools_annotate
+  owner: devteam
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - 57a6550df582 # '0.1'
+- name: vcftools_slice
+  owner: devteam
+  tool_panel_section_label: 'Variant Analysis'
+  tool_panel_section_id: 'variant_detection'
+  install_resolver_dependencies: True
+  revisions:
+  - 1363e5d4a8b8 # '0.1'
+- name: structurefold
+  owner: tyty
+  tool_panel_section_label: 'RNA Structure'
+  tool_panel_section_id: 'ngs_rna_structure'
+  install_resolver_dependencies: True
+  revisions:
+  - 7bb98e9296e9 # '1.0'
+- name: duplex
+  owner: nick
+  tool_panel_section_label: 'Du Novo'
+  tool_panel_section_id: 'ngs:_duplexnovo'
+  install_resolver_dependencies: True
+  revisions:
+  - 4bc49a5769ee # '0.5'
+- name: sequence_content_trimmer
+  owner: nick
+  tool_panel_section_label: 'Du Novo'
+  tool_panel_section_id: 'ngs:_duplexnovo'
+  install_resolver_dependencies: True
+  revisions:
+  - 7f170cb06e2e # '0.1'
+- name: gemini_pathways
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 2bce41988d8e # 0.18.1.0
+- name: gemini_roh
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - e7ad2a721c4b # 0.18.1.0
+- name: gemini_query
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 5596c2dc4218 # 0.18.1.0
+- name: gemini_fusions
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 37f9901b674d # 0.18.1.0
+- name: gemini_dump
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - c3da7c5f2141 # 0.18.1.0
+- name: gemini_gene_wise
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 0db31ae5295e # 0.18.1.0
+- name: gemini_annotate
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 3859552a63d8 # 0.18.1.0
+- name: gemini_comp_hets
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 6192f3a2f96f # 0.18.1.0
+- name: gemini_mendel_errors
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 009a8d614a83 # 0.18.1.0
+- name: gemini_region
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 0239bb5482c1 # 0.18.1.0
+- name: gemini_recessive_and_dominant
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - a78bfd5264b1 # 0.18.1.0
+- name: gemini_load
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 9f74d7b0704a # 0.18.1.0
+- name: gemini_qc
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 5d18dcbf2a0c # 0.18.1.0
+- name: gemini_interactions
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 2ddee6cd4a5a # 0.18.1.0
+- name: gemini_amend
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 2281967e7bc3 # 0.18.1.0
+- name: gemini_lof_sieve
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - e1920f41a1ca # 0.18.1.0
+- name: gemini_burden
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 95a149a9a75d # 0.18.1.0
+- name: gemini_db_info
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - b597e1cd14b1 # 0.18.1.0
+- name: gemini_windower
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 9b462be5a604 # 0.18.1.0
+- name: gemini_actionable_mutations
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 9f0f5e984ae3 # 0.18.1.0
+- name: gemini_stats
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - a0ee6874a23b # 0.18.1.0
+- name: gemini_set_somatic
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 5fd4a5f9ee31 # 0.18.1.0
+- name: gemini_de_novo
+  owner: iuc
+  tool_panel_section_label: 'Gemini'
+  tool_panel_section_id: 'ngs:_gemini'
+  install_resolver_dependencies: True
+  revisions:
+  - 8850488002dc # 0.18.1.0
+- name: trinity_psc
+  owner: nate
+  tool_panel_section_label: 'Assembly'
+  tool_panel_section_id: 'ngs:_assembly'
+  install_resolver_dependencies: True
+  revisions:
+  - 3d072b99688e # 0.0.1
+- name: merge
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - 1bc76ceffa7f # 1.0.0
+- name: concat
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - d491589307e7 # 1.0.1
+- name: subtract
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - c19a2a29c561 # 1.0.0
+- name: join
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - de21bdbb8d28 # 1.0.0
+- name: intersect
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - 77641d5731c8 # 1.0.0
+- name: coverage
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - bc9c66c1e9c9 # 1.0.0
+- name: complement
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - 2221cf5f59aa # 1.0.0
+- name: cluster
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - 520de69b107a # 1.0.0
+- name: basecoverage
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - 0a3e3133b09d # 1.0.0
+- name: annotation_profiler
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - 3b33da018e74 # 1.0.0
+- name: flanking_features
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - 90100b587723 # 4.0.1
+- name: get_flanks
+  owner: devteam
+  tool_panel_section_label: 'Operate on Genomic Intervals'
+  tool_panel_section_id: 'bxops'
+  install_resolver_dependencies: True
+  revisions:
+  - 4b14d0e3a837 # 1.0.0
+- name: t_test_two_samples
+  owner: devteam
+  tool_panel_section_label: 'Statistics'
+  tool_panel_section_id: 'stats'
+  install_resolver_dependencies: True
+  revisions:
+  - c2ffc9885b5a # 1.0.1
+- name: count_gff_features
+  owner: devteam
+  tool_panel_section_label: 'Statistics'
+  tool_panel_section_id: 'stats'
+  install_resolver_dependencies: True
+  revisions:
+  - fabda887a71f # '0.1'
+- name: mine
+  owner: devteam
+  tool_panel_section_label: 'Statistics'
+  tool_panel_section_id: 'stats'
+  install_resolver_dependencies: True
+  revisions:
+  - 5e2c89443c44 # 0.0.1
+- name: plot_from_lda
+  owner: devteam
+  tool_panel_section_label: 'Statistics'
+  tool_panel_section_id: 'stats'
+  install_resolver_dependencies: True
+  revisions:
+  - c5ab37076128 # 1.0.1
+- name: lda_analysis
+  owner: devteam
+  tool_panel_section_label: 'Statistics'
+  tool_panel_section_id: 'stats'
+  install_resolver_dependencies: True
+  revisions:
+  - f38763b52f33 # 1.0.1
+- name: generate_pc_lda_matrix
+  owner: devteam
+  tool_panel_section_label: 'Statistics'
+  tool_panel_section_id: 'stats'
+  install_resolver_dependencies: True
+  revisions:
+  - 04cdbd00dcec # 1.0.0
+- name: correlation
+  owner: devteam
+  tool_panel_section_label: 'Statistics'
+  tool_panel_section_id: 'stats'
+  install_resolver_dependencies: True
+  revisions:
+  - 24e01abf9e34 # 1.0.0
+- name: venn_list
+  owner: peterjc
+  tool_panel_section_label: 'Graph/Display Data'
+  tool_panel_section_id: 'plots'
+  install_resolver_dependencies: True
+  revisions:
+  - 26e35d5133a1 # 0.0.9
+- name: ucsc_custom_track
+  owner: devteam
+  tool_panel_section_label: 'Graph/Display Data'
+  tool_panel_section_id: 'plots'
+  install_resolver_dependencies: True
+  revisions:
+  - 618e56c3109b # 1.0.0
+- name: scatterplot
+  owner: devteam
+  tool_panel_section_label: 'Graph/Display Data'
+  tool_panel_section_id: 'plots'
+  install_resolver_dependencies: True
+  revisions:
+  - c12b0759203b # 1.0.0
+  - 4f8b9e70fda0 # 1.0.2
+- name: histogram
+  owner: devteam
+  tool_panel_section_label: 'Graph/Display Data'
+  tool_panel_section_id: 'plots'
+  install_resolver_dependencies: True
+  revisions:
+  - 6ff47de059a0 # 1.0.3
+- name: xy_plot
+  owner: devteam
+  tool_panel_section_label: 'Graph/Display Data'
+  tool_panel_section_id: 'plots'
+  install_resolver_dependencies: True
+  revisions:
+  - 23657fcaaa5c # 1.0.1
+- name: gmaj
+  owner: devteam
+  tool_panel_section_label: 'Graph/Display Data'
+  tool_panel_section_id: 'plots'
+  install_resolver_dependencies: True
+  revisions:
+  - 2cd5ee197ec7 # 2.0.1
+- name: dgidb_annotator
+  owner: devteam
+  tool_panel_section_label: 'Phenotype Association'
+  tool_panel_section_id: 'hgv'
+  install_resolver_dependencies: True
+  revisions:
+  - c5bb987015c5 # '0.1'
+- name: vcf2pgsnp
+  owner: devteam
+  tool_panel_section_label: 'Phenotype Association'
+  tool_panel_section_id: 'hgv'
+  install_resolver_dependencies: True
+  revisions:
+  - 5fca46616675 # 1.0.0
+- name: snpfreq
+  owner: devteam
+  tool_panel_section_label: 'Phenotype Association'
+  tool_panel_section_id: 'hgv'
+  install_resolver_dependencies: True
+  revisions:
+  - 72ea0d13dd66 # 1.0.1
+- name: ctd_batch
+  owner: devteam
+  tool_panel_section_label: 'Phenotype Association'
+  tool_panel_section_id: 'hgv'
+  install_resolver_dependencies: True
+  revisions:
+  - 4a32700dcaa2 # 1.0.0
+- name: divide_pg_snp
+  owner: devteam
+  tool_panel_section_label: 'Phenotype Association'
+  tool_panel_section_id: 'hgv'
+  install_resolver_dependencies: True
+  revisions:
+  - f74fdfc17143 # 1.0.0
+- name: hgv_fundo
+  owner: devteam
+  tool_panel_section_label: 'Phenotype Association'
+  tool_panel_section_id: 'hgv'
+  install_resolver_dependencies: True
+  revisions:
+  - 64133669255f # 1.0.0
+- name: hgv_hilbertvis
+  owner: devteam
+  tool_panel_section_label: 'Phenotype Association'
+  tool_panel_section_id: 'hgv'
+  install_resolver_dependencies: True
+  revisions:
+  - 0e80ffa5b7f7 # 1.0.0
+- name: freebayes_wrapper
+  owner: devteam
+  tool_panel_section_label: 'Phenotype Association'
+  tool_panel_section_id: 'hgv'
+  install_resolver_dependencies: True
+  revisions:
+  - 33a0e6aca936 # 0.5.0
+- name: bedtools
+  owner: iuc
+  tool_panel_section_label: 'BEDTools'
+  tool_panel_section_id: 'bedtools'
+  install_resolver_dependencies: True
+  revisions:
+  - d25966c8ddeb # 2.24.0
+  - 7b3aaff0d78c # 2.26.0
+- name: genome_diversity
+  owner: miller-lab
+  tool_panel_section_label: 'Genome Diversity'
+  tool_panel_section_id: 'genome_diversity'
+  install_resolver_dependencies: True
+  revisions:
+  - e56023008e36 # 1.0.0
+- name: emboss_5
+  owner: devteam
+  tool_panel_section_label: 'EMBOSS'
+  tool_panel_section_id: 'EMBOSSLite'
+  install_resolver_dependencies: True
+  revisions:
+  - 511429456d3c # 5.0.0
+- name: weightedaverage
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - efa2b391e887 # 1.0.1
+- name: quality_filter
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - 6c6f15373f96 # 1.0.1
+- name: substitution_rates
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - d1b35bcdaacc # 1.0.0
+- name: substitutions
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - c54f5d0bbb58 # 1.0.0
+- name: indels_3way
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - 5ad24b81dd10 # 1.0.3
+- name: featurecounter
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - ac6218e2b686 # 2.0.0
+- name: getindelrates_3way
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - d427e5acb9ee # 1.0.0
+- name: maf_cpg_filter
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - 7f2a12cb047d # 1.0.0
+- name: microsats_mutability
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - 4aa1ee5d8510 # 1.1.0
+- name: getindels_2way
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - f1dc6f5fce6e # 1.0.0
+- name: microsats_alignment_level
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - 7852385470f3 # 1.0.0
+- name: windowsplitter
+  owner: devteam
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - 592089499ae7 # 1.0.0
+- name: karyotype_plot
+  owner: guru-ananda
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - d810aa84ee6a # 1.0.0
+- name: rhmm
+  owner: guru-ananda
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - 38f5cd46ffd3 # 1.0.0
+- name: heatmap
+  owner: guru-ananda
+  tool_panel_section_label: 'Regional Variation'
+  tool_panel_section_id: 'regVar'
+  install_resolver_dependencies: True
+  revisions:
+  - dbd447fcd3e4 # 1.0.0
+- name: fasta_filter_by_length
+  owner: devteam
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 16679a7f554a # '1.1'
+- name: fasta_concatenate_by_species
+  owner: devteam
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 717aee069681 # 0.0.0
+- name: fasta_compute_length
+  owner: devteam
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - ece409f6573c # 1.0.0
+  - de2db1bdfbf8 # 1.0.1
+- name: fasta_formatter
+  owner: devteam
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 1dbb5181c327 # 1.0.0
+- name: fasta_nucleotide_changer
+  owner: devteam
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 2f868bfbe9de # 1.0.0
+- name: mafft
+  owner: rnateam
+  tool_panel_section_label: 'Multiple Alignments'
+  tool_panel_section_id: 'clustal'
+  install_resolver_dependencies: True
+  revisions:
+  - f0606dfd5195 # 7.221.3
+- name: clustalw
+  owner: devteam
+  tool_panel_section_label: 'Multiple Alignments'
+  tool_panel_section_id: 'clustal'
+  install_resolver_dependencies: True
+  revisions:
+  - 7cc64024fe92 # '0.1'
+- name: kraken_report
+  owner: devteam
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 9ae975c30dde # 1.2.1
+- name: kraken_translate
+  owner: devteam
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - b9971bca4b01 # 1.2.1
+- name: kraken_filter
+  owner: devteam
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - fe94f318048c # 1.2.1
+- name: kraken
+  owner: devteam
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - b2392a9dfb01 # 1.2.1
+- name: vegan_diversity
+  owner: iuc
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 2c771b437502 # 0.0.3
+- name: vegan_fisher_alpha
+  owner: iuc
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - d6b92ca3a9a1 # 0.0.3
+- name: vegan_rarefaction
+  owner: iuc
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - dd2705a31239 # 0.0.3
+- name: taxonomy_krona_chart
+  owner: crs4
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - f11a04ed443b # 2.6.0
+- name: vsearch
+  owner: iuc
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 4258854759ba # 1.9.7.0
+- name: diamond
+  owner: bgruening
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 98037ef3d2a9 # 0.6.13
+- name: kraken2tax
+  owner: devteam
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - d844fdcce44e # '1.1'
+- name: cd_hit_dup
+  owner: devteam
+  tool_panel_section_label: 'Metagenomic Analysis'
+  tool_panel_section_id: 'tax_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - 0fb894bd8eba # 0.0.1
+- name: linear_regression
+  owner: devteam
+  tool_panel_section_label: 'Multiple regression'
+  tool_panel_section_id: 'multiple_regression'
+  install_resolver_dependencies: True
+  revisions:
+  - cf431604ec3e # 1.0.1
+- name: logistic_regression_vif
+  owner: devteam
+  tool_panel_section_label: 'Multiple regression'
+  tool_panel_section_id: 'multiple_regression'
+  install_resolver_dependencies: True
+  revisions:
+  - bd196d7c1ca9 # 1.0.1
+- name: partialr_square
+  owner: devteam
+  tool_panel_section_label: 'Multiple regression'
+  tool_panel_section_id: 'multiple_regression'
+  install_resolver_dependencies: True
+  revisions:
+  - 88ef41de020d # 1.0.0
+- name: rcve
+  owner: devteam
+  tool_panel_section_label: 'Multiple regression'
+  tool_panel_section_id: 'multiple_regression'
+  install_resolver_dependencies: True
+  revisions:
+  - 7740956d197b # 1.0.0
+- name: best_regression_subsets
+  owner: devteam
+  tool_panel_section_label: 'Multiple regression'
+  tool_panel_section_id: 'multiple_regression'
+  install_resolver_dependencies: True
+  revisions:
+  - 4f33ec73e445 # 1.0.0
+- name: canonical_correlation_analysis
+  owner: devteam
+  tool_panel_section_label: 'Multivariate Analysis'
+  tool_panel_section_id: 'multivariate_analysis'
+  install_resolver_dependencies: True
+  revisions:
+  - 9bc0c48a027f # 1.0.0
+- name: kernel_canonical_correlation_analysis
+  owner: devteam
+  tool_panel_section_label: 'Multivariate Analysis'
+  tool_panel_section_id: 'multivariate_analysis'
+  install_resolver_dependencies: True
+  revisions:
+  - 7a092113eb8c # 1.0.0
+- name: kernel_principal_component_analysis
+  owner: devteam
+  tool_panel_section_label: 'Multivariate Analysis'
+  tool_panel_section_id: 'multivariate_analysis'
+  install_resolver_dependencies: True
+  revisions:
+  - e9ebd4bfbdfc # 1.0.0
+- name: principal_component_analysis
+  owner: devteam
+  tool_panel_section_label: 'Multivariate Analysis'
+  tool_panel_section_id: 'multivariate_analysis'
+  install_resolver_dependencies: True
+  revisions:
+  - f568051cdf2e # 1.0.2
+- name: meme_meme
+  owner: iuc
+  tool_panel_section_label: 'Motif Tools'
+  tool_panel_section_id: 'motifs'
+  install_resolver_dependencies: True
+  revisions:
+  - 487ce3fa1822 # 4.11.1.0
+- name: meme_fimo
+  owner: iuc
+  tool_panel_section_label: 'Motif Tools'
+  tool_panel_section_id: 'motifs'
+  install_resolver_dependencies: True
+  revisions:
+  - eca84de658b0 # 4.11.0.3
+  - 40b8472e91ca # 4.11.1.0
+#########
+#WEBLOG download page does not exist
+######
+#- name: weblogo3
+#  owner: devteam
+#  tool_panel_section_label: 'Motif Tools'
+#  tool_panel_section_id: 'motifs'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - c1a9e644d580 # '0.4'
+- name: str_fm
+  owner: arkarachai-fungtammasan
+  tool_panel_section_label: 'Microsatellite Analysis'
+  tool_panel_section_id: 'str-fm:_microsatellite_analysis'
+  install_resolver_dependencies: True
+  revisions:
+  - 48b5f719e36a # 2.0.0
+  - 20dc70f85ff7 #  2.0.0
+- name: sra_tools
+  owner: iuc
+  tool_panel_section_label: 'NCBI SRA Tools'
+  tool_panel_section_id: 'ncbi_sra_tools'
+  install_resolver_dependencies: True
+  revisions:
+  - 62e4d56ebb6f # 2.7.0.1
+- name: variant_select
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 227aa321a671 # 0.0.3
+- name: print_reads
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - a8b94864fe35 # 0.0.2
+- name: variants_validate
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 7e1ecaa64370 # 0.0.4
+- name: variant_recalibrator
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - cb7cf57397a7 # 0.0.4
+- name: variant_filtration
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - da6e2503c62d # 0.0.5
+- name: variant_eval
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - fbca1c0956d2 # 0.0.8
+- name: variant_combine
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 1a6e16391727 # 0.0.4
+- name: variant_apply_recalibration
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 350a4d0d1678 # 0.0.4
+- name: variant_annotator
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - ae9d0a543e9b # 0.0.5
+- name: unified_genotyper
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 66dd4d4c1743 # 0.0.6
+- name: realigner_target_creator
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 5b8eaae854da # 0.0.4
+- name: indel_realigner
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - bb0beda6cf83 # 0.0.6
+- name: depth_of_coverage
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - c3f08370fc82 # 0.0.2
+- name: count_covariates
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 14e304b70425 # 0.0.5
+- name: analyze_covariates
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 738bc749f9a3 # 0.0.5
+- name: table_recalibration
+  owner: devteam
+  tool_panel_section_label: 'GATK Tools (beta)'
+  tool_panel_section_id: 'gatk'
+  install_resolver_dependencies: True
+  revisions:
+  - 30e1dd77e99c # 0.0.5
+- name: cloudmap_variant_discovery_mapping
+  owner: gregory-minevich
+  tool_panel_section_label: 'CloudMap'
+  tool_panel_section_id: 'cloudmap'
+  install_resolver_dependencies: True
+  revisions:
+  - 552fd088910e # 1.0.0
+- name: cloudmap_in_silico_complementation
+  owner: gregory-minevich
+  tool_panel_section_label: 'CloudMap'
+  tool_panel_section_id: 'cloudmap'
+  install_resolver_dependencies: True
+  revisions:
+  - 5389dc5a0be3 # 1.0.0
+- name: ems_variant_density_mapping
+  owner: gregory-minevich
+  tool_panel_section_label: 'CloudMap'
+  tool_panel_section_id: 'cloudmap'
+  install_resolver_dependencies: True
+  revisions:
+  - 5cc9b35b5a52 # 1.0.0
+- name: snp_mapping_using_wgs
+  owner: gregory-minevich
+  tool_panel_section_label: 'CloudMap'
+  tool_panel_section_id: 'cloudmap'
+  install_resolver_dependencies: True
+  revisions:
+  - 6b5bd5faf836 # 1.0.0
+- name: check_snpeff_candidates
+  owner: gregory-minevich
+  tool_panel_section_label: 'CloudMap'
+  tool_panel_section_id: 'cloudmap'
+  install_resolver_dependencies: True
+  revisions:
+  - f20585ccbf05 # 1.0.0
+- name: bismark
+  owner: bgruening
+  tool_panel_section_label: 'Mapping'
+  tool_panel_section_id: 'ngs_mapping'
+  install_resolver_dependencies: True
+  revisions:
+  - 0f8646f22b8d # 0.10.2
+- name: seq_filter_by_id
+  owner: peterjc
+  tool_panel_section_label: 'FASTA manipulation'
+  tool_panel_section_id: 'fasta_manipulation'
+  install_resolver_dependencies: True
+  revisions:
+  - fb1313d79396 #  0.2.5
+- name: java_genomics_toolkit
+  owner:  timpalpant
+  tool_panel_section_label: 'Java Genomics Toolkit'
+  tool_panel_section_id: 'java_genomics_toolkit'
+  install_resolver_dependencies: True
+  revisions:
+  - a77e126ae856 # 1.1.0
+- name: ncbi_blast_plus
+  owner: devteam
+  tool_panel_section_label: 'NCBI Blast'
+  tool_panel_section_id: 'ncbi_blast'
+  install_resolver_dependencies: True
+  revisions:
+  - 3034ce97dd33 # 0.1.08
+#- name: cutadapt
+#  owner: lparsons
+#  tool_panel_section_label: 'QC and manipulation'
+#  tool_panel_section_id: 'cshl_library_information'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - 01d94df2e32a # 1.6
+
+
+#- name: qiime
+#  owner: peterjc
+#  tool_panel_section_label: 'Qiime'
+#  tool_panel_section_id: 'qiime'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - e5c3175506b7 #  1.2.0
+
+# Data Managers
+- name: data_manager_snpeff
+  owner: iuc
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_bwa_index_builder
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_gatk_picard_index_builder
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_sam_fasta_index_builder
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_fetch_genome_dbkeys_all_fasta
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_fetch_genome_all_fasta
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_rsync_g2
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_bowtie2_index_builder
+  owner:  devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_bwa_mem_index_builder
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_all_fasta_path
+  owner: brenninc
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_fetch_ncbi_taxonomy
+  owner: devteam
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: data_manager_snpsift_dbnsfp
+  owner: iuc
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+

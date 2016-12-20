@@ -1,0 +1,48 @@
+[unix_http_server]
+file = /tmp/supervisor.sock ;
+
+[supervisord]
+logfile=%(here)s/supervisord.log ; (main log file;default $CWD/supervisord.log)
+logfile_maxbytes=50MB        ; (max main logfile bytes b4 rotation;default 50MB)
+logfile_backups=5            ; (num of main logfile rotation backups;default 10)
+loglevel=info                ; (log level;default info; others: debug,warn,trace)
+pidfile=%(here)s/supervisord.pid ; (supervisord pidfile;default supervisord.pid)
+nodaemon=false               ; (start in foreground if true;default false)
+minfds=1024                  ; (min. avail startup file descriptors;default 1024)
+minprocs=200                 ; (min. avail process descriptors;default 200)
+umask=022                   ; (process file creation umask;default 022)
+;user=chrism                 ; (default is current user, required if root)
+identifier=supervisor        ; (supervisord identifier, default is 'supervisor')
+;directory=/tmp              ; (default is not to cd during start)
+;nocleanup=true              ; (don't clean up tempfiles at start;default false)
+childlogdir=/var/log         ; ('AUTO' child log dir, default $TEMP)
+;environment=KEY="value"     ; (key value pairs to add to environment)
+;strip_ansi=false            ; (strip ansi escape codes in logs; def. false)
+
+[rpcinterface:supervisor]
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
+
+
+[supervisorctl]
+serverurl=unix:///tmp/supervisor.sock ; use a unix:// URL  for a unix socket
+;serverurl=http://127.0.0.1:8001        ; use an http:// url to specify an inet socket
+;username=chris                        ; should be same as http_username if set
+;password=123                          ; should be same as http_password if set
+prompt=galaxy_supervisor               ; cmd line prompt (default "supervisor")
+history_file=%(here)s/.sc_history      ; use readline history if available
+
+
+[program:galaxy]
+command         = {{ galaxy_server_dir }}/.venv/bin/uwsgi --plugin python --virtualenv {{ galaxy_server_dir }}/.venv --ini-paste {{ galaxy_server_dir }}/config/galaxy.ini
+directory       = {{ galaxy_server_dir }}
+autostart       = true
+autorestart     = true
+startsecs       = 10
+user            = {{ galaxy_user }}
+stopsignal      = INT
+stderr_logfile=/var/uwsgi.err
+stdout_logfile=/var/uwsgi.log
+
+[group:main]
+programs = galaxy
+

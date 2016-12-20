@@ -1,0 +1,52 @@
+galaxy_user: galaxy
+
+miniconda_home: /cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/
+miniconda_modify_path: yes
+miniconda_rcfile: /home/galaxy/.bashrc
+miniconda_installed: yes
+miniconda_lib: /cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/lib
+
+pip_virtualenv_command: "/cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/bin/virtualenv -p  /cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/bin/python"
+users: galaxy
+
+postgresql_objects_users:
+  - name: galaxy
+    postgresql_login_unix_socket: /srv/galaxy/sock/postgresql/
+
+
+postgresql_objects_databases:
+  - name: galaxy
+    owner: galaxy
+    postgresql_login_unix_socket: /srv/galaxy/sock/postgresql/
+
+postgresql_pg_hba_conf:
+  - host  all all  0.0.0.0/0 trust
+
+postgresql_objects_groups: []
+
+postgresql_objects_privileges: []
+
+galaxy_server_dir: /srv/galaxy/server
+galaxy_vcs: git
+#galaxy_changeset_id: 727270261750fc71979e7ba9fec96b10091ff104
+galaxy_changeset_id: release_16.10
+galaxy_force_checkout: yes
+
+galaxy_config:
+  "app:main":
+    database_connection: postgresql:///galaxy?host=/srv/galaxy/sock/postgresql/
+    admin_users: dmorais@galaxy.genap.ca
+    tool_dependency_dir: /srv/galaxy/deps
+  "uwsgi":
+    processes: 1
+    socket: 127.0.0.1:4001
+    pythonpath: "{{ galaxy_server_dir }}/lib"
+    threads: 4
+    master: True
+
+nginx_enable_default_server: false
+nginx_configs:
+  - galaxy
+
+supervisor_configs:
+  - galaxy

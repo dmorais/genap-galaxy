@@ -1,0 +1,4 @@
+- name: start supervisor
+  shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisord -c  /etc/supervisor/conf.d/galaxy.conf
+- name: update supervisor
+  shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorclt  -c  /etc/supervisor/conf.d/galaxy.conf update

@@ -1,0 +1,30 @@
+server {
+    listen *:80 default_server;
+    server_name galaxy;
+
+    location / {
+        #uwsgi_pass 127.0.0.1:8080;
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header   X-Forwarded-Host $host;
+        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+ #       include uwsgi_params;
+    }
+
+    location /galaxy {
+            uwsgi_pass  unix://///srv/galaxy/sock/uwsgi.sock;
+         #   uwsgi_pass 127.0.0.1:4003;
+            include uwsgi_params;
+            proxy_set_header   X-Forwarded-Host $host;
+            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+        }
+
+    location /galaxy/static {
+        alias {{ galaxy_server_dir }}/static;
+    }
+    location /galaxy/static/style {
+        alias {{ galaxy_server_dir }}/static/june_2007_style/blue;
+    }
+    location /galaxy/static/welcome.html {
+        alias {{ galaxy_server_dir }}/static/welcome.html.sample;
+    }
+}

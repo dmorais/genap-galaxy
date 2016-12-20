@@ -1,0 +1,14 @@
+---
+
+postgresql_default_version: 9.4
+postgresql_backup_local_dir: ~postgres/backup
+postgresql_backup_active_dir: "{{ postgresql_backup_local_dir }}/active"
+postgresql_backup_mail_recipient: postgres
+postgresql_backup_rotate: true
+postgresql_conf_dir: /var/lib/pgsql/9.4/data/
+postgresql_conf:
+  listen_addresses: "' '"
+  unix_socket_directories: "'/srv/galaxy/sock/postgresql'"
+  unix_socket_permissions: 0770
+  unix_socket_group: "'galaxy'"
+

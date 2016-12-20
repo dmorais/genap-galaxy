@@ -1,0 +1,89 @@
+---
+- name: Create Galaxy user and install dependencies
+  hosts: galaxyservers
+  become_method: sudo
+  become: yes
+  remote_user: root
+  tasks:
+    - name: Create Galaxy user
+      user:
+        name: "{{ galaxy_user }}" 
+        system: yes
+    
+    
+    - name: Install packages
+      yum:
+        pkg: "{{ item }}"
+        update_cache: yes
+        state: present
+      with_items:
+        - python-psycopg2
+        - git
+        - python-devel
+        - gcc
+        - zlib-devel
+        - openssl-devel
+        - libffi-devel
+        - python-babel
+        - python-virtualenv
+        - libxslt-devel
+        - uwsgi
+        - uwsgi-plugin-python
+        - gcc-c++
+        - patch
+        - gcc-gfortran
+        - lapack-devel
+        - lapack
+        - blas
+        - blas-devel
+        - atlas
+        - expat-devel
+
+    - name: Create Galaxy server directory
+      file:
+        name: /srv/galaxy
+        state: directory
+        owner: "{{ galaxy_user }}"
+        group: "{{ galaxy_user }}"
+
+    - name: Create Depedency dirs
+      file:
+        name: "{{ host_tool_dependency_dir }}"
+        state: directory
+        owner: "{{ galaxy_user }}"
+        group: "{{ galaxy_user }}"
+
+    - name: Create Shed-tools directory
+      file:
+        name: "{{ host_shed_tools_dir }}"
+        state: directory
+        owner: "{{ galaxy_user }}"
+        group: "{{ galaxy_user }}"
+
+  roles:
+    - galaxyprojectdotorg.postgresql
+    - galaxyprojectdotorg.nginx
+
+
+- name: Configure PostgreSQL access
+  hosts: galaxyservers
+  become: yes
+  become_user: postgres
+  remote_user: root
+  roles:
+    - natefoo.postgresql_objects
+
+
+- name: Install and configure Galaxy
+  hosts: galaxyservers
+  become: yes
+  become_user: "{{ galaxy_user }}"
+  remote_user: root
+  roles:
+    - galaxyprojectdotorg.galaxy
+
+- name: Install and configure supervisor
+  hosts: galaxyservers
+  remote_user: root
+  roles:
+    - supervisor

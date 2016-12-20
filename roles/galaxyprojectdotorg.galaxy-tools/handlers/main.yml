@@ -1,0 +1,2 @@
+- name: restart galaxy
+  include: restart_galaxy.yml

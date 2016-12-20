@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- A sample job config that explicitly configures job running the way it is configured by default (if there is no explicit config). -->
+<job_conf>
+     <plugins>
+       <plugin id="local" type="runner" load="galaxy.jobs.runners.local:LocalJobRunner" workers="4"/>
+        <plugin id="pbs" type="runner" load="galaxy.jobs.runners.pbs:PBSJobRunner" worker="10"/>
+    </plugins>
+    <handlers default="handlers">
+        <handler id="handler0" tags="handlers"/>
+        <handler id="handler1" tags="handlers"/>
+        <handler id="handler2" tags="handlers"/>
+    </handlers>
+    <destinations default="dynamic">
+        <destination id="local" runner="local"/>
+        <destination id="qsmall" runner="pbs" >
+           <param id="destination">qsmall@10.5.5.222</param>
+           <param id="Resource_List">walltime=48:00:00</param>
+        </destination>
+        <destination id="qmid" runner="pbs" >
+           <param id="destination">qmid@10.5.5.222</param>
+           <param id="Resource_List">walltime=24:00:00</param>
+        </destination>
+        <destination id="qbig" runner="pbs" >
+           <param id="destination">qbig@10.5.5.222</param>
+           <param id="Resource_List">walltime=24:00:00</param>
+        </destination>
+        <destination id="dynamic" runner="dynamic">
+            <param id="type">python</param>
+            <param id="function">dynamic_queue_pub</param>
+        </destination>
+    </destinations>
+    <limits>
+        <limit type="registered_user_concurrent_jobs">4</limit>
+        <limit type="destination_user_concurrent_jobs" id="qbig">1</limit>
+        <limit type="destination_user_concurrent_jobs" id="qmid">2</limit>
+        <limit type="anonymous_user_concurrent_jobs">1</limit>
+        <limit type="output_size">20GB</limit>
+    </limits>
+    <resources default="default">
+      <!-- Group different parameters defined in job_resource_params_conf.xml
+                                 together and assign these groups ids. Tool section below can map
+           tools to different groups. This is experimental functionality!
+      -->
+      <group id="default">queue,time</group>
+    </resources> 
+</job_conf>

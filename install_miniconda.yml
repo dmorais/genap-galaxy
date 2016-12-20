@@ -1,0 +1,34 @@
+- name: Install Miniconda
+  hosts: galaxyservers
+  become_method: sudo
+  become: yes
+  #become_user: vagrant
+  remote_user: root
+
+
+  roles:
+    - miniconda
+
+- name: Fix libpython2.7.so.1.0 BUG
+  hosts: galaxyservers
+  become_method: sudo
+  become: yes
+  remote_user: root
+  tasks:
+    - name: UpdateDB
+      command: updatedb
+
+    - name: Add libpython2.7 path
+      lineinfile:
+        dest: /etc/ld.so.conf
+        state: present
+        line: "{{ miniconda_lib }}"
+
+    - name: Reload configs
+      command: ldconfig
+
+    - name: Rename Bad libread
+      command: mv "{{ miniconda_lib }}"/libreadline.so.6 "{{ miniconda_lib }}"/libreadline.so.6.old
+
+    - name: Copy over Good libread
+      command: cp /lib64/libreadline.so.6 "{{ miniconda_lib }}"

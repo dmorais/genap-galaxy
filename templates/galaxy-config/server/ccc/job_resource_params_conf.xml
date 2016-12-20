@@ -1,0 +1,9 @@
+<parameters>
+  <param label="Queue" name="queue" type="select" help="Modify this option if you need more memory for your jobs">
+    <option value="qsmall">qsmall 4GB RAM walltime 24 Hours (default)</option>
+    <option value="qmid">qmid 8GB RAM walltime 24 Hours (few nodes)</option>
+    <option value="qbig">qbig 32GB RAM walltime 24 Hours (fewer nodes)</option>
+  </param>
+   <param label="Time in Hours" name="time" type="integer" size="2" min="0" max="48" value="0" help="Modify the default walltime of your queue 1-48h, for qsmall, 1-24H for qmid and qbig. Leave as 'Zero' to use default Queue values. " />
+</parameters>
+

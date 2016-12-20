@@ -1,0 +1,11 @@
+- name: Install supervisor
+  shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && pip install supervisor
+- name: Create supervisor config dir
+  file: path=/etc/supervisor/conf.d/  state=directory   mode=0755
+- name: Install supervisor configs
+  template:
+    src: "templates/supervisor/{{ item }}.j2"
+    dest: "/etc/supervisor/conf.d/{{ item }}.conf"
+  with_items: "{{ supervisor_configs }}"
+#  notify:
+#    - update supervisor

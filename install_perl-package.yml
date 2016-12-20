@@ -1,0 +1,38 @@
+---
+- name: Create Galaxy user and install dependencies
+  hosts: galaxyservers
+  become_method: sudo
+  become: yes
+  remote_user: root
+  tasks:
+  - name: install gcc required to build some Perl modules
+    yum: name=gcc
+         state=present
+
+  - name: install cpan and perl-devel
+    yum: name={{ item }}
+         state=present
+    with_items:
+      - perl-devel
+      - perl-CPAN
+
+  - name: download cpanm
+    get_url: url=https://cpanmin.us/
+             dest=/tmp/cpanm.pl
+             mode=755
+
+  - name: install cpanm so that we can use the ansible cpanm module
+    command: perl cpanm.pl App::cpanminus
+    args:
+      chdir: /tmp/
+      creates: /usr/local/bin/cpanm
+
+  - name: add cpanm symbolic link to /usr/bin/
+    file: src=/usr/local/bin/cpanm
+          dest=/usr/bin/cpanm
+          state=link
+
+  - name: Install perl package
+    cpanm:
+     name: XML::Parser::Expat
+     notest: True

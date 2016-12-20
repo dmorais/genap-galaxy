@@ -1,0 +1,12 @@
+---
+- name: Install PIP packages
+  hosts: galaxyservers
+  become_method: sudo
+  become: yes
+  remote_user: root
+  tasks:
+    - name: install uwsig
+      become: yes
+      become_user: "{{ galaxy_user }}"
+      remote_user: root
+      shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && pip install uwsgi

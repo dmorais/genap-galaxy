@@ -1,0 +1,42 @@
+---
+# necessary steps to deploy the role.
+
+- name: check if already installed
+  become: yes
+  become_method: sudo
+  become_user: "{{ galaxy_user }}"
+  #remote_user: root
+  stat: path={{ miniconda_home }}/bin/conda
+  register: bin_conda
+  changed_when: bin_conda.stat.exists == False
+
+- name: download miniconda installer
+  become: yes
+  become_method: sudo
+  become_user: "{{ galaxy_user }}"
+  #remote_user: root
+  get_url:
+    url={{ miniconda_url }}
+    dest=/tmp/miniconda.sh
+    mode=0755
+  register: miniconda_downloaded
+  when: bin_conda.stat.exists == False
+
+- name: install miniconda
+  become: yes
+  become_method: sudo
+  #become_user: "{{ galaxy_user }}"
+  remote_user: root
+  shell: "/tmp/miniconda.sh -b -p {{ miniconda_home }} creates={{ miniconda_home }} executable=/bin/bash"
+  register: miniconda_installed
+  when: miniconda_downloaded | success
+  notify:
+    - remove miniconda setup script
+    - update conda to latest version
+- name: Set owerniship
+  become: yes
+  become_method: sudo
+  #become_user: "{{ galaxy_user }}"
+  remote_user: root
+  shell: "chown -R galaxy:galaxy {{ host_tool_dependency_dir }}"
+

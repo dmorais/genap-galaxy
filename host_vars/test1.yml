@@ -1,6 +1,6 @@
 host_smtp_server: smtp.gmail.com
-host_smtp_username: genap.mail@moumout.org
-host_smtp_password: ng93bg49ubv
+host_smtp_username: ''
+host_smtp_password: ' '
 host_brand: Genap
 host_remote_user_maildomain: galaxy.genap.ca
 host_use_remote_user: False
@@ -13,7 +13,7 @@ host_enable_quotas: True
 host_cleanup_job: onsuccess
 host_tool_dependency_dir: /cvmfs/soft.galaxy/galaxy/tool-dependency
 host_shed_tools_dir: /cvmfs/soft.galaxy/galaxy/shed-tools
-host_admin_api_key: '42fb867bd2ec606f4482149a0d7f3988'
+host_admin_api_key: ''
 host_galaxy_tools_galaxy_instance_url: http://test211.udes.public.genap.ca/galaxy/
 host_galaxy_server_dir: /srv/galaxy/server/
 host_home_dir: /home/galaxy/

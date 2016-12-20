@@ -6,6 +6,13 @@
     path: "{{ galaxy_requirements_file }}"
   register: requirements_txt
 
+- name: Replace Pysam Vesion for 16.10
+  replace:
+    dest: "{{ galaxy_requirements_file }}"
+    regexp: '0\.8\.4\+gx5'
+    replace: '0.8.4+gx1'
+    backup: yes
+
 - name: Fetch Galaxy eggs
   command: "{{ galaxy_venv_dir }}/bin/python {{ galaxy_server_dir }}/scripts/fetch_eggs.py -c {{ galaxy_config_file }} chdir={{ galaxy_server_dir }}"
   environment:

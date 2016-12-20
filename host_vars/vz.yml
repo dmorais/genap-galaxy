@@ -1,6 +1,6 @@
 host_smtp_server: smtp.gmail.com
-host_smtp_username: genap.mail@moumout.org
-host_smtp_password: ng93bg49ubv
+host_smtp_username: ''
+host_smtp_password: ''
 host_brand: Genap
 host_remote_user_maildomain: galaxy.genap.ca
 host_use_remote_user: False

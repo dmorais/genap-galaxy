@@ -111,6 +111,8 @@ galaxy_config_files:
     dest: "{{ galaxy_server_dir }}/config/"
   - src: "templates/galaxy-config/server/{{ inventory_hostname }}/resub_destination.py"
     dest: "{{ galaxy_server_dir }}/lib/galaxy/jobs/rules/"
+  - src: "templates/galaxy-config/server/{{ inventory_hostname }}/job_conf.xml.local"
+    dest: "{{ galaxy_server_dir }}/config/"
 
 
 

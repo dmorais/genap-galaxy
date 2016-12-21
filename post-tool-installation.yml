@@ -1,0 +1,16 @@
+---
+- name: Install Galaxy tools
+  hosts: galaxyservers
+  become: yes
+  become_method: sudo
+  become_user: "{{ galaxy_user }}"
+  remote_user: root
+  gather_facts: False
+  tasks:
+    - name: Create symlink to samtools
+      file:
+        src: "{{host_tool_dependency_dir }}/samtools/0.1.19/iuc/package_samtools_0_1_19/c9bd782f5342/"
+        dest: "{{host_tool_dependency_dir }}/samtools/default"
+        state: link
+        group: galaxy
+        owner: galaxy

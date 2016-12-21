@@ -13,4 +13,5 @@
             <env file="/srv/galaxy/server/.venv/bin/activate" />
         </destination>
     </destinations>
+
 </job_conf>

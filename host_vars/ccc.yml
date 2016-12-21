@@ -13,7 +13,7 @@ host_enable_quotas: True
 host_cleanup_job: onsuccess
 host_tool_dependency_dir: /cvmfs/soft.galaxy/galaxy/tool-dependency
 host_shed_tools_dir: /cvmfs/soft.galaxy/galaxy/shed-tools
-host_admin_api_key: ''
-host_galaxy_tools_galaxy_instance_url: http://test212.udes.public.genap.ca/galaxy/
+host_admin_api_key: 'b339102be3fc68bd0226634a90f5690e'
+host_galaxy_tools_galaxy_instance_url: http://galaxy-centos6.west-dev.genap.ca/galaxy/
 host_galaxy_server_dir: /srv/galaxy/server/
 host_home_dir: /home/galaxy/

@@ -31,6 +31,12 @@
         owner: "{{ galaxy_user }}"
         group: "{{ galaxy_user }}"
 
+    - name: Install mlocate
+      yum:
+        pkg: mlocate
+        update_cache: yes
+        state: present
+
 #    - name: Add EPEL repository
 #      yum_repository:
 #        name: epel

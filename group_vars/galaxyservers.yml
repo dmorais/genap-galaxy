@@ -1,13 +1,18 @@
 galaxy_user: galaxy
+galaxy_server_dir: /srv/galaxy/server
+galaxy_vcs: git
+galaxy_changeset_id: release_16.10
+galaxy_force_checkout: yes
+users: galaxy
 
 miniconda_home: /cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/
 miniconda_modify_path: yes
 miniconda_rcfile: /home/galaxy/.bashrc
 miniconda_installed: yes
-miniconda_lib: /cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/lib
+miniconda_lib: "{{ miniconda_home }}/lib"
 
 pip_virtualenv_command: "/cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/bin/virtualenv -p  /cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/bin/python"
-users: galaxy
+
 
 postgresql_objects_users:
   - name: galaxy
@@ -26,11 +31,7 @@ postgresql_objects_groups: []
 
 postgresql_objects_privileges: []
 
-galaxy_server_dir: /srv/galaxy/server
-galaxy_vcs: git
-#galaxy_changeset_id: 727270261750fc71979e7ba9fec96b10091ff104
-galaxy_changeset_id: release_16.10
-galaxy_force_checkout: yes
+
 
 galaxy_config:
   "app:main":

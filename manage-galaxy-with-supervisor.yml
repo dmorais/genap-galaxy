@@ -1,34 +1,59 @@
 ---
 - name: Galaxy Status
   hosts: galaxyservers
-  remote_user: galaxy
+  remote_user: root
   tasks:
-    - name: Restart Galaxy
-      become: yes
-      remote_user: galay
-      supervisorctl:
-        name=galaxy
-        config=/etc/supervisor/conf.d/galaxy.conf
-        state=restarted
+    - name: Start Supervisord
+      shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisord -c  /etc/supervisor/conf.d/galaxy.conf
       tags:
-        - restart
+        - galaxy-start
 
     - name: Check if Galaxy it is up
-      become: yes
-      remote_user: galaxy
-      supervisorctl:
-        name=galaxy
-        config=/etc/supervisor/conf.d/galaxy.conf
-        state=started
+      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf status main:'
+      register: status
       tags:
-        - start
+        - galaxy-status
 
     - name: Stop Galaxy
-      become: yes
-      remote_user: galaxy
-      supervisorctl:
-        name=galaxy
-        config=/etc/supervisor/conf.d/galaxy.conf
-        state=stopped
+      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf stop main:'
+      register: status
       tags:
-        - stop
+        - galaxy-stop
+
+    - name: Restart Galaxy
+      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf restart main:'
+      register: status
+      tags:
+        - galaxy-restart
+
+    - name: Restart PostgreSQL
+      shell: /etc/init.d/postgresql-9.4 restart
+      register: status
+      tags:
+        - postgres-restart
+
+    - name: Stop PostgreSQL
+      shell: /etc/init.d/postgresql-9.4 stop
+      register: status
+      tags:
+        - postgres-stop
+
+    - name: Start PostgreSQL
+      shell: /etc/init.d/postgresql-9.4 start
+      register: status
+      tags:
+        - postgres-start
+
+    - name: Reload PostgreSQL
+      shell: /etc/init.d/postgresql-9.4 reload
+      register: status
+      tags:
+        - postgres-reload
+
+    - name: Reload ngnix
+      service: name=nginx state=reloaded
+      tags:
+        - proxy-reload
+
+    - debug: msg="{{ status.stdout_lines }}"
+      tags: stat

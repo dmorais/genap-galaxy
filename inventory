@@ -1,6 +1,8 @@
 [galaxyservers]
-ccc
-#vz
+#galaxy-centos6.lxd #ansible_host=10.5.5.3 ansible_user=ansible
+#davidtest.lxd
+#ccc
+vz
 #test1
 #test212
 [testgalaxy]

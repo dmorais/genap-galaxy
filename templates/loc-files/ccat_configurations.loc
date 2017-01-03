@@ -1,0 +1,5 @@
+#Provide Pre-compiled CCAT configuration files
+#UID	Description	path_to_config_file
+ccat_3.0_tf_config	CCAT 3.0 provided Transcription Factor Binding	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ccat/3.0/config_TF.txt
+ccat_3.0_histone_config	CCAT 3.0 provided Histone Modification	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ccat/3.0/config_histone.txt
+ccat_3.0_histone_config_readme	CCAT 3.0 Histone Factor Binding (readme.txt defaults: slidingWinSize=1000)	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ccat/3.0/config_histone_readme.txt

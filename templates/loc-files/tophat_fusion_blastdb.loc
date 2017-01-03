@@ -1,0 +1,16 @@
+#This is a sample file distributed with Galaxy that is used to define a
+#list of nucleotide BLAST databases for tophat-fusion-post, using fod columns tab separated
+#(longer whitespace are TAB characters):
+#
+#<unique_id>	<dbkey>	<name>	<path>
+#
+# For example:
+#
+# hg19	hg19	hg19-blast	/depot/data2/galaxy/hg19/blastdb/
+#
+#You can download the NCBI provided protein databases like NT from here:
+#ftp://ftp.ncbi.nlm.nih.gov/blast/db/
+13apr2014-htgs	htgs 13-Apr-2014	/cvmfs/ref.galaxy/genomicdata/dataset/genome/blastdb/htgs/13apr2014/htgs
+17apr2014-nt	nt 17-Apr-2014	/cvmfs/ref.galaxy/genomicdata/dataset/genome/blastdb/nt/17apr2014/nt
+20apr2014-wgs	wgs 20-Apr-2014	/cvmfs/ref.galaxy/genomicdata/dataset/genome/blastdb/wgs/20apr2014/wgs
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/blastdb/phiX/phiX	phiX174	/ref.galaxy/genome/blastdb/phiX/27aug2010/phiX

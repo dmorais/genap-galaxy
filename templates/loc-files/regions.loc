@@ -1,0 +1,3 @@
+#build	uid	region_description	file_path
+hg16	encode_hg16	ENCODE Regions	/cvmfs/ref.galaxy/genomicdata/dataset/genome/regions/encode_regions_coords_hg16.bed 
+hg17	encode_hg17	ENCODE Regions	/cvmfs/ref.galaxy/genomicdata/dataset/genome/regions/encode_regions_coords_hg17.bed

@@ -1,0 +1,3 @@
+#<species>  <SNP_call_file_path>
+bighorn	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/snps/bighorn_snps.txt
+tasmanian_devil	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/snps/devil_snps.txt

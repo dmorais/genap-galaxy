@@ -1,0 +1,195 @@
+#This is a sample file distributed with Galaxy that enables tools
+#to use a directory of Bowtie indexed sequences data files. You will
+#need to create these data files and then create a bowtie_indices.loc
+#file similar to this one (store it in this directory) that points to
+#the directories in which those files are stored. The bowtie_indices.loc
+#file has this format (longer white space characters are TAB characters):
+#
+#<unique_build_id>   <dbkey>   <display_name>   <file_base_path>
+#
+#So, for example, if you had hg18 indexed stored in 
+#/depot/data2/galaxy/bowtie/hg18/, 
+#then the bowtie_indices.loc entry would look like this:
+#
+#hg18   hg18   hg18   /depot/data2/galaxy/bowtie/hg18/hg18
+#
+#and your /depot/data2/galaxy/bowtie/hg18/ directory
+#would contain hg18.*.ebwt files:
+#
+#-rw-r--r--  1 james    universe 830134 2005-09-13 10:12 hg18.1.ebwt
+#-rw-r--r--  1 james    universe 527388 2005-09-13 10:12 hg18.2.ebwt
+#-rw-r--r--  1 james    universe 269808 2005-09-13 10:12 hg18.3.ebwt
+#...etc...
+#
+#Your bowtie_indices.loc file should include an entry per line for each
+#index set you have stored. The "file" in the path does not actually
+#exist, but it is the prefix for the actual index files. For example:
+#
+#hg18canon          hg18   hg18 Canonical   /depot/data2/galaxy/bowtie/hg18/hg18canon
+#hg18full           hg18   hg18 Full        /depot/data2/galaxy/bowtie/hg18/hg18full
+#/orig/path/hg19    hg19   hg19             /depot/data2/galaxy/bowtie/hg19/hg19
+#...etc...
+#
+#Note that for backwards compatibility with workflows, the unique ID of
+#an entry must be the path that was in the original loc file, because that
+#is the value stored in the workflow for that parameter. That is why the
+#hg19 entry above looks odd. New genomes can be better-looking.
+#
+Araly1	Araly1	Arabidopsis lyrata: Araly1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Araly1/bowtie_index/Araly1
+Arabidopsis_thaliana_TAIR10	Arabidopsis_thaliana_TAIR10	Arabidopsis thaliana: Arabidopsis_thaliana_TAIR10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Arabidopsis_thaliana_TAIR10/bowtie_index/Arabidopsis_thaliana_TAIR10
+Arabidopsis_thaliana_TAIR9	arabidopsis	Arabidopsis thaliana: Arabidopsis_thaliana_TAIR9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Arabidopsis_thaliana_TAIR9/bowtie_index/Arabidopsis_thaliana_TAIR9
+dasNov1	dasNov1	Armadillo (Dasypus novemcinctus): dasNov1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dasNov1/bowtie_index/dasNov1
+papHam1	papHam1	Baboon (Papio anubis): papHam1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/papHam1/bowtie_index/papHam1
+baciSubt	baciSubt	Bacillus subtilis subsp. subtilis str. 168: baciSubt	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/baciSubt/bowtie_index/baciSubt
+bordBron	bordBron	Bordetella bronchiseptica str. RB50: bordBron	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/bordBron/bowtie_index/bordBron
+melUnd1	melUnd1	Budgerigar (Melopsittacus undulatus): melUnd1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/melUnd1/bowtie_index/melUnd1
+burkPseu_1106A	burkPseu_1106A	Burkholderia pseudomallei 1106a: burkPseu_1106A	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkPseu_1106A/bowtie_index/burkPseu_1106A
+burkPseu_1710B	13954	Burkholderia pseudomallei 1710b: 13954	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13954/bowtie_index/burkPseu_1710B
+burkPseu_668	13953	Burkholderia pseudomallei 668: 13953	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13953/bowtie_index/burkPseu_668
+burkPseu_K96243	178	Burkholderia pseudomallei K96243: 178	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/178/bowtie_index/burkPseu_K96243
+caePb1	caePb1	Caenorhabditis brenneri: caePb1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caePb1/bowtie_index/caePb1
+caePb2	caePb2	Caenorhabditis brenneri: caePb2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caePb2/bowtie_index/caePb2
+cb3canon	cb3	Caenorhabditis briggsae Canonical: cb3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/cb3/cb3canon/bowtie_index/cb3canon
+cb3full	cb3	Caenorhabditis briggsae Full: cb3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/cb3/cb3full/bowtie_index/cb3full
+caeJap1	caeJap1	Caenorhabditis japonica: caeJap1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeJap1/bowtie_index/caeJap1
+caeRem3	caeRem3	Caenorhabditis remanei: caeRem3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeRem3/bowtie_index/caeRem3
+felCat4canon	felCat4	Cat (Felis catus) Canonical: felCat4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/felCat4/felCat4canon/bowtie_index/felCat4canon
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/felCat3/bowtie_index/felCat3	felCat3	Cat (Felis catus): felCat3	/ref.galaxy/genome/felCat3/bowtie_index/felCat3
+felCat4full	felCat4	Cat (Felis catus) Full: felCat4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/felCat4/felCat4full/bowtie_index/felCat4full
+ce2	ce2	C. elegans (WS120): ce2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce2/bowtie_index/ce2
+ce3	ce3	C. elegans (WS140): ce3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce3/bowtie_index/ce
+ce4	ce4	C. elegans (WS170): ce4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce4/bowtie_index/ce4
+ce5	ce5	C. elegans (WS180): ce5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce5/bowtie_index/ce5
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce6/bowtie_index/ce6	ce6	C. elegans (WS190): ce6	/ref.galaxy/genome/ce6/bowtie_index/ce6
+ce7	ce7	C. elegans (WS200): ce7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce7/bowtie_index/ce7
+ce8	ce8	C. elegans (WS204): ce8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce8/bowtie_index/ce8
+ce9	ce9	C. elegans (WS210): ce9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce9/bowtie_index/ce9
+ce10	ce10	C. elegans (WS220): c10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce10/bowtie_index/ce10
+galGal3canon	galGal3	Chicken (Gallus gallus): galGal3 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal3/galGal3canon/bowtie_index/galGal3canon
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal3/bowtie_index/galGal3	galGal3	Chicken (Gallus gallus): galGal3 Full	/ref.galaxy/genome/galGal3/galGal3full/bowtie_index/galGal3full
+galGal4	galGal4	Chicken (Gallus gallus): galGal4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal4/bowtie_index/galGal4
+panTro2canon	panTro2	Chimpanzee (Pan troglodytes): panTro2 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro2/panTro2canon/bowtie_index/panTro2canon
+panTro2full	panTro2	Chimpanzee (Pan troglodytes): panTro2 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro2/panTro2full/bowtie_index/panTro2full
+panTro3canon	panTro3	Chimpanzee (Pan troglodytes): panTro3 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro3/panTro3canon/bowtie_index/panTro3canon
+panTro3full	panTro3	Chimpanzee (Pan troglodytes): panTro3 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro3/panTro3full/bowtie_index/panTro3full
+ci2canon	ci2	Ciona intestinalis Canonical: ci2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ci2/ci2canon/bowtie_index/ci2canon
+ci2full	ci2	Ciona intestinalis Full: ci2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ci2/ci2full/bowtie_index/ci2full
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau4/bowtie_index/bosTau4	bosTau4	Cow (Bos taurus): bosTau4	/ref.galaxy/genome/bosTau4/bowtie_index/bosTau4
+bosTau6	bosTau6	Cow (Bos taurus): bosTau6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau6/bowtie_index/bosTau6
+bosTau7	bosTau7	Cow (Bos taurus): bosTau7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau7/bowtie_index/bosTau7
+bosTauMd3	bosTauMd3	Cow (Bos taurus): bosTauMd3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTauMd3/bowtie_index/bosTauMd3
+IscaW1	IscaW1	Deer Tick (Ixodes scapularis): IscaW1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/IscaW1/bowtie_index/IscaW1
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/bowtie_index/canFam2	canFam2	Dog (Canis lupus familiaris): canFam2	/ref.galaxy/genome/canFam2/bowtie_index/canFam2
+canFam3	canFam3	Dog (Canis lupus familiaris): canFam3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam3/bowtie_index/canFam3
+loxAfr3	loxAfr3	Elephant (Loxodonta africana africana): loxAfr3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/loxAfr3/bowtie_index/loxAfr3
+ente638	ente638	Enterobacter sp. 638: ente638	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/ente638/bowtie_index/enterobacter_sp_638
+eschColi_APEC_O1	eschColi_APEC_O1	Escherichia coli (APEC O1): eschColi_APEC_O1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_APEC_O1/bowtie_index/eschColi_APEC_O1
+eschColi_CFT073	eschColi_CFT073	Escherichia coli (CFT073): eschColi_CFT073	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_CFT073/bowtie_index/eschColi_CFT073
+eschColi_K12_DH10B	20079	Escherichia coli (str. K-12 substr. DH10B): 20079	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20079/bowtie_index/eschColi_DH10B
+eschColi_K12	eschColi_K12	Escherichia coli (str. K-12 substr. MG1655): eschColi_K12	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_K12/bowtie_index/eschColi_K12
+eschColi_K12_W3110	16351	Escherichia coli (str. K-12 substr. W3110): 16351	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16351/bowtie_index/eschColi_W3110
+eschColi_O157H7_EC4115	eschColi_EC4115	Escherichia coli (str. O157H7 substr. EC4115): eschColi_EC4115	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_EC4115/bowtie_index/eschColi_EC4115
+eschColi_O157H7_EDL933	259	Escherichia coli (str. O157H7 substr. EDL933): 259	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/259/bowtie_index/eschColi_EDL933
+eschColi_O157H7_Sakai	eschColi_O157H7	Escherichia coli (str. O157H7 substr. Sakai): eschColi_O157H7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_O157H7/bowtie_index/eschColi_O157H7_Sakai
+eschColi_O157H7_TW14359	eschColi_TW14359	Escherichia coli (str. O157H7 substr. TW14359): eschColi_TW14359	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_TW14359/bowtie_index/eschColi_TW14359
+Schizosaccharomyces_pombe_1.1	Schizosaccharomyces_pombe_1.1	Fission Yeast (Schizosaccharomyces pombe): Schizosaccharomyces_pombe_1.1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Schizosaccharomyces_pombe_1.1/bowtie_index/Schizosaccharomyces_pombe_1.1
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/xenTro2/bowtie_index/xenTro2	xenTro2	Frog (Xenopus tropicalis): xenTro2	/ref.galaxy/genome/xenTro2/bowtie_index/xenTro2
+xenTro3	xenTro3	Frog (Xenopus tropicalis): xenTro3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/xenTro3/bowtie_index/xenTro3
+droAna3	droAna3	Fruit Fly (Drosophila ananassae): droAna3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droAna3/bowtie_index/droAna3
+droEre2	droEre2	Fruit Fly (Drosophila erecta): droEre2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droEre2/bowtie_index/droEre2
+droGri2	droGri2	Fruit Fly (Drosophila grimshawi): droGri2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droGri2/bowtie_index/droGri2
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm3/bowtie_index/dm3	dm3	Fruit Fly (Drosophila melanogaster): dm3	/ref.galaxy/genome/dm3/bowtie_index/dm3
+droMoj3	droMoj3	Fruit Fly (Drosophila mojavensis): droMoj3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droMoj3/bowtie_index/droMoj3
+dp4	dp4	Fruit Fly (Drosophila pseudoobscura): dp4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dp4/bowtie_index/dp4
+droSec1	droSec1	Fruit Fly (Drosophila sechellia): droSec1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droSec1/bowtie_index/droSec1
+droVir2	droVir2	Fruit Fly (Drosophila virilis): droVir2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droVir2/bowtie_index/droVir2
+droVir3	droVir3	Fruit Fly (Drosophila virilis): droVir3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droVir3/bowtie_index/droVir3
+droWil1	droWil1	Fruit Fly (Drosophila willistoni): droWil1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droWil1/bowtie_index/droWil1
+gorGor3	gorGor3	Gorilla gorilla: gorGor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/gorGor3/bowtie_index/gorGor3
+PhumU1	PhumU1	Head Louse (Pediculus humanus): PhumU1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/PhumU1/bowtie_index/PhumU1
+apiMel2	apiMel2	Honeybee (Apis mellifera): apiMel2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/apiMel2/bowtie_index/apiMel2
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/apiMel3/bowtie_index/apiMel3	apiMel3	Honeybee (Apis mellifera): apiMel3	/ref.galaxy/genome/apiMel3/bowtie_index/apiMel3
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/equCab2/bowtie_index/equCab2	equCab2	Horse (Equus caballus): equCab2	/ref.galaxy/genome/equCab2/bowtie_index/equCab2
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/equCab2_chrM/bowtie_index/chrM	equCab2	Horse (Equus caballus): equCab2 chrM	/ref.galaxy/genome/equCab2/bowtie_index/equCab2chrM
+hg_g1k_v37	hg_g1k_v37	Human (Homo sapiens) (b37): hg_g1k_v37	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg_g1k_v37/bowtie_index/hg_g1k_v37
+hg18canon	hg18	Human (Homo sapiens): hg18 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/hg18canon/bowtie_index/hg18canon
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/bowtie_index/hg18	hg18	Human (Homo sapiens): hg18 Full	/ref.galaxy/genome/hg18/hg18full/bowtie_index/hg18full
+hg19canon	hg19	Human (Homo sapiens): hg19 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/hg19canon/bowtie_index/hg19canon
+hg19female	hg19	Human (Homo sapiens): hg19 Canonical Female	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/hg19female/bowtie_index/hg19female
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/bowtie_index/hg19	hg19	Human (Homo sapiens): hg19 Full	/ref.galaxy/genome/hg19/hg19full/bowtie_index/hg19full
+Homo_sapiens_nuHg19_mtrCRS	Homo_sapiens_nuHg19_mtrCRS	Human (Homo sapiens) (hg19 with mtDNA replaced with rCRS): Homo_sapiens_nuHg19_mtrCRS	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Homo_sapiens_nuHg19_mtrCRS/bowtie_index/Homo_sapiens_nuHg19_mtrCRS
+venter1	venter1	Human (Homo sapiens) (J. Craig Venter): venter1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/venter1/bowtie_index/venter1
+Homo_sapiens_AK1	Homo_sapiens_AK1	Human (Homo sapiens) (Korean Man AK1): Homo_sapiens_AK1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Homo_sapiens_AK1/bowtie_index/Homo_sapiens_AK1
+Hydra_JCVI	Hydra_JCVI	Hydra magnipapillata: Hydra_JCVI	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Hydra_JCVI/bowtie_index/Hydra_JCVI
+petMar1	petMar1	Lamprey (Petromyzon marinus): petMar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/petMar1/bowtie_index/petMar1
+braFlo1	braFlo1	Lancelet (Branchiostoma floridae): braFlo1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/braFlo1/bowtie_index/braFlo1
+myoLuc2	myoLuc2	Little Brown Bat (Myotis lucifugus): myoLuc2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/myoLuc2/bowtie_index/myoLuc2
+anoCar2	anoCar2	Lizard (Anolis carolinensis): anoCar2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/anoCar2/bowtie_index/anoCar2
+Zea_mays_B73_RefGen_v2	Zea_mays_B73_RefGen_v2	Maize (Zea mays): Zea_mays_B73_RefGen_v2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Zea_mays_B73_RefGen_v2/bowtie_index/Zea_mays_B73_RefGen_v2
+calJac1	calJac1	Marmoset (Callithrix jacchus): calJac1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/calJac1/bowtie_index/calJac1
+calJac3canon	calJac3	Marmoset (Callithrix jacchus): calJac3 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/calJac3/calJac3canon/bowtie_index/calJac3canon
+calJac3full	calJac3	Marmoset (Callithrix jacchus): calJac3 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/calJac3/calJac3full/bowtie_index/calJac3full
+oryLat2canon	oryLat2	Medaka (Oryzias latipes): oryLat2 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryLat2/oryLat2canon/bowtie_index/oryLat2canon
+oryLat2full	oryLat2	Medaka (Oryzias latipes): oryLat2 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryLat2/oryLat2full/bowtie_index/oryLat2full
+geoFor1	geoFor1	Medium ground finch (Geospiza fortis): geoFor1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/geoFor1/bowtie_index/geoFor1
+27835	27835	Microcystis aeruginosa NIES-843: 27835	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/27835/bowtie_index/27835
+AaegL1	AaegL1	Mosquito (Aedes aegypti): AaegL1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/AaegL1/bowtie_index/AaegL1
+AgamP3	AgamP3	Mosquito (Anopheles gambiae): AgamP3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/AgamP3/bowtie_index/AgamP3
+CpipJ1	CpipJ1	Mosquito (Culex quinquefasciatus): CpipJ1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/CpipJ1/bowtie_index/CpipJ1
+micMur1	micMur1	Mouse lemur (Microcebus murinus):  micMur1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/micMur1/bowtie_index/micMur1
+mm10	mm10	Mouse (Mus musculus): mm10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm10/bowtie_index/mm10
+mm8canon	mm8	Mouse (Mus musculus): mm8 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/mm8canon/bowtie_index/mm8canon
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/bowtie_index/mm8	mm8	Mouse (Mus musculus): mm8 Full	/ref.galaxy/genome/mm8/mm8full/bowtie_index/mm8full
+mm9canon	mm9	Mouse (Mus musculus): mm9 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/mm9canon/bowtie_index/mm9canon
+mm9female	mm9	Mouse (Mus musculus): mm9 Canonical Female	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/mm9female/bowtie_index/mm9female
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/bowtie_index/mm9	mm9	Mouse (Mus musculus): mm9 Full	/ref.galaxy/genome/mm9/mm9full/bowtie_index/mm9full
+hetGla1	hetGla1	Naked mole-rat (Heterocephalus glaber): hetGla1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hetGla1/bowtie_index/hetGla1
+nomLeu1	nomLeu1	Northern White-cheeked Gibbon (Nomascus leucogenys): nomLeu1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/nomLeu1/bowtie_index/nomLeu1
+monDom5	monDom5	Opossum (Monodelphis domestica): monDom5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/monDom5/bowtie_index/monDom5
+ponAbe2	ponAbe2	Orangutan (Pongo pygmaeus abelii): ponAbe2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/bowtie_index/ponAbe2
+ailMel1	ailMel1	Panda (Ailuropoda melanoleuca): ailMel1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ailMel1/bowtie_index/ailMel1
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/phiX/bowtie_index/phiX	phiX	phiX174 (AF176034)	/ref.galaxy/genome/phiX/bowtie_index/phiX
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/Sscrofa9.58/bowtie_index/Sscrofa9.58	Sscrofa9.58	Pig (Sus scrofa): Sscrofa9.58 (SGSC)	/ref.galaxy/genome/Sscrofa9.58/bowtie_index/Sscrofa9.58
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/susScr2/bowtie_index/susScr2	susScr2	Pig (Sus scrofa): susScr2	/ref.galaxy/genome/susScr2/bowtie_index/susScr2
+susScr3	susScr3	Pig (Sus scrofa): susScr3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/susScr3/bowtie_index/susScr3
+ornAna1	ornAna1	Platypus (Ornithorhynchus anatinus): ornAna1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ornAna1/bowtie_index/ornAna1
+Ptrichocarpa_156	Ptrichocarpa_156	Poplar (Populus trichocarpa): Ptrichocarpa_156	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Ptrichocarpa_156/bowtie_index/Ptrichocarpa_156
+priPac1	priPac1	Pristionchus pacificus: priPac1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/priPac1/bowtie_index/priPac1
+pseuAeru_PA7	16720	Pseudomonas aeruginos (str. PA7): 16720	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16720/bowtie_index/pseuAeru_PA7
+pseuAeru_PAO1	pseuAeru	Pseudomonas aeruginos (str. PAO1): pseuAeru	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pseuAeru/bowtie_index/pseuAeru_PAO1
+pseuAeru_UCBPP_PA14	386	Pseudomonas aeruginos (str. UCBPP-PA14): 386	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/386/bowtie_index/pseuAeru_UCBPP_PA14
+Spur_v2.6	Spur_v2.6	Purple Sea Urchin (Strongylocentrotus purpuratus): Spur_v2.6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Spur_v2.6/bowtie_index/Spur_v2.6
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/strPur2/bowtie_index/strPur2	strPur2	Purple Sea Urchin (Strongylocentrotus purpuratus): strPur2	/ref.galaxy/genome/strPur2/bowtie_index/strPur2
+strPur3	strPur3	Purple Sea Urchin (Strongylocentrotus purpuratus): strPur3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/strPur3/bowtie_index/strPur3
+oryCun2	oryCun2	Rabbit (Oryctolagus cuniculus): oryCun2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryCun2/bowtie_index/oryCun2
+rn4canon	rn4	Rat (Rattus norvegicus): rn4 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn4/rn4canon/bowtie_index/rn4canon
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn4/bowtie_index/rn4	rn4	Rat (Rattus norvegicus): rn4 Full	/ref.galaxy/genome/rn4/rn4full/bowtie_index/rn4full
+rn5	rn5	Rat (Rattus norvegicus): rn5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn5/bowtie_index/rn5
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/rheMac2/bowtie_index/rheMac2	rheMac2	Rhesus Macaque (Macaca mulatta): rheMac2	/ref.galaxy/genome/rheMac2/bowtie_index/rheMac2
+oryza_sativa_japonica_nipponbare_IRGSP4.0	oryza_sativa_japonica_nipponbare_IRGSP4.0	Rice (Oryza sativa): oryza_sativa_japonica_nipponbare_IRGSP4.0	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryza_sativa_japonica_nipponbare_IRGSP4.0/bowtie_index/oryza_sativa_japonica_nipponbare_IRGSP4.0
+aplCal1	aplCal1	Sea Hare (Aplysia californica): aplCal1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/aplCal1/bowtie_index/aplCal1
+oviAri1	oviAri1	Sheep (Ovis aries): oviAri1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oviAri1/bowtie_index/oviAri1
+Bombyx_mori_p50T_2.0	Bombyx_mori_p50T_2.0	Silkworm (Bombyx mori str. p50T): Bombyx_mori_p50T_2.0	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Bombyx_mori_p50T_2.0/bowtie_index/Bombyx_mori_p50T_2.0
+choHof1	choHof1	Sloth (Choloepus hoffmanni): choHof1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/choHof1/bowtie_index/choHof1
+strePneu_R6	278	Streptococcus pneumoniae (str. R6): 278	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/278/bowtie_index/278
+tarSyr1	tarSyr1	Tarsier (Tarsius syrichta): tarSyr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tarSyr1/bowtie_index/tarSyr1
+sarHar1	sarHar1	Tasmanian devil (Sarcophilus harrisii): sarHar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sarHar1/bowtie_index/sarHar1
+echTel1	echTel1	Tenrec (Echinops telfairi): echTel1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/echTel1/bowtie_index/echTel1
+tetNig1canon	tetNig1	Tetraodon (Tetraodon nigroviridis): tetNig1 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/tetNig1canon/bowtie_index/tetNig1canon
+tetNig1full	tetNig1	Tetraodon (Tetraodon nigroviridis): tetNig1 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/tetNig1full/bowtie_index/tetNig1full
+tetNig2canon	tetNig2	Tetraodon (Tetraodon nigroviridis): tetNig2 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig2/tetNig2canon/bowtie_index/tetNig2canon
+tetNig2full	tetNig2	Tetraodon (Tetraodon nigroviridis): tetNig2 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig2/tetNig2full/bowtie_index/tetNig2full
+Tcacao_1.0	Tcacao_1.0	Theobroma cacao Dec 2010 (CIRAD/Theobroma cacao Belizian Criollo)	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Tcacao_1.0/bowtie_index/Tcacao_1
+Tcas_3.0	Tcas_3.0	Tribolium castaneum: Tcas_3.0	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Tcas_3.0/bowtie_index/Tcas_3.0
+triCas2	triCas2	Tribolium castaneum: triCas2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/triCas2/bowtie_index/triCas2
+melGal1	melGal1	Turkey (Meleagris gallopavo): melGal1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/melGal1/bowtie_index/melGal1
+Xanthomonas_oryzae_KACC10331	12931	Xanthomonas oryzae str. KACC10331: 12931	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12931/bowtie_index/Xanthomonas_oryzae_KACC10331
+Xanthomonas_oryzae_MAFF_311018	16297	Xanthomonas oryzae str. MAFF_311018: 16297	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16297/bowtie_index/Xanthomonas_oryzae_MAFF_311018
+Xanthomonas_oryzae_PXO99A	Xanthomonas_oryzae_PXO99A	Xanthomonas oryzae str. PXO99A: Xanthomonas_oryzae_PXO99A	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/Xanthomonas_oryzae_PXO99A/bowtie_index/Xanthomonas_oryzae_PXO99A
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/sacCer2/bowtie_index/sacCer2	sacCer2	Yeast (Saccharomyces cerevisiae): sacCer2	/ref.galaxy/genome/sacCer2/bowtie_index/sacCer2
+sacCer3	sacCer3	Yeast (Saccharomyces cerevisiae): sacCer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sacCer3/bowtie_index/sacCer3
+taeGut1canon	taeGut1	Zebra Finch (Taeniopygia guttata): taeGut1 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/taeGut1/taeGut1canon/bowtie_index/taeGut1canon
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/taeGut1/bowtie_index/taeGut1	taeGut1	Zebra Finch (Taeniopygia guttata): taeGut1 Full	/ref.galaxy/genome/taeGut1/taeGut1full/bowtie_index/taeGut1full
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer5/bowtie_index/danRer5	danRer5	Zebrafish (Danio rerio): danRer5	/ref.galaxy/genome/danRer5/bowtie_index/danRer5
+/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer6/bowtie_index/danRer6	danRer6	Zebrafish (Danio rerio): danRer6	/ref.galaxy/genome/danRer6/bowtie_index/danRer6
+danRer7	danRer7	Zebrafish (Danio rerio): danRer7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer7/bowtie_index/danRer7

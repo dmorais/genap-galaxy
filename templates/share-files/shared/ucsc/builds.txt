@@ -1,0 +1,211 @@
+#Harvested from http://genome-test.cse.ucsc.edu/cgi-bin/das/dsn
+?       unspecified (?)
+Araly1	Arabidopsis lyrata: Araly1
+Arabidopsis_thaliana_TAIR10	Arabidopsis thaliana: Arabidopsis_thaliana_TAIR10
+arabidopsis	Arabidopsis thaliana: Arabidopsis_thaliana_TAIR9
+dasNov1	Armadillo (Dasypus novemcinctus): dasNov1
+papHam1	Baboon (Papio anubis): papHam1
+baciSubt	Bacillus subtilis subsp. subtilis str. 168: baciSubt
+bordBron	Bordetella bronchiseptica str. RB50: bordBron
+borEut13	Boreoeutherian: borEut13
+melUnd1	Budgerigar (Melopsittacus undulatus): melUnd1
+burkPseu_1106A	Burkholderia pseudomallei str. 1106a: burkPseu_1106A
+13954	Burkholderia pseudomallei str. 1710b: 
+13953	Burkholderia pseudomallei str. 668: 
+178	Burkholderia pseudomallei str. K96243: 
+otoGar1	Bushbaby (Otolemur garnetti): otoGar1
+caePb1	Caenorhabditis brenneri: caePb1
+caePb2	Caenorhabditis brenneri: caePb2
+cb3	Caenorhabditis briggsae: cb3 Canonical
+cb3	Caenorhabditis briggsae: cb3 Full
+caeJap1	Caenorhabditis japonica: caeJap1
+caeRem2	Caenorhabditis remanei: caeRem2
+caeRem3	Caenorhabditis remanei: caeRem3
+felCat3	Cat (Felis catus): felCat3
+felCat4	Cat (Felis catus): felCat4 Canonical
+felCat4	Cat (Felis catus): felCat4 Full
+ce2	C. elegans (WS120): ce2
+ce3	C. elegans (WS140): ce3
+ce4	C. elegans (WS170): ce4
+ce5	C. elegans (WS180): ce5
+ce6	C. elegans (WS190): ce6
+ce7	C. elegans (WS200): ce7
+ce8	C. elegans (WS204): ce8
+ce9	C. elegans (WS210): ce9
+ce10	C. elegans (WS220): c10
+galGal2	Chicken (Gallus gallus): galGal2 Canonical
+galGal2	Chicken (Gallus gallus): galGal2 Full
+galGal3	Chicken (Gallus gallus): galGal3 Canonical
+galGal3	Chicken (Gallus gallus): galGal3 Full
+galGal4	Chicken (Gallus gallus): galGal4
+panTro1	Chimpanzee (Pan troglodytes): panTro1 Canonical
+panTro1	Chimpanzee (Pan troglodytes): panTro1 Full
+panTro2	Chimpanzee (Pan troglodytes): panTro2 Canonical
+panTro2	Chimpanzee (Pan troglodytes): panTro2 Full
+panTro3	Chimpanzee (Pan troglodytes): panTro3 Canonical
+panTro3	Chimpanzee (Pan troglodytes): panTro3 Full
+ci2	Ciona intestinalis: ci2 Canonical
+ci2	Ciona intestinalis: ci2 Full
+sorAra1	Common Shrew (Sorex araneus): sorAra1
+bosTau2	Cow (Bos taurus): bosTau2
+bosTau3	Cow (Bos taurus): bosTau3
+bosTau4	Cow (Bos taurus): bosTau4
+bosTau6	Cow (Bos taurus): bosTau6
+bosTau7	Cow (Bos taurus): bosTau7
+bosTauMd3	Cow (Bos taurus): bosTauMd3
+IscaW1	Deer Tick (Ixodes scapularis): IscaW1
+canFam1	Dog (Canis lupus familiaris): canFam1
+canFam2	Dog (Canis lupus familiaris): canFam2
+canFam3	Dog (Canis lupus familiaris): canFam3
+loxAfr3	Elephant (Loxodonta africana africana): loxAfr3
+ente638	Enterobacter sp. 638: ente638
+eschColi_APEC_O1	Escherichia coli (APEC O1): eschColi_APEC_O1
+eschColi_CFT073	Escherichia coli (CFT073): eschColi_CFT073
+20079	Escherichia coli (str. K-12 substr. DH10B): 20079
+eschColi_K12	Escherichia coli (str. K-12 substr. MG1655): eschColi_K12
+16351	Escherichia coli (str. K-12 substr. W3110): 16351
+eschColi_EC4115	Escherichia coli (str. O157H7 substr. EC4115): eschColi_EC4115
+259	Escherichia coli (str. O157H7 substr. EDL933): 259
+eschColi_O157H7	Escherichia coli (str. O157H7 substr. Sakai): eschColi_O157H7
+eschColi_TW14359	Escherichia coli (str. O157H7 substr. TW14359): eschColi_TW14359
+Schizosaccharomyces_pombe_1.1	Fission Yeast (Schizosaccharomyces pombe): Schizosaccharomyces_pombe_1.1
+xenTro2	Frog (Xenopus tropicalis): xenTro2
+xenTro3	Frog (Xenopus tropicalis): xenTro3
+droAna1	Fruit Fly (Drosophila ananassae): droAna1
+droAna2	Fruit Fly (Drosophila ananassae): droAna2
+droAna3	Fruit Fly (Drosophila ananassae): droAna3
+droEre1	Fruit Fly (Drosophila erecta): droEre1
+droEre2	Fruit Fly (Drosophila erecta): droEre2
+droGri1	Fruit Fly (Drosophila grimshawi): droGri1
+droGri2	Fruit Fly (Drosophila grimshawi): droGri2
+dm2	Fruit Fly (Drosophila melanogaster): dm2
+dm3	Fruit Fly (Drosophila melanogaster): dm3
+droMoj1	Fruit Fly (Drosophila mojavensis): droMoj1
+droMoj2	Fruit Fly (Drosophila mojavensis): droMoj2
+droMoj3	Fruit Fly (Drosophila mojavensis): droMoj3
+droPer1	Fruit Fly (Drosophila persimilis): droPer1
+dp3	Fruit Fly (Drosophila pseudoobscura): dp3
+dp4	Fruit Fly (Drosophila pseudoobscura): dp4
+droSec1	Fruit Fly (Drosophila sechellia): droSec1
+droSim1	Fruit Fly (Drosophila simulans): droSim1
+droVir1	Fruit Fly (Drosophila virilis): droVir1
+droVir2	Fruit Fly (Drosophila virilis): droVir2
+droVir3	Fruit Fly (Drosophila virilis): droVir3
+droWil1	Fruit Fly (Drosophila willistoni): droWil1
+droYak1	Fruit Fly (Drosophila yakuba): droYak1
+droYak2	Fruit Fly (Drosophila yakuba): droYak2
+fr1	Fugu (Takifugu rubripes): fr1
+fr2	Fugu (Takifugu rubripes): fr2
+gorGor3	Gorilla gorilla: gorGor3
+cavPor3	Guinea Pig (Cavia porcellus): cavPor3
+PhumU1	Head Louse (Pediculus humanus): PhumU1
+eriEur1	Hedgehog (Erinaceus europaeus): eriEur1
+apiMel2	Honeybee (Apis mellifera): apiMel2
+apiMel3	Honeybee (Apis mellifera): apiMel3
+equCab1	Horse (Equus caballus): equCab1
+equCab2	Horse (Equus caballus): equCab2
+equCab2	Horse (Equus caballus): equCab2 chrM
+hg_g1k_v37	Human (Homo sapiens) (b37): hg_g1k_v37
+hg17	Human (Homo sapiens): hg17
+hg17	Human (Homo sapiens): hg17 Canonical
+hg18	Human (Homo sapiens): hg18
+hg18	Human (Homo sapiens): hg18 Canonical
+hg18	Human (Homo sapiens): hg18 chr21
+hg18	Human (Homo sapiens): hg18 No Haps
+hg19	Human (Homo sapiens): hg19
+hg19	Human (Homo sapiens): hg19 Canonical Female
+hg19	Human (Homo sapiens): hg19 Canonical Male
+hg19	Human (Homo sapiens): hg19 chrM
+Homo_sapiens_nuHg19_mtrCRS	Human (Homo sapiens) (hg19 with mtDNA replaced with rCRS): Homo_sapiens_nuHg19_mtrCRS
+venter1	Human (Homo sapiens) (J. Craig Venter): venter1
+Homo_sapiens_AK1	Human (Homo sapiens) (Korean Man AK1): Homo_sapiens_AK1
+hg38	Human (Homo sapiens):	hg38
+Hydra_JCVI	Hydra magnipapillata: Hydra_JCVI
+petMar1	Lamprey (Petromyzon marinus): petMar1
+braFlo1	Lancelet (Branchiostoma floridae): braFlo1
+lMaj5	Leishmania major: lMaj5
+myoLuc2	Little Brown Bat (Myotis lucifugus): myoLuc2
+anoCar1	Lizard (Anolis carolinensis): anoCar1
+anoCar2	Lizard (Anolis carolinensis): anoCar2
+calJac1	Marmoset (Callithrix jacchus): calJac1
+calJac3	Marmoset (Callithrix jacchus): calJac3 Canonical
+calJac3	Marmoset (Callithrix jacchus): calJac3 Full
+oryLat1	Medaka (Oryzias latipes): oryLat1
+oryLat2	Medaka (Oryzias latipes): oryLat2
+oryLat2	Medaka (Oryzias latipes): oryLat2 Canonical
+geoFor1	Medium ground finch (Geospiza fortis): geoFor1
+27835	Microcystis aeruginosa NIES-843: 27835
+AaegL1	Mosquito (Aedes aegypti): AaegL1
+AgamP3	Mosquito (Anopheles gambiae): AgamP3
+anoGam1	Mosquito (Anopheles gambiae): anoGam1
+CpipJ1	Mosquito (Culex quinquefasciatus): CpipJ1
+micMur1	Mouse lemur (Microcebus murinus):  micMur1
+mm10	Mouse (Mus Musculus): mm10
+mm7	Mouse (Mus musculus): mm7
+mm7	Mouse (Mus musculus): mm7 Canonical
+mm8	Mouse (Mus musculus): mm8
+mm8	Mouse (Mus musculus): mm8 Canonical
+mm9	Mouse (Mus musculus): mm9
+mm9	Mouse (Mus musculus): mm9 Canonical
+mm9	Mouse (Mus musculus): mm9 Female
+hetGla1	Naked mole-rat (Heterocephalus glaber): hetGla1
+nomLeu1	Northern White-cheeked Gibbon (Nomascus leucogenys): nomLeu1
+monDom4	Opossum (Monodelphis domestica): monDom4
+monDom5	Opossum (Monodelphis domestica): monDom5
+ponAbe2	Orangutan (Pongo pygmaeus abelii): ponAbe2
+ailMel1	Panda (Ailuropoda melanoleuca): ailMel1
+phiX	phiX174 (AF176034)
+Sscrofa9.58	Pig (Sus scrofa): Sscrofa9.58
+susScr2	Pig (Sus scrofa): susScr2
+susScr3	Pig (Sus scrofa): susScr3
+ornAna1	Platypus (Ornithorhynchus anatinus): ornAna1
+ornAna1	Platypus (Ornithorhynchus anatinus): ornAna1
+Ptrichocarpa_156	Poplar (Populus trichocarpa): Ptrichocarpa_156
+priPac1	Pristionchus pacificus: priPac1
+16720	Pseudomonas aeruginos (str. PA7): 16720
+pseuAeru	Pseudomonas aeruginos (str. PAO1): pseuAeru
+386	Pseudomonas aeruginos (str. UCBPP-PA14): 386
+pUC18	pUC18 (L09136)
+Spur_v2.6	Purple Sea Urchin (Strongylocentrotus purpuratus): Spur_v2.6
+strPur2	Purple Sea Urchin (Strongylocentrotus purpuratus): strPur2
+strPur3	Purple Sea Urchin (Strongylocentrotus purpuratus): strPur3
+oryCun1	Rabbit (Oryctolagus cuniculus): oryCun1
+oryCun2	Rabbit (Oryctolagus cuniculus): oryCun2
+rn3	Rat (Rattus norvegicus): rn3
+rn3	Rat (Rattus norvegicus): rn3 Canonical
+rn4	Rat (Rattus norvegicus): rn4
+rn4	Rat (Rattus norvegicus): rn4 Canonical
+rn5	Rat (Rattus norvegicus): rn5
+rheMac2	Rhesus Macaque (Macaca mulatta): rheMac2
+oryza_sativa_japonica_nipponbare_IRGSP4.0	Rice (Oryza sativa L. ssp. japonica var. Nipponbare): IRGSP4.0
+aplCal1	Sea Hare (Aplysia californica): aplCal1
+oviAri1	Sheep (Ovis aries): oviAri1
+Bombyx_mori_p50T_2.0	Silkworm (Bombyx mori str. p50T): Bombyx_mori_p50T_2.0
+choHof1	Sloth (Choloepus hoffmanni): choHof1
+gasAcu1	Stickleback (Gasterosteus aculeatus): gasAcu1
+278	Streptococcus pneumoniae (str. R6): 278
+tarSyr1	Tarsier (Tarsius syrichta): tarSyr1
+sarHar1	Tasmanian devil (Sarcophilus harrisii): sarHar1
+echTel1	Tenrec (Echinops telfairi): echTel1
+tetNig1	Tetraodon (Tetraodon nigroviridis): tetNig1
+tetNig1	Tetraodon (Tetraodon nigroviridis): tetNig1 Canonical
+tetNig2	Tetraodon (Tetraodon nigroviridis): tetNig2
+tetNig2	Tetraodon (Tetraodon nigroviridis): tetNig2 Canonical
+tupBel1	Tree Shrew (Tupaia belangeri): tupBel1
+Tcas_3.0	Tribolium castaneum: Tcas_3.0
+triCas2	Tribolium castaneum: triCas2
+melGal1	Turkey (Meleagris gallopavo): melGal1
+12931	Xanthomonas oryzae (str. KACC10331): 12931
+16297	Xanthomonas oryzae (str. MAFF_311018): 16297
+Xanthomonas_oryzae_PXO99A	Xanthomonas oryzae (str. PXO99A): Xanthomonas_oryzae_PXO99A
+sacCer1	Yeast (Saccharomyces cerevisiae): sacCer1
+sacCer2	Yeast (Saccharomyces cerevisiae): sacCer2
+sacCer3	Yeast (Saccharomyces cerevisiae): sacCer3
+taeGut1	Zebra Finch (Taeniopygia guttata): taeGut1
+taeGut1	Zebra Finch (Taeniopygia guttata): taeGut1 Canonical
+danRer2	Zebrafish (Danio rerio): danRer2
+danRer3	Zebrafish (Danio rerio): danRer3
+danRer4	Zebrafish (Danio rerio): danRer4
+danRer5	Zebrafish (Danio rerio): danRer5
+danRer6	Zebrafish (Danio rerio): danRer6
+danRer7	Zebrafish (Danio rerio): danRer7

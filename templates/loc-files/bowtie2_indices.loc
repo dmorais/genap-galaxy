@@ -1,0 +1,69 @@
+# bowtie2_indices.loc.sample
+# This is a *.loc.sample file distributed with Galaxy that enables tools
+# to use a directory of indexed data files. This one is for Bowtie2 and Tophat2.
+# See the wiki: http://wiki.galaxyproject.org/Admin/NGS%20Local%20Setup
+# First create these data files and save them in your own data directory structure.
+# Then, create a bowtie_indices.loc file to use those indexes with tools.
+# Copy this file, save it with the same name (minus the .sample), 
+# follow the format examples, and store the result in this directory.
+# The file should include an one line entry for each index set.
+# The path points to the "basename" for the set, not a specific file.
+# It has four text columns seperated by TABS.
+#
+# <unique_build_id>	<dbkey>	<display_name>	<file_base_path>
+#
+# So, for example, if you had hg18 indexes stored in:
+#
+#    /depot/data2/galaxy/hg18/bowtie2/
+#
+# containing hg18.*.bt2 files, such as:
+#
+#    -rw-rw-r-- 1 james   james   914M Feb 10 18:56 hg19canon.1.bt2
+#    -rw-rw-r-- 1 james   james   683M Feb 10 18:56 hg19canon.2.bt2
+#    -rw-rw-r-- 1 james   james   3.3K Feb 10 16:54 hg19canon.3.bt2
+#    -rw-rw-r-- 1 james   james   683M Feb 10 16:54 hg19canon.4.bt2
+#    -rw-rw-r-- 1 james   james   914M Feb 10 20:45 hg19canon.rev.1.bt2
+#    -rw-rw-r-- 1 james   james   683M Feb 10 20:45 hg19canon.rev.2.bt2
+#
+# then the bowtie2_indices.loc entry could look like this:
+#
+# hg18	hg18	Human (hg18)	/depot/data2/galaxy/hg18/bowtie2/hg18
+#
+# and also containing the original hg19canon.fa file or a relative
+# symbolic to it - this is required! See the wiki for more details.
+#
+# More examples:
+#
+# hg18canon	hg18	hg18	Canonical	/depot/data2/galaxy/bowtie2/hg18/hg18canon
+# hg18full	hg18	hg18	Full	depot/data2/galaxy/bowtie2/hg18/hg18full
+# /orig/path/hg19	hg19	hg19	/depot/data2/galaxy/bowtie2/hg19/hg19
+#
+#
+ce2	ce2	C. elegans (WS120): ce2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce2/bowtie2_index/ce2
+ce3	ce3	C. elegans (WS140): ce3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce3/bowtie2_index/ce
+ce4	ce4	C. elegans (WS170): ce4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce4/bowtie2_index/ce4
+ce5	ce5	C. elegans (WS180): ce5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce5/bowtie2_index/ce5
+ce6	ce6	C. elegans (WS190): ce6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce6/bowtie2_index/ce6
+ce7	ce7	C. elegans (WS200): ce7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce7/bowtie2_index/ce7
+ce8	ce8	C. elegans (WS204): ce8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce8/bowtie2_index/ce8
+ce9	ce9	C. elegans (WS210): ce9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce9/bowtie2_index/ce9
+ce10	ce10	C. elegans (WS220): c10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce10/bowtie2_index/ce10
+papHam1	papHam	 Baboon (Papio anubis): papHam1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/papHam1/bowtie2_index/papHam1
+panTro3canon	panTro3	Chimpanzee (Pan troglodytes): panTro3 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro3/panTro3canon/bowtie_index/panTro3canon
+panTro3full	panTro3	Chimpanzee (Pan troglodytes): panTro3 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro3/panTro3full/bowtie_index/panTro3full
+gorGor3	gorGor3	Gorilla gorilla: gorGor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/gorGor3/bowtie_index/gorGor3
+hg_g1k_v37	hg_g1k_v37	Human (Homo sapiens) (b37): hg_g1k_v37 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg_g1k_v37/bowtie2_index/hg_g1k_v37
+hg19female	hg19	Human (Homo sapiens): hg19 Canonical Female	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/hg19female/bowtie2_index/hg19female
+hg19canon	hg19	Human (Homo sapiens): hg19 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/hg19canon/bowtie2_index/hg19canon
+hg19	hg19	Human (Homo sapiens): hg19 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/hg19full/bowtie2_index/hg19full
+calJac3canon	calJac3	Marmoset (Callithrix jacchus): calJac3 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/calJac3/calJac3canon/bowtie_index/calJac3canon
+calJac3full	calJac3	Marmoset (Callithrix jacchus): calJac3 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/calJac3/calJac3full/bowtie_index/calJac3full
+micMur1	micMur1	Mouse lemur (Microcebus murinus):  micMur1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/micMur1/bowtie2_index/micMur1
+mm9female	mm9	Mouse (Mus musculus): mm9 Canonical Female	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/mm9female/bowtie2_index/mm9female
+mm9canon	mm9	Mouse (Mus musculus): mm9 Canonical	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/mm9canon/bowtie2_index/mm9canon
+mm9	mm9	Mouse (Mus musculus): mm9 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/mm9full/bowtie2_index/mm9full
+ponAbe2	ponAbe2	Orangutan (Pongo pygmaeus abelii): ponAbe2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/bowtie2_index/ponAbe2
+rheMac2	rheMac2	Rhesus Macaque (Macaca mulatta): rheMac2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rheMac2/bowtie_index/rheMac2
+tarSyr1	tarSyr1	Tarsier (Tarsius syrichta): tarSyr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tarSyr1/bowtie2_index/tarSyr1
+sacCer2	sacCer2	Yeast (Saccharomyces cerevisiae): sacCer2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sacCer2/bowtie2_index/sacCer2
+sacCer3	sacCer3	Yeast (Saccharomyces cerevisiae): sacCer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sacCer3/bowtie2_index/sacCer3	

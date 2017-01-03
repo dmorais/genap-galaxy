@@ -1,0 +1,6 @@
+#<species>  <primers_file_path>
+aye-aye	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/primers/aye-aye_Galaxy_primers.txt
+bear	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/primers/bear_Galaxy_primers.txt
+bighorn	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/primers/bighorn_Galaxy_primers.txt
+tasmanian_devil	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/primers/devil_Galaxy_primers.txt
+tick	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/primers/tick_Galaxy_primers.txt

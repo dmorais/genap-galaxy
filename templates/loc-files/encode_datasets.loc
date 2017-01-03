@@ -1,0 +1,517 @@
+#EncodeGroup	build	DisplayName	UniqueID	FullPathToFile	Format
+#             Encode Groups: ShortHandCode = Group
+#                                       CC = chromatin and chromosomes
+#                                       GT = genes and transcripts
+#                                      MSA = multi-species sequence analysis
+#                                       TR = transcription regulation
+#                                      ALD = All Latest Datasets
+#All files are assumbed to be BED. Support for additional datatypes can be added later, if needed
+#
+#Example entry (Use no '#' for real entries):
+#CC	hg17	This is a set of Data	encodeCC1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/encodeData1.bed	bed
+
+#THE FOLLOWING DATA IS AUTOMATICALLY GENERATED
+ALD	hg17	Latest Datasets (20051208)	all_latest_datasets.20051208.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051208.bed	bed
+ALD	hg17	Latest Datasets (20051208) [gencode_partitioned]	all_latest_datasets.20051208.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051208.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20051208) [gencode_partitioned]	all_latest_datasets.20051208.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051208.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20051208)	all_latest_datasets.20051208.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051208.gff	gff
+ALD	hg17	Latest Datasets (20051209)	all_latest_datasets.20051209.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051209.bed	bed
+ALD	hg17	Latest Datasets (20051209) [gencode_partitioned]	all_latest_datasets.20051209.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051209.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20051209) [gencode_partitioned]	all_latest_datasets.20051209.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051209.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20051209)	all_latest_datasets.20051209.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051209.gff	gff
+ALD	hg17	Latest Datasets (20051211)	all_latest_datasets.20051211.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051211.bed	bed
+ALD	hg17	Latest Datasets (20051211) [gencode_partitioned]	all_latest_datasets.20051211.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051211.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20051211) [gencode_partitioned]	all_latest_datasets.20051211.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051211.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20051211)	all_latest_datasets.20051211.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051211.gff	gff
+ALD	hg17	Latest Datasets (20051212)	all_latest_datasets.20051212.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051212.bed	bed
+ALD	hg17	Latest Datasets (20051212) [gencode_partitioned]	all_latest_datasets.20051212.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051212.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20051212) [gencode_partitioned]	all_latest_datasets.20051212.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051212.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20051212)	all_latest_datasets.20051212.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051212.gff	gff
+ALD	hg17	Latest Datasets (20051214)	all_latest_datasets.20051214.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051214.bed	bed
+ALD	hg17	Latest Datasets (20051214) [gencode_partitioned]	all_latest_datasets.20051214.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051214.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20051214) [gencode_partitioned]	all_latest_datasets.20051214.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051214.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20051214)	all_latest_datasets.20051214.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051214.gff	gff
+ALD	hg17	Latest Datasets (20051216)	all_latest_datasets.20051216.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051216.bed	bed
+ALD	hg17	Latest Datasets (20051216) [gencode_partitioned]	all_latest_datasets.20051216.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051216.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20051216) [gencode_partitioned]	all_latest_datasets.20051216.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051216.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20051216)	all_latest_datasets.20051216.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20051216.gff	gff
+ALD	hg17	Latest Datasets (20060105)	all_latest_datasets.20060105.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060105.bed	bed
+ALD	hg17	Latest Datasets (20060105) [gencode_partitioned]	all_latest_datasets.20060105.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060105.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20060105) [gencode_partitioned]	all_latest_datasets.20060105.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060105.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20060105)	all_latest_datasets.20060105.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060105.gff	gff
+ALD	hg17	Latest Datasets (20060106)	all_latest_datasets.20060106.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060106.bed	bed
+ALD	hg17	Latest Datasets (20060106) [gencode_partitioned]	all_latest_datasets.20060106.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060106.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20060106) [gencode_partitioned]	all_latest_datasets.20060106.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060106.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20060106)	all_latest_datasets.20060106.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060106.gff	gff
+ALD	hg17	Latest Datasets (20060116)	all_latest_datasets.20060116.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060116.bed	bed
+ALD	hg17	Latest Datasets (20060116) [gencode_partitioned]	all_latest_datasets.20060116.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060116.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20060116) [gencode_partitioned]	all_latest_datasets.20060116.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060116.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20060116)	all_latest_datasets.20060116.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060116.gff	gff
+ALD	hg17	Latest Datasets (20060124)	all_latest_datasets.20060124.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060124.bed	bed
+ALD	hg17	Latest Datasets (20060124) [gencode_partitioned]	all_latest_datasets.20060124.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060124.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20060124) [gencode_partitioned]	all_latest_datasets.20060124.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060124.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20060124)	all_latest_datasets.20060124.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060124.gff	gff
+ALD	hg17	Latest Datasets (20060204)	all_latest_datasets.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060204.bed	bed
+ALD	hg17	Latest Datasets (20060204) [gencode_partitioned]	all_latest_datasets.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060204.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20060204) [gencode_partitioned]	all_latest_datasets.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060204.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20060204)	all_latest_datasets.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060204.gff	gff
+ALD	hg17	Latest Datasets (20060206)	all_latest_datasets.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060206.bed	bed
+ALD	hg17	Latest Datasets (20060206) [gencode_partitioned]	all_latest_datasets.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060206.gencode_partitioned.bed	bed
+ALD	hg17	Latest Datasets (20060206) [gencode_partitioned]	all_latest_datasets.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060206.gencode_partitioned.gff	gff
+ALD	hg17	Latest Datasets (20060206)	all_latest_datasets.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060206.gff	gff
+ALD	hg17	Latest Datasets (20060209) [gencode_partitioned]	all_latest_datasets.20060209.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/all_latest/all_latest_datasets.20060209.gencode_partitioned.bed	bed
+CC	hg17	EarlyRepSeg (20051216)	cc.EarlyRepSeg.20051216.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.EarlyRepSeg.20051216.bed	bed
+CC	hg17	EarlyRepSeg (20051216) [gencode_partitioned]	cc.EarlyRepSeg.20051216.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.EarlyRepSeg.20051216.gencode_partitioned.bed	bed
+CC	hg17	EarlyRepSeg (20051216) [gencode_partitioned]	cc.EarlyRepSeg.20051216.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.EarlyRepSeg.20051216.gencode_partitioned.gff	gff
+CC	hg17	EarlyRepSeg (20051216)	cc.EarlyRepSeg.20051216.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.EarlyRepSeg.20051216.gff	gff
+CC	hg17	LateRepSeg (20051216)	cc.LateRepSeg.20051216.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.LateRepSeg.20051216.bed	bed
+CC	hg17	LateRepSeg (20051216) [gencode_partitioned]	cc.LateRepSeg.20051216.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.LateRepSeg.20051216.gencode_partitioned.bed	bed
+CC	hg17	LateRepSeg (20051216) [gencode_partitioned]	cc.LateRepSeg.20051216.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.LateRepSeg.20051216.gencode_partitioned.gff	gff
+CC	hg17	LateRepSeg (20051216)	cc.LateRepSeg.20051216.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.LateRepSeg.20051216.gff	gff
+CC	hg17	MidRepSeg (20051216)	cc.MidRepSeg.20051216.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.MidRepSeg.20051216.bed	bed
+CC	hg17	MidRepSeg (20051216) [gencode_partitioned]	cc.MidRepSeg.20051216.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.MidRepSeg.20051216.gencode_partitioned.bed	bed
+CC	hg17	MidRepSeg (20051216) [gencode_partitioned]	cc.MidRepSeg.20051216.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.MidRepSeg.20051216.gencode_partitioned.gff	gff
+CC	hg17	MidRepSeg (20051216)	cc.MidRepSeg.20051216.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.MidRepSeg.20051216.gff	gff
+CC	hg17	nhgriHss (20051208)	cc.nhgriHss.20051208.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.nhgriHss.20051208.bed	bed
+CC	hg17	nhgriHss (20051208) [gencode_partitioned]	cc.nhgriHss.20051208.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.nhgriHss.20051208.gencode_partitioned.bed	bed
+CC	hg17	nhgriHss (20051208) [gencode_partitioned]	cc.nhgriHss.20051208.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.nhgriHss.20051208.gencode_partitioned.gff	gff
+CC	hg17	nhgriHss (20051208)	cc.nhgriHss.20051208.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.nhgriHss.20051208.gff	gff
+CC	hg17	PanSRepSeg (20051216)	cc.PanSRepSeg.20051216.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.PanSRepSeg.20051216.bed	bed
+CC	hg17	PanSRepSeg (20051216) [gencode_partitioned]	cc.PanSRepSeg.20051216.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.PanSRepSeg.20051216.gencode_partitioned.bed	bed
+CC	hg17	PanSRepSeg (20051216) [gencode_partitioned]	cc.PanSRepSeg.20051216.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.PanSRepSeg.20051216.gencode_partitioned.gff	gff
+CC	hg17	PanSRepSeg (20051216)	cc.PanSRepSeg.20051216.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.PanSRepSeg.20051216.gff	gff
+CC	hg17	PredictedOrigin (20051216)	cc.PredictedOrigin.20051216.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.PredictedOrigin.20051216.bed	bed
+CC	hg17	PredictedOrigin (20051216) [gencode_partitioned]	cc.PredictedOrigin.20051216.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.PredictedOrigin.20051216.gencode_partitioned.bed	bed
+CC	hg17	PredictedOrigin (20051216) [gencode_partitioned]	cc.PredictedOrigin.20051216.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.PredictedOrigin.20051216.gencode_partitioned.gff	gff
+CC	hg17	PredictedOrigin (20051216)	cc.PredictedOrigin.20051216.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.PredictedOrigin.20051216.gff	gff
+CC	hg17	regulomeHss (20051208)	cc.regulomeHss.20051208.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.regulomeHss.20051208.bed	bed
+CC	hg17	regulomeHss (20051208) [gencode_partitioned]	cc.regulomeHss.20051208.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.regulomeHss.20051208.gencode_partitioned.bed	bed
+CC	hg17	regulomeHss (20051208) [gencode_partitioned]	cc.regulomeHss.20051208.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.regulomeHss.20051208.gencode_partitioned.gff	gff
+CC	hg17	regulomeHss (20051208)	cc.regulomeHss.20051208.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.regulomeHss.20051208.gff	gff
+CC	hg17	uncFAIREsites (20051213)	cc.uncFAIREsites.20051213.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.uncFAIREsites.20051213.bed	bed
+CC	hg17	uncFAIREsites (20051213) [gencode_partitioned]	cc.uncFAIREsites.20051213.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.uncFAIREsites.20051213.gencode_partitioned.bed	bed
+CC	hg17	uncFAIREsites (20051213) [gencode_partitioned]	cc.uncFAIREsites.20051213.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.uncFAIREsites.20051213.gencode_partitioned.gff	gff
+CC	hg17	uncFAIREsites (20051213)	cc.uncFAIREsites.20051213.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/cc.uncFAIREsites.20051213.gff	gff
+GENCODE	hg17	3UTR (20051206)	gencode.3UTR.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gencode.3UTR.20051206.bed	bed
+GENCODE	hg17	5UTR (20051206)	gencode.5UTR.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gencode.5UTR.20051206.bed	bed
+GENCODE	hg17	CDS (20051206)	gencode.CDS.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gencode.CDS.20051206.bed	bed
+GENCODE	hg17	intergenic_distal (20051206)	gencode.intergenic_distal.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gencode.intergenic_distal.20051206.bed	bed
+GENCODE	hg17	intergenic_proximal (20051206)	gencode.intergenic_proximal.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gencode.intergenic_proximal.20051206.bed	bed
+GENCODE	hg17	intronic_distal (20051206)	gencode.intronic_distal.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gencode.intronic_distal.20051206.bed	bed
+GENCODE	hg17	intronic_proximal (20051206)	gencode.intronic_proximal.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gencode.intronic_proximal.20051206.bed	bed
+GT	hg17	3UTR (20051206)	gt.3UTR.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.3UTR.20051206.bed	bed
+GT	hg17	3UTR (20051206) [gencode_partitioned]	gt.3UTR.20051206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.3UTR.20051206.gencode_partitioned.bed	bed
+GT	hg17	3UTR (20051206) [gencode_partitioned]	gt.3UTR.20051206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.3UTR.20051206.gencode_partitioned.gff	gff
+GT	hg17	3UTR (20051206)	gt.3UTR.20051206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.3UTR.20051206.gff	gff
+GT	hg17	5UTR (20051206)	gt.5UTR.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.5UTR.20051206.bed	bed
+GT	hg17	5UTR (20051206) [gencode_partitioned]	gt.5UTR.20051206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.5UTR.20051206.gencode_partitioned.bed	bed
+GT	hg17	5UTR (20051206) [gencode_partitioned]	gt.5UTR.20051206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.5UTR.20051206.gencode_partitioned.gff	gff
+GT	hg17	5UTR (20051206)	gt.5UTR.20051206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.5UTR.20051206.gff	gff
+GT	hg17	CDS-jigsaw (20051207)	gt.CDS-jigsaw.20051207.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.CDS-jigsaw.20051207.bed	bed
+GT	hg17	CDS-jigsaw (20051207) [gencode_partitioned]	gt.CDS-jigsaw.20051207.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.CDS-jigsaw.20051207.gencode_partitioned.bed	bed
+GT	hg17	CDS-jigsaw (20051207) [gencode_partitioned]	gt.CDS-jigsaw.20051207.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.CDS-jigsaw.20051207.gencode_partitioned.gff	gff
+GT	hg17	CDS-jigsaw (20051207)	gt.CDS-jigsaw.20051207.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.CDS-jigsaw.20051207.gff	gff
+GT	hg17	CDS (20051206)	gt.CDS.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.CDS.20051206.bed	bed
+GT	hg17	CDS (20051206) [gencode_partitioned]	gt.CDS.20051206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.CDS.20051206.gencode_partitioned.bed	bed
+GT	hg17	CDS (20051206) [gencode_partitioned]	gt.CDS.20051206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.CDS.20051206.gencode_partitioned.gff	gff
+GT	hg17	CDS (20051206)	gt.CDS.20051206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.CDS.20051206.gff	gff
+GT	hg17	pseudoexon (20051208)	gt.pseudoexon.20051208.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudoexon.20051208.bed	bed
+GT	hg17	pseudoexon (20051208) [gencode_partitioned]	gt.pseudoexon.20051208.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudoexon.20051208.gencode_partitioned.bed	bed
+GT	hg17	pseudoexon (20051208) [gencode_partitioned]	gt.pseudoexon.20051208.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudoexon.20051208.gencode_partitioned.gff	gff
+GT	hg17	pseudoexon (20051208)	gt.pseudoexon.20051208.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudoexon.20051208.gff	gff
+GT	hg17	pseudoexon (20051211)	gt.pseudoexon.20051211.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudoexon.20051211.bed	bed
+GT	hg17	pseudoexon (20051211) [gencode_partitioned]	gt.pseudoexon.20051211.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudoexon.20051211.gencode_partitioned.bed	bed
+GT	hg17	pseudoexon (20051211) [gencode_partitioned]	gt.pseudoexon.20051211.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudoexon.20051211.gencode_partitioned.gff	gff
+GT	hg17	pseudoexon (20051211)	gt.pseudoexon.20051211.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudoexon.20051211.gff	gff
+GT	hg17	pseudogenes_features (20060116)	gt.pseudogenes_features.20060116.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudogenes_features.20060116.bed	bed
+GT	hg17	pseudogenes_features (20060116) [gencode_partitioned]	gt.pseudogenes_features.20060116.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudogenes_features.20060116.gencode_partitioned.bed	bed
+GT	hg17	pseudogenes_features (20060116) [gencode_partitioned]	gt.pseudogenes_features.20060116.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudogenes_features.20060116.gencode_partitioned.gff	gff
+GT	hg17	pseudogenes_features (20060116)	gt.pseudogenes_features.20060116.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudogenes_features.20060116.gff	gff
+GT	hg17	pseudogenes_whole (20060116)	gt.pseudogenes_whole.20060116.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudogenes_whole.20060116.bed	bed
+GT	hg17	pseudogenes_whole (20060116) [gencode_partitioned]	gt.pseudogenes_whole.20060116.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudogenes_whole.20060116.gencode_partitioned.bed	bed
+GT	hg17	pseudogenes_whole (20060116) [gencode_partitioned]	gt.pseudogenes_whole.20060116.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudogenes_whole.20060116.gencode_partitioned.gff	gff
+GT	hg17	pseudogenes_whole (20060116)	gt.pseudogenes_whole.20060116.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.pseudogenes_whole.20060116.gff	gff
+GT	hg17	racefrags (20060124)	gt.racefrags.20060124.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.racefrags.20060124.bed	bed
+GT	hg17	racefrags (20060124) [gencode_partitioned]	gt.racefrags.20060124.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.racefrags.20060124.gencode_partitioned.bed	bed
+GT	hg17	racefrags (20060124) [gencode_partitioned]	gt.racefrags.20060124.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.racefrags.20060124.gencode_partitioned.gff	gff
+GT	hg17	racefrags (20060124)	gt.racefrags.20060124.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.racefrags.20060124.gff	gff
+GT	hg17	TARs_TransFrags (20051208)	gt.TARs_TransFrags.20051208.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TARs_TransFrags.20051208.bed	bed
+GT	hg17	TARs_TransFrags (20051208) [gencode_partitioned]	gt.TARs_TransFrags.20051208.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TARs_TransFrags.20051208.gencode_partitioned.bed	bed
+GT	hg17	TARs_TransFrags (20051208) [gencode_partitioned]	gt.TARs_TransFrags.20051208.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TARs_TransFrags.20051208.gencode_partitioned.gff	gff
+GT	hg17	TARs_TransFrags (20051208)	gt.TARs_TransFrags.20051208.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TARs_TransFrags.20051208.gff	gff
+GT	hg17	TARs_TransFrags (20051211)	gt.TARs_TransFrags.20051211.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TARs_TransFrags.20051211.bed	bed
+GT	hg17	TARs_TransFrags (20051211) [gencode_partitioned]	gt.TARs_TransFrags.20051211.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TARs_TransFrags.20051211.gencode_partitioned.bed	bed
+GT	hg17	TARs_TransFrags (20051211) [gencode_partitioned]	gt.TARs_TransFrags.20051211.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TARs_TransFrags.20051211.gencode_partitioned.gff	gff
+GT	hg17	TARs_TransFrags (20051211)	gt.TARs_TransFrags.20051211.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TARs_TransFrags.20051211.gff	gff
+GT	hg17	TSS (20051208)	gt.TSS.20051208.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TSS.20051208.bed	bed
+GT	hg17	TSS (20051208) [gencode_partitioned]	gt.TSS.20051208.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TSS.20051208.gencode_partitioned.bed	bed
+GT	hg17	TSS (20051208) [gencode_partitioned]	gt.TSS.20051208.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TSS.20051208.gencode_partitioned.gff	gff
+GT	hg17	TSS (20051208)	gt.TSS.20051208.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TSS.20051208.gff	gff
+GT	hg17	TUF (20051206)	gt.TUF.20051206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TUF.20051206.bed	bed
+GT	hg17	TUF (20051206) [gencode_partitioned]	gt.TUF.20051206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TUF.20051206.gencode_partitioned.bed	bed
+GT	hg17	TUF (20051206) [gencode_partitioned]	gt.TUF.20051206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TUF.20051206.gencode_partitioned.gff	gff
+GT	hg17	TUF (20051206)	gt.TUF.20051206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TUF.20051206.gff	gff
+GT	hg17	TUF (20051208)	gt.TUF.20051208.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TUF.20051208.bed	bed
+GT	hg17	TUF (20051208) [gencode_partitioned]	gt.TUF.20051208.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TUF.20051208.gencode_partitioned.bed	bed
+GT	hg17	TUF (20051208) [gencode_partitioned]	gt.TUF.20051208.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TUF.20051208.gencode_partitioned.gff	gff
+GT	hg17	TUF (20051208)	gt.TUF.20051208.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/gt.TUF.20051208.gff	gff
+MSA	hg17	AR (20051208)	msa.AR.20051208.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.AR.20051208.bed	bed
+MSA	hg17	AR (20051208) [gencode_partitioned]	msa.AR.20051208.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.AR.20051208.gencode_partitioned.bed	bed
+MSA	hg17	AR (20051208) [gencode_partitioned]	msa.AR.20051208.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.AR.20051208.gencode_partitioned.gff	gff
+MSA	hg17	AR (20051208)	msa.AR.20051208.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.AR.20051208.gff	gff
+MSA	hg17	mcs_loose (20051207)	msa.mcs_loose.20051207.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_loose.20051207.bed	bed
+MSA	hg17	mcs_loose (20051207) [gencode_partitioned]	msa.mcs_loose.20051207.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_loose.20051207.gencode_partitioned.bed	bed
+MSA	hg17	mcs_loose (20051207) [gencode_partitioned]	msa.mcs_loose.20051207.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_loose.20051207.gencode_partitioned.gff	gff
+MSA	hg17	mcs_loose (20051207)	msa.mcs_loose.20051207.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_loose.20051207.gff	gff
+MSA	hg17	mcs_moderate (20051207)	msa.mcs_moderate.20051207.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_moderate.20051207.bed	bed
+MSA	hg17	mcs_moderate (20051207) [gencode_partitioned]	msa.mcs_moderate.20051207.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_moderate.20051207.gencode_partitioned.bed	bed
+MSA	hg17	mcs_moderate (20051207) [gencode_partitioned]	msa.mcs_moderate.20051207.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_moderate.20051207.gencode_partitioned.gff	gff
+MSA	hg17	mcs_moderate (20051207)	msa.mcs_moderate.20051207.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_moderate.20051207.gff	gff
+MSA	hg17	mcs_strict (20051207)	msa.mcs_strict.20051207.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_strict.20051207.bed	bed
+MSA	hg17	mcs_strict (20051207) [gencode_partitioned]	msa.mcs_strict.20051207.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_strict.20051207.gencode_partitioned.bed	bed
+MSA	hg17	mcs_strict (20051207) [gencode_partitioned]	msa.mcs_strict.20051207.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_strict.20051207.gencode_partitioned.gff	gff
+MSA	hg17	mcs_strict (20051207)	msa.mcs_strict.20051207.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/msa.mcs_strict.20051207.gff	gff
+TR	hg17	AFFX_Brg1_HL60_seqsp (20060206)	tr.AFFX_Brg1_HL60_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_Brg1_HL60_seqsp.20060206.bed	bed
+TR	hg17	AFFX_Brg1_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_Brg1_HL60_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_Brg1_HL60_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_Brg1_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_Brg1_HL60_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_Brg1_HL60_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_Brg1_HL60_seqsp (20060206)	tr.AFFX_Brg1_HL60_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_Brg1_HL60_seqsp.20060206.gff	gff
+TR	hg17	AFFX_CEBPe_HL60_seqsp (20060206)	tr.AFFX_CEBPe_HL60_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_CEBPe_HL60_seqsp.20060206.bed	bed
+TR	hg17	AFFX_CEBPe_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_CEBPe_HL60_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_CEBPe_HL60_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_CEBPe_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_CEBPe_HL60_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_CEBPe_HL60_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_CEBPe_HL60_seqsp (20060206)	tr.AFFX_CEBPe_HL60_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_CEBPe_HL60_seqsp.20060206.gff	gff
+TR	hg17	AFFX_CTCF_HL60_seqsp (20060206)	tr.AFFX_CTCF_HL60_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_CTCF_HL60_seqsp.20060206.bed	bed
+TR	hg17	AFFX_CTCF_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_CTCF_HL60_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_CTCF_HL60_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_CTCF_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_CTCF_HL60_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_CTCF_HL60_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_CTCF_HL60_seqsp (20060206)	tr.AFFX_CTCF_HL60_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_CTCF_HL60_seqsp.20060206.gff	gff
+TR	hg17	AFFX_p300_HL60 (20060510)	tr.AFFX_p300_HL60.20060510.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p300_HL60.20060510.bed	bed
+TR	hg17	AFFX_p300_HL60 (20060510) [gencode_partitioned]	tr.AFFX_p300_HL60.20060510.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p300_HL60.20060510.gencode_partitioned.bed	bed
+TR	hg17	AFFX_p300_HL60 (20060510) [gencode_partitioned]	tr.AFFX_p300_HL60.20060510.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p300_HL60.20060510.gencode_partitioned.gff	gff
+TR	hg17	AFFX_p300_HL60 (20060510)	tr.AFFX_p300_HL60.20060510.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p300_HL60.20060510.gff	gff
+TR	hg17	AFFX_p63-ActD_ME180_seqsp (20060206)	tr.AFFX_p63-ActD_ME180_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p63-ActD_ME180_seqsp.20060206.bed	bed
+TR	hg17	AFFX_p63-ActD_ME180_seqsp (20060206) [gencode_partitioned]	tr.AFFX_p63-ActD_ME180_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p63-ActD_ME180_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_p63-ActD_ME180_seqsp (20060206) [gencode_partitioned]	tr.AFFX_p63-ActD_ME180_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p63-ActD_ME180_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_p63-ActD_ME180_seqsp (20060206)	tr.AFFX_p63-ActD_ME180_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p63-ActD_ME180_seqsp.20060206.gff	gff
+TR	hg17	AFFX_p63-noAD_ME180_seqsp (20060206)	tr.AFFX_p63-noAD_ME180_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p63-noAD_ME180_seqsp.20060206.bed	bed
+TR	hg17	AFFX_p63-noAD_ME180_seqsp (20060206) [gencode_partitioned]	tr.AFFX_p63-noAD_ME180_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p63-noAD_ME180_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_p63-noAD_ME180_seqsp (20060206) [gencode_partitioned]	tr.AFFX_p63-noAD_ME180_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p63-noAD_ME180_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_p63-noAD_ME180_seqsp (20060206)	tr.AFFX_p63-noAD_ME180_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_p63-noAD_ME180_seqsp.20060206.gff	gff
+TR	hg17	AFFX_PU1_HL60_seqsp (20060206)	tr.AFFX_PU1_HL60_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_PU1_HL60_seqsp.20060206.bed	bed
+TR	hg17	AFFX_PU1_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_PU1_HL60_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_PU1_HL60_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_PU1_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_PU1_HL60_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_PU1_HL60_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_PU1_HL60_seqsp (20060206)	tr.AFFX_PU1_HL60_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_PU1_HL60_seqsp.20060206.gff	gff
+TR	hg17	AFFX_RARecA_HL60_seqsp (20060206)	tr.AFFX_RARecA_HL60_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_RARecA_HL60_seqsp.20060206.bed	bed
+TR	hg17	AFFX_RARecA_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_RARecA_HL60_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_RARecA_HL60_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_RARecA_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_RARecA_HL60_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_RARecA_HL60_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_RARecA_HL60_seqsp (20060206)	tr.AFFX_RARecA_HL60_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_RARecA_HL60_seqsp.20060206.gff	gff
+TR	hg17	AFFX_SIRT1_HL60_seqsp (20060206)	tr.AFFX_SIRT1_HL60_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_SIRT1_HL60_seqsp.20060206.bed	bed
+TR	hg17	AFFX_SIRT1_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_SIRT1_HL60_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_SIRT1_HL60_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_SIRT1_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_SIRT1_HL60_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_SIRT1_HL60_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_SIRT1_HL60_seqsp (20060206)	tr.AFFX_SIRT1_HL60_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_SIRT1_HL60_seqsp.20060206.gff	gff
+TR	hg17	AFFX_TFIIB_HL60_seqsp (20060206)	tr.AFFX_TFIIB_HL60_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_TFIIB_HL60_seqsp.20060206.bed	bed
+TR	hg17	AFFX_TFIIB_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_TFIIB_HL60_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_TFIIB_HL60_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	AFFX_TFIIB_HL60_seqsp (20060206) [gencode_partitioned]	tr.AFFX_TFIIB_HL60_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_TFIIB_HL60_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	AFFX_TFIIB_HL60_seqsp (20060206)	tr.AFFX_TFIIB_HL60_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.AFFX_TFIIB_HL60_seqsp.20060206.gff	gff
+TR	hg17	ALL_cMyc_HeLa_seqsp (20060206)	tr.ALL_cMyc_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_cMyc_HeLa_seqsp.20060206.bed	bed
+TR	hg17	ALL_cMyc_HeLa_seqsp (20060206) [gencode_partitioned]	tr.ALL_cMyc_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_cMyc_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	ALL_cMyc_HeLa_seqsp (20060206) [gencode_partitioned]	tr.ALL_cMyc_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_cMyc_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	ALL_cMyc_HeLa_seqsp (20060206)	tr.ALL_cMyc_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_cMyc_HeLa_seqsp.20060206.gff	gff
+TR	hg17	ALL_p53_HCT116_seqsp (20060206)	tr.ALL_p53_HCT116_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_p53_HCT116_seqsp.20060206.bed	bed
+TR	hg17	ALL_p53_HCT116_seqsp (20060206) [gencode_partitioned]	tr.ALL_p53_HCT116_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_p53_HCT116_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	ALL_p53_HCT116_seqsp (20060206) [gencode_partitioned]	tr.ALL_p53_HCT116_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_p53_HCT116_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	ALL_p53_HCT116_seqsp (20060206)	tr.ALL_p53_HCT116_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_p53_HCT116_seqsp.20060206.gff	gff
+TR	hg17	ALL_STAT1_HeLa_seqsp (20060206)	tr.ALL_STAT1_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_STAT1_HeLa_seqsp.20060206.bed	bed
+TR	hg17	ALL_STAT1_HeLa_seqsp (20060206) [gencode_partitioned]	tr.ALL_STAT1_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_STAT1_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	ALL_STAT1_HeLa_seqsp (20060206) [gencode_partitioned]	tr.ALL_STAT1_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_STAT1_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	ALL_STAT1_HeLa_seqsp (20060206)	tr.ALL_STAT1_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_STAT1_HeLa_seqsp.20060206.gff	gff
+TR	hg17	ALL_STAT1gIF_HeLa_seqsp (20060206)	tr.ALL_STAT1gIF_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_STAT1gIF_HeLa_seqsp.20060206.bed	bed
+TR	hg17	ALL_STAT1gIF_HeLa_seqsp (20060206) [gencode_partitioned]	tr.ALL_STAT1gIF_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_STAT1gIF_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	ALL_STAT1gIF_HeLa_seqsp (20060206) [gencode_partitioned]	tr.ALL_STAT1gIF_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_STAT1gIF_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	ALL_STAT1gIF_HeLa_seqsp (20060206)	tr.ALL_STAT1gIF_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.ALL_STAT1gIF_HeLa_seqsp.20060206.gff	gff
+TR	hg17	allMotif (20060206)	tr.allMotif.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.allMotif.20060206.bed	bed
+TR	hg17	allMotif (20060206) [gencode_partitioned]	tr.allMotif.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.allMotif.20060206.gencode_partitioned.bed	bed
+TR	hg17	allMotif (20060206) [gencode_partitioned]	tr.allMotif.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.allMotif.20060206.gencode_partitioned.gff	gff
+TR	hg17	allMotif (20060206)	tr.allMotif.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.allMotif.20060206.gff	gff
+TR	hg17	BRE_motif (02062006)	tr.BRE_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.BRE_motif.02062006.bed	bed
+TR	hg17	BRE_motif (02062006) [gencode_partitioned]	tr.BRE_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.BRE_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	BRE_motif (02062006) [gencode_partitioned]	tr.BRE_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.BRE_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	BRE_motif (02062006)	tr.BRE_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.BRE_motif.02062006.gff	gff
+TR	hg17	CEBP_motif (02062006)	tr.CEBP_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CEBP_motif.02062006.bed	bed
+TR	hg17	CEBP_motif (02062006) [gencode_partitioned]	tr.CEBP_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CEBP_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	CEBP_motif (02062006) [gencode_partitioned]	tr.CEBP_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CEBP_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	CEBP_motif (02062006)	tr.CEBP_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CEBP_motif.02062006.gff	gff
+TR	hg17	CRE-BP1:c-Jun_motif (02062006)	tr.CRE-BP1:c-Jun_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CRE-BP1:c-Jun_motif.02062006.bed	bed
+TR	hg17	CRE-BP1:c-Jun_motif (02062006) [gencode_partitioned]	tr.CRE-BP1:c-Jun_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CRE-BP1:c-Jun_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	CRE-BP1:c-Jun_motif (02062006) [gencode_partitioned]	tr.CRE-BP1:c-Jun_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CRE-BP1:c-Jun_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	CRE-BP1:c-Jun_motif (02062006)	tr.CRE-BP1:c-Jun_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CRE-BP1:c-Jun_motif.02062006.gff	gff
+TR	hg17	CTCF_motif (02062006)	tr.CTCF_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CTCF_motif.02062006.bed	bed
+TR	hg17	CTCF_motif (02062006) [gencode_partitioned]	tr.CTCF_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CTCF_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	CTCF_motif (02062006) [gencode_partitioned]	tr.CTCF_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CTCF_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	CTCF_motif (02062006)	tr.CTCF_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.CTCF_motif.02062006.gff	gff
+TR	hg17	E2F-4:DP-1_motif (02062006)	tr.E2F-4:DP-1_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.E2F-4:DP-1_motif.02062006.bed	bed
+TR	hg17	E2F-4:DP-1_motif (02062006) [gencode_partitioned]	tr.E2F-4:DP-1_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.E2F-4:DP-1_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	E2F-4:DP-1_motif (02062006) [gencode_partitioned]	tr.E2F-4:DP-1_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.E2F-4:DP-1_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	E2F-4:DP-1_motif (02062006)	tr.E2F-4:DP-1_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.E2F-4:DP-1_motif.02062006.gff	gff
+TR	hg17	E2F_motif (02062006)	tr.E2F_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.E2F_motif.02062006.bed	bed
+TR	hg17	E2F_motif (02062006) [gencode_partitioned]	tr.E2F_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.E2F_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	E2F_motif (02062006) [gencode_partitioned]	tr.E2F_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.E2F_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	E2F_motif (02062006)	tr.E2F_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.E2F_motif.02062006.gff	gff
+TR	hg17	HisPolTAF (20060204)	tr.HisPolTAF.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060204.bed	bed
+TR	hg17	HisPolTAF (20060204) [gencode_partitioned]	tr.HisPolTAF.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060204.gencode_partitioned.bed	bed
+TR	hg17	HisPolTAF (20060204) [gencode_partitioned]	tr.HisPolTAF.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060204.gencode_partitioned.gff	gff
+TR	hg17	HisPolTAF (20060204)	tr.HisPolTAF.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060204.gff	gff
+TR	hg17	HisPolTAF (20060206)	tr.HisPolTAF.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060206.bed	bed
+TR	hg17	HisPolTAF (20060206) [gencode_partitioned]	tr.HisPolTAF.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060206.gencode_partitioned.bed	bed
+TR	hg17	HisPolTAF (20060206) [gencode_partitioned]	tr.HisPolTAF.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060206.gencode_partitioned.gff	gff
+TR	hg17	HisPolTAF (20060206)	tr.HisPolTAF.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060206.gff	gff
+TR	hg17	HisPolTAF (20060421)	tr.HisPolTAF.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060421.bed	bed
+TR	hg17	HisPolTAF (20060421) [gencode_partitioned]	tr.HisPolTAF.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060421.gencode_partitioned.bed	bed
+TR	hg17	HisPolTAF (20060421) [gencode_partitioned]	tr.HisPolTAF.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060421.gencode_partitioned.gff	gff
+TR	hg17	HisPolTAF (20060421)	tr.HisPolTAF.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HisPolTAF.20060421.gff	gff
+TR	hg17	HNF-3_motif (02062006)	tr.HNF-3_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-3_motif.02062006.bed	bed
+TR	hg17	HNF-3_motif (02062006) [gencode_partitioned]	tr.HNF-3_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-3_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	HNF-3_motif (02062006) [gencode_partitioned]	tr.HNF-3_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-3_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	HNF-3_motif (02062006)	tr.HNF-3_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-3_motif.02062006.gff	gff
+TR	hg17	HNF-3_motif (20060421)	tr.HNF-3_motif.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-3_motif.20060421.bed	bed
+TR	hg17	HNF-3_motif (20060421) [gencode_partitioned]	tr.HNF-3_motif.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-3_motif.20060421.gencode_partitioned.bed	bed
+TR	hg17	HNF-3_motif (20060421) [gencode_partitioned]	tr.HNF-3_motif.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-3_motif.20060421.gencode_partitioned.gff	gff
+TR	hg17	HNF-3_motif (20060421)	tr.HNF-3_motif.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-3_motif.20060421.gff	gff
+TR	hg17	HNF-4_motif (02062006)	tr.HNF-4_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-4_motif.02062006.bed	bed
+TR	hg17	HNF-4_motif (02062006) [gencode_partitioned]	tr.HNF-4_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-4_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	HNF-4_motif (02062006) [gencode_partitioned]	tr.HNF-4_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-4_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	HNF-4_motif (02062006)	tr.HNF-4_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-4_motif.02062006.gff	gff
+TR	hg17	HNF-4_motif (20060421)	tr.HNF-4_motif.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-4_motif.20060421.bed	bed
+TR	hg17	HNF-4_motif (20060421) [gencode_partitioned]	tr.HNF-4_motif.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-4_motif.20060421.gencode_partitioned.bed	bed
+TR	hg17	HNF-4_motif (20060421) [gencode_partitioned]	tr.HNF-4_motif.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-4_motif.20060421.gencode_partitioned.gff	gff
+TR	hg17	HNF-4_motif (20060421)	tr.HNF-4_motif.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HNF-4_motif.20060421.gff	gff
+TR	hg17	HPT--TSS-CpG (20060204)	tr.HPT--TSS-CpG.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060204.bed	bed
+TR	hg17	HPT--TSS-CpG (20060204) [gencode_partitioned]	tr.HPT--TSS-CpG.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060204.gencode_partitioned.bed	bed
+TR	hg17	HPT--TSS-CpG (20060204) [gencode_partitioned]	tr.HPT--TSS-CpG.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060204.gencode_partitioned.gff	gff
+TR	hg17	HPT--TSS-CpG (20060204)	tr.HPT--TSS-CpG.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060204.gff	gff
+TR	hg17	HPT--TSS-CpG (20060206)	tr.HPT--TSS-CpG.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060206.bed	bed
+TR	hg17	HPT--TSS-CpG (20060206) [gencode_partitioned]	tr.HPT--TSS-CpG.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060206.gencode_partitioned.bed	bed
+TR	hg17	HPT--TSS-CpG (20060206) [gencode_partitioned]	tr.HPT--TSS-CpG.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060206.gencode_partitioned.gff	gff
+TR	hg17	HPT--TSS-CpG (20060206)	tr.HPT--TSS-CpG.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060206.gff	gff
+TR	hg17	HPT--TSS-CpG (20060421)	tr.HPT--TSS-CpG.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060421.bed	bed
+TR	hg17	HPT--TSS-CpG (20060421) [gencode_partitioned]	tr.HPT--TSS-CpG.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060421.gencode_partitioned.bed	bed
+TR	hg17	HPT--TSS-CpG (20060421) [gencode_partitioned]	tr.HPT--TSS-CpG.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060421.gencode_partitioned.gff	gff
+TR	hg17	HPT--TSS-CpG (20060421)	tr.HPT--TSS-CpG.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS-CpG.20060421.gff	gff
+TR	hg17	HPT--TSS (20060204)	tr.HPT--TSS.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS.20060204.bed	bed
+TR	hg17	HPT--TSS (20060204) [gencode_partitioned]	tr.HPT--TSS.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS.20060204.gencode_partitioned.bed	bed
+TR	hg17	HPT--TSS (20060204) [gencode_partitioned]	tr.HPT--TSS.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS.20060204.gencode_partitioned.gff	gff
+TR	hg17	HPT--TSS (20060204)	tr.HPT--TSS.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS.20060204.gff	gff
+TR	hg17	HPT--TSS (20060206)	tr.HPT--TSS.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS.20060206.bed	bed
+TR	hg17	HPT--TSS (20060206) [gencode_partitioned]	tr.HPT--TSS.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS.20060206.gencode_partitioned.bed	bed
+TR	hg17	HPT--TSS (20060206) [gencode_partitioned]	tr.HPT--TSS.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS.20060206.gencode_partitioned.gff	gff
+TR	hg17	HPT--TSS (20060206)	tr.HPT--TSS.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT--TSS.20060206.gff	gff
+TR	hg17	HPT-TSS (20060421)	tr.HPT-TSS.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT-TSS.20060421.bed	bed
+TR	hg17	HPT-TSS (20060421) [gencode_partitioned]	tr.HPT-TSS.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT-TSS.20060421.gencode_partitioned.bed	bed
+TR	hg17	HPT-TSS (20060421) [gencode_partitioned]	tr.HPT-TSS.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT-TSS.20060421.gencode_partitioned.gff	gff
+TR	hg17	HPT-TSS (20060421)	tr.HPT-TSS.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.HPT-TSS.20060421.gff	gff
+TR	hg17	Myc_motif (02062006)	tr.Myc_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Myc_motif.02062006.bed	bed
+TR	hg17	Myc_motif (02062006) [gencode_partitioned]	tr.Myc_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Myc_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	Myc_motif (02062006) [gencode_partitioned]	tr.Myc_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Myc_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	Myc_motif (02062006)	tr.Myc_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Myc_motif.02062006.gff	gff
+TR	hg17	Ng_BAF155_HeLa_seqsp (20060206)	tr.Ng_BAF155_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_BAF155_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_BAF155_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_BAF155_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_BAF155_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_BAF155_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_BAF155_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_BAF155_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_BAF155_HeLa_seqsp (20060206)	tr.Ng_BAF155_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_BAF155_HeLa_seqsp.20060206.gff	gff
+TR	hg17	Ng_BAF170_HeLa_seqsp (20060206)	tr.Ng_BAF170_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_BAF170_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_BAF170_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_BAF170_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_BAF170_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_BAF170_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_BAF170_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_BAF170_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_BAF170_HeLa_seqsp (20060206)	tr.Ng_BAF170_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_BAF170_HeLa_seqsp.20060206.gff	gff
+TR	hg17	Ng_cJun_HeLa_seqsp (20060206)	tr.Ng_cJun_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cJun_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_cJun_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_cJun_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cJun_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_cJun_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_cJun_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cJun_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_cJun_HeLa_seqsp (20060206)	tr.Ng_cJun_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cJun_HeLa_seqsp.20060206.gff	gff
+TR	hg17	Ng_cMyc-Qt_2091_seqsp (20060206)	tr.Ng_cMyc-Qt_2091_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-Qt_2091_seqsp.20060206.bed	bed
+TR	hg17	Ng_cMyc-Qt_2091_seqsp (20060206) [gencode_partitioned]	tr.Ng_cMyc-Qt_2091_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-Qt_2091_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_cMyc-Qt_2091_seqsp (20060206) [gencode_partitioned]	tr.Ng_cMyc-Qt_2091_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-Qt_2091_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_cMyc-Qt_2091_seqsp (20060206)	tr.Ng_cMyc-Qt_2091_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-Qt_2091_seqsp.20060206.gff	gff
+TR	hg17	Ng_cMyc-St_2091_seqsp (20060206)	tr.Ng_cMyc-St_2091_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-St_2091_seqsp.20060206.bed	bed
+TR	hg17	Ng_cMyc-St_2091_seqsp (20060206) [gencode_partitioned]	tr.Ng_cMyc-St_2091_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-St_2091_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_cMyc-St_2091_seqsp (20060206) [gencode_partitioned]	tr.Ng_cMyc-St_2091_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-St_2091_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_cMyc-St_2091_seqsp (20060206)	tr.Ng_cMyc-St_2091_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-St_2091_seqsp.20060206.gff	gff
+TR	hg17	Ng_cMyc-UCD_HeLa_seqsp (20060206)	tr.Ng_cMyc-UCD_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-UCD_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_cMyc-UCD_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_cMyc-UCD_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-UCD_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_cMyc-UCD_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_cMyc-UCD_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-UCD_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_cMyc-UCD_HeLa_seqsp (20060206)	tr.Ng_cMyc-UCD_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-UCD_HeLa_seqsp.20060206.gff	gff
+TR	hg17	Ng_cMyc-UT_HeLa_seqsp (20060206)	tr.Ng_cMyc-UT_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-UT_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_cMyc-UT_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_cMyc-UT_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-UT_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_cMyc-UT_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_cMyc-UT_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-UT_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_cMyc-UT_HeLa_seqsp (20060206)	tr.Ng_cMyc-UT_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_cMyc-UT_HeLa_seqsp.20060206.gff	gff
+TR	hg17	Ng_E2F1_HeLa_seqsp (20060206)	tr.Ng_E2F1_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_E2F1_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_E2F1_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_E2F1_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_E2F1_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_E2F1_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_E2F1_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_E2F1_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_E2F1_HeLa_seqsp (20060206)	tr.Ng_E2F1_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_E2F1_HeLa_seqsp.20060206.gff	gff
+TR	hg17	Ng_E2F4_2091_seqsp (20060206)	tr.Ng_E2F4_2091_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_E2F4_2091_seqsp.20060206.bed	bed
+TR	hg17	Ng_E2F4_2091_seqsp (20060206) [gencode_partitioned]	tr.Ng_E2F4_2091_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_E2F4_2091_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_E2F4_2091_seqsp (20060206) [gencode_partitioned]	tr.Ng_E2F4_2091_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_E2F4_2091_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_E2F4_2091_seqsp (20060206)	tr.Ng_E2F4_2091_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_E2F4_2091_seqsp.20060206.gff	gff
+TR	hg17	Ng_Sp1_HCT116_seqsp (20060206)	tr.Ng_Sp1_HCT116_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_HCT116_seqsp.20060206.bed	bed
+TR	hg17	Ng_Sp1_HCT116_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp1_HCT116_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_HCT116_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_Sp1_HCT116_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp1_HCT116_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_HCT116_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_Sp1_HCT116_seqsp (20060206)	tr.Ng_Sp1_HCT116_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_HCT116_seqsp.20060206.gff	gff
+TR	hg17	Ng_Sp1_Jurkat_seqsp (20060206)	tr.Ng_Sp1_Jurkat_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_Jurkat_seqsp.20060206.bed	bed
+TR	hg17	Ng_Sp1_Jurkat_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp1_Jurkat_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_Jurkat_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_Sp1_Jurkat_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp1_Jurkat_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_Jurkat_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_Sp1_Jurkat_seqsp (20060206)	tr.Ng_Sp1_Jurkat_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_Jurkat_seqsp.20060206.gff	gff
+TR	hg17	Ng_Sp1_K562_seqsp (20060206)	tr.Ng_Sp1_K562_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_K562_seqsp.20060206.bed	bed
+TR	hg17	Ng_Sp1_K562_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp1_K562_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_K562_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_Sp1_K562_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp1_K562_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_K562_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_Sp1_K562_seqsp (20060206)	tr.Ng_Sp1_K562_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp1_K562_seqsp.20060206.gff	gff
+TR	hg17	Ng_Sp3_HCT116_seqsp (20060206)	tr.Ng_Sp3_HCT116_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_HCT116_seqsp.20060206.bed	bed
+TR	hg17	Ng_Sp3_HCT116_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp3_HCT116_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_HCT116_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_Sp3_HCT116_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp3_HCT116_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_HCT116_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_Sp3_HCT116_seqsp (20060206)	tr.Ng_Sp3_HCT116_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_HCT116_seqsp.20060206.gff	gff
+TR	hg17	Ng_Sp3_Jurkat_seqsp (20060206)	tr.Ng_Sp3_Jurkat_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_Jurkat_seqsp.20060206.bed	bed
+TR	hg17	Ng_Sp3_Jurkat_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp3_Jurkat_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_Jurkat_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_Sp3_Jurkat_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp3_Jurkat_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_Jurkat_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_Sp3_Jurkat_seqsp (20060206)	tr.Ng_Sp3_Jurkat_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_Jurkat_seqsp.20060206.gff	gff
+TR	hg17	Ng_Sp3_K562_seqsp (20060206)	tr.Ng_Sp3_K562_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_K562_seqsp.20060206.bed	bed
+TR	hg17	Ng_Sp3_K562_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp3_K562_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_K562_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_Sp3_K562_seqsp (20060206) [gencode_partitioned]	tr.Ng_Sp3_K562_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_K562_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_Sp3_K562_seqsp (20060206)	tr.Ng_Sp3_K562_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_Sp3_K562_seqsp.20060206.gff	gff
+TR	hg17	Ng_STAT1-NASA_HeLa_seqsp (20060206)	tr.Ng_STAT1-NASA_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-NASA_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_STAT1-NASA_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_STAT1-NASA_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-NASA_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_STAT1-NASA_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_STAT1-NASA_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-NASA_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_STAT1-NASA_HeLa_seqsp (20060206)	tr.Ng_STAT1-NASA_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-NASA_HeLa_seqsp.20060206.gff	gff
+TR	hg17	Ng_STAT1-P30_HeLa_seqsp (20060206)	tr.Ng_STAT1-P30_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-P30_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_STAT1-P30_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_STAT1-P30_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-P30_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_STAT1-P30_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_STAT1-P30_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-P30_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_STAT1-P30_HeLa_seqsp (20060206)	tr.Ng_STAT1-P30_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-P30_HeLa_seqsp.20060206.gff	gff
+TR	hg17	Ng_STAT1-Yale_HeLa_seqsp (20060206)	tr.Ng_STAT1-Yale_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-Yale_HeLa_seqsp.20060206.bed	bed
+TR	hg17	Ng_STAT1-Yale_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_STAT1-Yale_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-Yale_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Ng_STAT1-Yale_HeLa_seqsp (20060206) [gencode_partitioned]	tr.Ng_STAT1-Yale_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-Yale_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Ng_STAT1-Yale_HeLa_seqsp (20060206)	tr.Ng_STAT1-Yale_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Ng_STAT1-Yale_HeLa_seqsp.20060206.gff	gff
+TR	hg17	p300_motif (20060510)	tr.p300_motif.20060510.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.p300_motif.20060510.bed	bed
+TR	hg17	p300_motif (20060510) [gencode_partitioned]	tr.p300_motif.20060510.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.p300_motif.20060510.gencode_partitioned.bed	bed
+TR	hg17	p300_motif (20060510) [gencode_partitioned]	tr.p300_motif.20060510.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.p300_motif.20060510.gencode_partitioned.gff	gff
+TR	hg17	p300_motif (20060510)	tr.p300_motif.20060510.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.p300_motif.20060510.gff	gff
+TR	hg17	p53_motif (02062006)	tr.p53_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.p53_motif.02062006.bed	bed
+TR	hg17	p53_motif (02062006) [gencode_partitioned]	tr.p53_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.p53_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	p53_motif (02062006) [gencode_partitioned]	tr.p53_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.p53_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	p53_motif (02062006)	tr.p53_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.p53_motif.02062006.gff	gff
+TR	hg17	PU_motif (02062006)	tr.PU_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.PU_motif.02062006.bed	bed
+TR	hg17	PU_motif (02062006) [gencode_partitioned]	tr.PU_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.PU_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	PU_motif (02062006) [gencode_partitioned]	tr.PU_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.PU_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	PU_motif (02062006)	tr.PU_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.PU_motif.02062006.gff	gff
+TR	hg17	RAR_motif (02062006)	tr.RAR_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.RAR_motif.02062006.bed	bed
+TR	hg17	RAR_motif (02062006) [gencode_partitioned]	tr.RAR_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.RAR_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	RAR_motif (02062006) [gencode_partitioned]	tr.RAR_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.RAR_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	RAR_motif (02062006)	tr.RAR_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.RAR_motif.02062006.gff	gff
+TR	hg17	Sanger_HNF3b_HePG2_seqsp (20060206)	tr.Sanger_HNF3b_HePG2_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF3b_HePG2_seqsp.20060206.bed	bed
+TR	hg17	Sanger_HNF3b_HePG2_seqsp (20060206) [gencode_partitioned]	tr.Sanger_HNF3b_HePG2_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF3b_HePG2_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Sanger_HNF3b_HePG2_seqsp (20060206) [gencode_partitioned]	tr.Sanger_HNF3b_HePG2_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF3b_HePG2_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Sanger_HNF3b_HePG2_seqsp (20060206)	tr.Sanger_HNF3b_HePG2_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF3b_HePG2_seqsp.20060206.gff	gff
+TR	hg17	Sanger_HNF3b_HepG2_seqsp (20060421)	tr.Sanger_HNF3b_HepG2_seqsp.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF3b_HepG2_seqsp.20060421.bed	bed
+TR	hg17	Sanger_HNF3b_HepG2_seqsp (20060421) [gencode_partitioned]	tr.Sanger_HNF3b_HepG2_seqsp.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF3b_HepG2_seqsp.20060421.gencode_partitioned.bed	bed
+TR	hg17	Sanger_HNF3b_HepG2_seqsp (20060421) [gencode_partitioned]	tr.Sanger_HNF3b_HepG2_seqsp.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF3b_HepG2_seqsp.20060421.gencode_partitioned.gff	gff
+TR	hg17	Sanger_HNF3b_HepG2_seqsp (20060421)	tr.Sanger_HNF3b_HepG2_seqsp.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF3b_HepG2_seqsp.20060421.gff	gff
+TR	hg17	Sanger_HNF4a_HePG2_seqsp (20060206)	tr.Sanger_HNF4a_HePG2_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF4a_HePG2_seqsp.20060206.bed	bed
+TR	hg17	Sanger_HNF4a_HePG2_seqsp (20060206) [gencode_partitioned]	tr.Sanger_HNF4a_HePG2_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF4a_HePG2_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Sanger_HNF4a_HePG2_seqsp (20060206) [gencode_partitioned]	tr.Sanger_HNF4a_HePG2_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF4a_HePG2_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Sanger_HNF4a_HePG2_seqsp (20060206)	tr.Sanger_HNF4a_HePG2_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF4a_HePG2_seqsp.20060206.gff	gff
+TR	hg17	Sanger_HNF4a_HepG2_seqsp (20060421)	tr.Sanger_HNF4a_HepG2_seqsp.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF4a_HepG2_seqsp.20060421.bed	bed
+TR	hg17	Sanger_HNF4a_HepG2_seqsp (20060421) [gencode_partitioned]	tr.Sanger_HNF4a_HepG2_seqsp.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF4a_HepG2_seqsp.20060421.gencode_partitioned.bed	bed
+TR	hg17	Sanger_HNF4a_HepG2_seqsp (20060421) [gencode_partitioned]	tr.Sanger_HNF4a_HepG2_seqsp.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF4a_HepG2_seqsp.20060421.gencode_partitioned.gff	gff
+TR	hg17	Sanger_HNF4a_HepG2_seqsp (20060421)	tr.Sanger_HNF4a_HepG2_seqsp.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_HNF4a_HepG2_seqsp.20060421.gff	gff
+TR	hg17	Sanger_USF1_HePG2_seqsp (20060206)	tr.Sanger_USF1_HePG2_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_USF1_HePG2_seqsp.20060206.bed	bed
+TR	hg17	Sanger_USF1_HePG2_seqsp (20060206) [gencode_partitioned]	tr.Sanger_USF1_HePG2_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_USF1_HePG2_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	Sanger_USF1_HePG2_seqsp (20060206) [gencode_partitioned]	tr.Sanger_USF1_HePG2_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_USF1_HePG2_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	Sanger_USF1_HePG2_seqsp (20060206)	tr.Sanger_USF1_HePG2_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_USF1_HePG2_seqsp.20060206.gff	gff
+TR	hg17	Sanger_USF1_HepG2_seqsp (20060421)	tr.Sanger_USF1_HepG2_seqsp.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_USF1_HepG2_seqsp.20060421.bed	bed
+TR	hg17	Sanger_USF1_HepG2_seqsp (20060421) [gencode_partitioned]	tr.Sanger_USF1_HepG2_seqsp.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_USF1_HepG2_seqsp.20060421.gencode_partitioned.bed	bed
+TR	hg17	Sanger_USF1_HepG2_seqsp (20060421) [gencode_partitioned]	tr.Sanger_USF1_HepG2_seqsp.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_USF1_HepG2_seqsp.20060421.gencode_partitioned.gff	gff
+TR	hg17	Sanger_USF1_HepG2_seqsp (20060421)	tr.Sanger_USF1_HepG2_seqsp.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sanger_USF1_HepG2_seqsp.20060421.gff	gff
+TR	hg17	seq_specific (20060206)	tr.seq_specific.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.seq_specific.20060206.bed	bed
+TR	hg17	seq_specific (20060206) [gencode_partitioned]	tr.seq_specific.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.seq_specific.20060206.gencode_partitioned.bed	bed
+TR	hg17	seq_specific (20060206) [gencode_partitioned]	tr.seq_specific.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.seq_specific.20060206.gencode_partitioned.gff	gff
+TR	hg17	seq_specific (20060206)	tr.seq_specific.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.seq_specific.20060206.gff	gff
+TR	hg17	SeqSp--TSS-CpG (20060204)	tr.SeqSp--TSS-CpG.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060204.bed	bed
+TR	hg17	SeqSp--TSS-CpG (20060204) [gencode_partitioned]	tr.SeqSp--TSS-CpG.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060204.gencode_partitioned.bed	bed
+TR	hg17	SeqSp--TSS-CpG (20060204) [gencode_partitioned]	tr.SeqSp--TSS-CpG.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060204.gencode_partitioned.gff	gff
+TR	hg17	SeqSp--TSS-CpG (20060204)	tr.SeqSp--TSS-CpG.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060204.gff	gff
+TR	hg17	SeqSp--TSS-CpG (20060206)	tr.SeqSp--TSS-CpG.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060206.bed	bed
+TR	hg17	SeqSp--TSS-CpG (20060206) [gencode_partitioned]	tr.SeqSp--TSS-CpG.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060206.gencode_partitioned.bed	bed
+TR	hg17	SeqSp--TSS-CpG (20060206) [gencode_partitioned]	tr.SeqSp--TSS-CpG.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060206.gencode_partitioned.gff	gff
+TR	hg17	SeqSp--TSS-CpG (20060206)	tr.SeqSp--TSS-CpG.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060206.gff	gff
+TR	hg17	SeqSp--TSS-CpG (20060421)	tr.SeqSp--TSS-CpG.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060421.bed	bed
+TR	hg17	SeqSp--TSS-CpG (20060421) [gencode_partitioned]	tr.SeqSp--TSS-CpG.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060421.gencode_partitioned.bed	bed
+TR	hg17	SeqSp--TSS-CpG (20060421) [gencode_partitioned]	tr.SeqSp--TSS-CpG.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060421.gencode_partitioned.gff	gff
+TR	hg17	SeqSp--TSS-CpG (20060421)	tr.SeqSp--TSS-CpG.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS-CpG.20060421.gff	gff
+TR	hg17	SeqSp--TSS (20060204)	tr.SeqSp--TSS.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060204.bed	bed
+TR	hg17	SeqSp--TSS (20060204) [gencode_partitioned]	tr.SeqSp--TSS.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060204.gencode_partitioned.bed	bed
+TR	hg17	SeqSp--TSS (20060204) [gencode_partitioned]	tr.SeqSp--TSS.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060204.gencode_partitioned.gff	gff
+TR	hg17	SeqSp--TSS (20060204)	tr.SeqSp--TSS.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060204.gff	gff
+TR	hg17	SeqSp--TSS (20060206)	tr.SeqSp--TSS.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060206.bed	bed
+TR	hg17	SeqSp--TSS (20060206) [gencode_partitioned]	tr.SeqSp--TSS.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060206.gencode_partitioned.bed	bed
+TR	hg17	SeqSp--TSS (20060206) [gencode_partitioned]	tr.SeqSp--TSS.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060206.gencode_partitioned.gff	gff
+TR	hg17	SeqSp--TSS (20060206)	tr.SeqSp--TSS.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060206.gff	gff
+TR	hg17	SeqSp--TSS (20060421)	tr.SeqSp--TSS.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060421.bed	bed
+TR	hg17	SeqSp--TSS (20060421) [gencode_partitioned]	tr.SeqSp--TSS.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060421.gencode_partitioned.bed	bed
+TR	hg17	SeqSp--TSS (20060421) [gencode_partitioned]	tr.SeqSp--TSS.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060421.gencode_partitioned.gff	gff
+TR	hg17	SeqSp--TSS (20060421)	tr.SeqSp--TSS.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp--TSS.20060421.gff	gff
+TR	hg17	SeqSp (20060204)	tr.SeqSp.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060204.bed	bed
+TR	hg17	SeqSp (20060204) [gencode_partitioned]	tr.SeqSp.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060204.gencode_partitioned.bed	bed
+TR	hg17	SeqSp (20060204) [gencode_partitioned]	tr.SeqSp.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060204.gencode_partitioned.gff	gff
+TR	hg17	SeqSp (20060204)	tr.SeqSp.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060204.gff	gff
+TR	hg17	SeqSp (20060206)	tr.SeqSp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060206.bed	bed
+TR	hg17	SeqSp (20060206) [gencode_partitioned]	tr.SeqSp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060206.gencode_partitioned.bed	bed
+TR	hg17	SeqSp (20060206) [gencode_partitioned]	tr.SeqSp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060206.gencode_partitioned.gff	gff
+TR	hg17	SeqSp (20060206)	tr.SeqSp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060206.gff	gff
+TR	hg17	SeqSp (20060421)	tr.SeqSp.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060421.bed	bed
+TR	hg17	SeqSp (20060421) [gencode_partitioned]	tr.SeqSp.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060421.gencode_partitioned.bed	bed
+TR	hg17	SeqSp (20060421) [gencode_partitioned]	tr.SeqSp.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060421.gencode_partitioned.gff	gff
+TR	hg17	SeqSp (20060421)	tr.SeqSp.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.SeqSp.20060421.gff	gff
+TR	hg17	Sp1_motif (02062006)	tr.Sp1_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sp1_motif.02062006.bed	bed
+TR	hg17	Sp1_motif (02062006) [gencode_partitioned]	tr.Sp1_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sp1_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	Sp1_motif (02062006) [gencode_partitioned]	tr.Sp1_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sp1_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	Sp1_motif (02062006)	tr.Sp1_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sp1_motif.02062006.gff	gff
+TR	hg17	Sp3_motif (02062006)	tr.Sp3_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sp3_motif.02062006.bed	bed
+TR	hg17	Sp3_motif (02062006) [gencode_partitioned]	tr.Sp3_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sp3_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	Sp3_motif (02062006) [gencode_partitioned]	tr.Sp3_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sp3_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	Sp3_motif (02062006)	tr.Sp3_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.Sp3_motif.02062006.gff	gff
+TR	hg17	STATx_motif (02062006)	tr.STATx_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.STATx_motif.02062006.bed	bed
+TR	hg17	STATx_motif (02062006) [gencode_partitioned]	tr.STATx_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.STATx_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	STATx_motif (02062006) [gencode_partitioned]	tr.STATx_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.STATx_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	STATx_motif (02062006)	tr.STATx_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.STATx_motif.02062006.gff	gff
+TR	hg17	TR-H3K4me1Unique (20060421)	tr.TR-H3K4me1Unique.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4me1Unique.20060421.bed	bed
+TR	hg17	TR-H3K4me1Unique (20060421) [gencode_partitioned]	tr.TR-H3K4me1Unique.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4me1Unique.20060421.gencode_partitioned.bed	bed
+TR	hg17	TR-H3K4me1Unique (20060421) [gencode_partitioned]	tr.TR-H3K4me1Unique.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4me1Unique.20060421.gencode_partitioned.gff	gff
+TR	hg17	TR-H3K4me1Unique (20060421)	tr.TR-H3K4me1Unique.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4me1Unique.20060421.gff	gff
+TR	hg17	TR-H3K4mUnique (20060204)	tr.TR-H3K4mUnique.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4mUnique.20060204.bed	bed
+TR	hg17	TR-H3K4mUnique (20060204) [gencode_partitioned]	tr.TR-H3K4mUnique.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4mUnique.20060204.gencode_partitioned.bed	bed
+TR	hg17	TR-H3K4mUnique (20060204) [gencode_partitioned]	tr.TR-H3K4mUnique.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4mUnique.20060204.gencode_partitioned.gff	gff
+TR	hg17	TR-H3K4mUnique (20060204)	tr.TR-H3K4mUnique.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4mUnique.20060204.gff	gff
+TR	hg17	TR-H3K4mUnique (20060206)	tr.TR-H3K4mUnique.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4mUnique.20060206.bed	bed
+TR	hg17	TR-H3K4mUnique (20060206) [gencode_partitioned]	tr.TR-H3K4mUnique.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4mUnique.20060206.gencode_partitioned.bed	bed
+TR	hg17	TR-H3K4mUnique (20060206) [gencode_partitioned]	tr.TR-H3K4mUnique.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4mUnique.20060206.gencode_partitioned.gff	gff
+TR	hg17	TR-H3K4mUnique (20060206)	tr.TR-H3K4mUnique.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR-H3K4mUnique.20060206.gff	gff
+TR	hg17	TR (20060204)	tr.TR.20060204.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060204.bed	bed
+TR	hg17	TR (20060204) [gencode_partitioned]	tr.TR.20060204.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060204.gencode_partitioned.bed	bed
+TR	hg17	TR (20060204) [gencode_partitioned]	tr.TR.20060204.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060204.gencode_partitioned.gff	gff
+TR	hg17	TR (20060204)	tr.TR.20060204.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060204.gff	gff
+TR	hg17	TR (20060206)	tr.TR.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060206.bed	bed
+TR	hg17	TR (20060206) [gencode_partitioned]	tr.TR.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060206.gencode_partitioned.bed	bed
+TR	hg17	TR (20060206) [gencode_partitioned]	tr.TR.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060206.gencode_partitioned.gff	gff
+TR	hg17	TR (20060206)	tr.TR.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060206.gff	gff
+TR	hg17	TR (20060421)	tr.TR.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060421.bed	bed
+TR	hg17	TR (20060421) [gencode_partitioned]	tr.TR.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060421.gencode_partitioned.bed	bed
+TR	hg17	TR (20060421) [gencode_partitioned]	tr.TR.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060421.gencode_partitioned.gff	gff
+TR	hg17	TR (20060421)	tr.TR.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.TR.20060421.gff	gff
+TR	hg17	UCSD_STAT1-P30_HeLa_seqsp (20060206)	tr.UCSD_STAT1-P30_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.UCSD_STAT1-P30_HeLa_seqsp.20060206.bed	bed
+TR	hg17	UCSD_STAT1-P30_HeLa_seqsp (20060206) [gencode_partitioned]	tr.UCSD_STAT1-P30_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.UCSD_STAT1-P30_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	UCSD_STAT1-P30_HeLa_seqsp (20060206) [gencode_partitioned]	tr.UCSD_STAT1-P30_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.UCSD_STAT1-P30_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	UCSD_STAT1-P30_HeLa_seqsp (20060206)	tr.UCSD_STAT1-P30_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.UCSD_STAT1-P30_HeLa_seqsp.20060206.gff	gff
+TR	hg17	UCSD_Suz12_HeLa_seqsp (20060206)	tr.UCSD_Suz12_HeLa_seqsp.20060206.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.UCSD_Suz12_HeLa_seqsp.20060206.bed	bed
+TR	hg17	UCSD_Suz12_HeLa_seqsp (20060206) [gencode_partitioned]	tr.UCSD_Suz12_HeLa_seqsp.20060206.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.UCSD_Suz12_HeLa_seqsp.20060206.gencode_partitioned.bed	bed
+TR	hg17	UCSD_Suz12_HeLa_seqsp (20060206) [gencode_partitioned]	tr.UCSD_Suz12_HeLa_seqsp.20060206.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.UCSD_Suz12_HeLa_seqsp.20060206.gencode_partitioned.gff	gff
+TR	hg17	UCSD_Suz12_HeLa_seqsp (20060206)	tr.UCSD_Suz12_HeLa_seqsp.20060206.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.UCSD_Suz12_HeLa_seqsp.20060206.gff	gff
+TR	hg17	USF_motif (02062006)	tr.USF_motif.02062006.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.USF_motif.02062006.bed	bed
+TR	hg17	USF_motif (02062006) [gencode_partitioned]	tr.USF_motif.02062006.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.USF_motif.02062006.gencode_partitioned.bed	bed
+TR	hg17	USF_motif (02062006) [gencode_partitioned]	tr.USF_motif.02062006.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.USF_motif.02062006.gencode_partitioned.gff	gff
+TR	hg17	USF_motif (02062006)	tr.USF_motif.02062006.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.USF_motif.02062006.gff	gff
+TR	hg17	USF_motif (20060421)	tr.USF_motif.20060421.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.USF_motif.20060421.bed	bed
+TR	hg17	USF_motif (20060421) [gencode_partitioned]	tr.USF_motif.20060421.gencode_partitioned.bed	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.USF_motif.20060421.gencode_partitioned.bed	bed
+TR	hg17	USF_motif (20060421) [gencode_partitioned]	tr.USF_motif.20060421.gencode_partitioned.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.USF_motif.20060421.gencode_partitioned.gff	gff
+TR	hg17	USF_motif (20060421)	tr.USF_motif.20060421.gff	/cvmfs/ref.galaxy/genomicdata/dataset/genome/encode-data/datasets/tr.USF_motif.20060421.gff	gff

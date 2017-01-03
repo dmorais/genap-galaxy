@@ -1,0 +1,6 @@
+hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/bwa_index/color/hg18.fa
+hg19	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/bwa_index/color/hg19
+mm8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/bwa_index/color/mm8.fa
+mm9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/bwa_index/color/mm9.fa
+equCab2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/equCab2/bwa_index/color/equCab2.fa
+phiX	/cvmfs/ref.galaxy/genomicdata/dataset/genome/phiX/color/phiX.fa

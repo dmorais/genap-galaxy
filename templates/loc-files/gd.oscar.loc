@@ -1,0 +1,4 @@
+#<species>	<data_file>
+hg19	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/oscar/hsa_ENSEMBLcKEGGctpthw.tsv
+bosTau4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/oscar/bta_ENSEMBLcKEGGctpthw.tsv
+canFam2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/genome_diversity/oscar/cfa_ENSEMBLcKEGGctpthw.tsv

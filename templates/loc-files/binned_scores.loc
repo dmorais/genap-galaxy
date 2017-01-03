@@ -1,0 +1,11 @@
+hg16	ENCODE binCons on MLAGAN alignments	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg16/encode_bincons_lagan
+hg16	ENCODE binCons on TBA alignments	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg16/encode_bincons_tba
+hg16	ENCODE GERP on MLAGAN alignment	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg16/encode_gerp_lagan
+hg16	ENCODE GERP on TBA alignment	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg16/encode_gerp_tba
+hg16	ENCODE phastCons on MLAGAN alignment	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg16/encode_phastcons_lagan
+hg16	ENCODE phastCons on TBA alignment	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg16/encode_phatcons_tba
+hg17	ENCODE phastCons on TBA alignment	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg17/phastcons_encode_sep2005_tba
+hg17	phastCons on 8-species multiz, 16-Jun-2005	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg17/phastcons_mzPt1Mm5Rn3Cf1Gg2Fr1Dr1/
+hg17	phastCons on 17-species multiz, 13-Apr-2006	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg17/phastCons17way/ba
+hg17	ESPERR Regulatory Potential, 7-species, 23-Jun-2006	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg17/esperr_rp_7way/ba
+hg18	phastCons on 17-species multiz, 06-Apr-2006	/cvmfs/ref.galaxy/genomicdata/dataset/genome/binned_scores/hg18/phastCons17way/ba

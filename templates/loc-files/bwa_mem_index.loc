@@ -1,0 +1,52 @@
+#This is a sample file distributed with Galaxy that enables tools
+#to use a directory of BWA indexed sequences data files. You will need
+#to create these data files and then create a bwa_index.loc file
+#similar to this one (store it in this directory) that points to
+#the directories in which those files are stored. The bwa_index.loc
+#file has this format (longer white space characters are TAB characters):
+#
+#<unique_build_id>   <dbkey>   <display_name>   <file_path>
+#
+#So, for example, if you had phiX indexed stored in 
+#/depot/data2/galaxy/phiX/base/, 
+#then the bwa_index.loc entry would look like this:
+#
+#phiX174   phiX   phiX Pretty   /depot/data2/galaxy/phiX/base/phiX.fa
+#
+#and your /depot/data2/galaxy/phiX/base/ directory
+#would contain phiX.fa.* files:
+#
+#-rw-r--r--  1 james    universe 830134 2005-09-13 10:12 phiX.fa.amb
+#-rw-r--r--  1 james    universe 527388 2005-09-13 10:12 phiX.fa.ann
+#-rw-r--r--  1 james    universe 269808 2005-09-13 10:12 phiX.fa.bwt
+#...etc...
+#
+#Your bwa_index.loc file should include an entry per line for each
+#index set you have stored. The "file" in the path does not actually
+#exist, but it is the prefix for the actual index files.  For example:
+#
+#phiX174				phiX	phiX174			/depot/data2/galaxy/phiX/base/phiX.fa
+#hg18canon				hg18	hg18 Canonical	/depot/data2/galaxy/hg18/base/hg18canon.fa
+#hg18full				hg18	hg18 Full		/depot/data2/galaxy/hg18/base/hg18full.fa
+#/orig/path/hg19.fa		hg19	hg19			/depot/data2/galaxy/hg19/base/hg19.fa
+#...etc...
+#
+#Note that for backwards compatibility with workflows, the unique ID of
+#an entry must be the path that was in the original loc file, because that
+#is the value stored in the workflow for that parameter. That is why the
+#hg19 entry above looks odd. New genomes can be better-looking.
+#
+
+macEug2	macEug2	Macropus eugenii (Wallaby): macEug2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/macEug2/bwa_mem_index/macEug2/macEug2.fa
+sacCer3	sacCer3	Yeast (Saccharomyces cerevisiae): sacCer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sacCer3/bwa_mem_index/sacCer3/sacCer3.fa
+ce10	ce10	C. elegans (WS220): c10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce10/bwa_mem_index/ce10/c10.fa
+hg19	hg19	Human (Homo sapiens): hg19	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/bwa_mem_index/hg19/hg19.fa
+hg18	hg18	Human (Homo sapiens): hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/bwa_mem_index/hg18/hg18.fa
+mm10	mm10	Mouse (Mus Musculus): mm10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm10/bwa_mem_index/mm10/mm10.fa
+bosTau7	bosTau7	Cow (Bos taurus): bosTau7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau7/bwa_mem_index/bosTau7/bosTau7.fa
+panTro3	panTro3	Chimpanzee (Pan troglodytes): panTro3 Full	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro3/bwa_mem_index/panTro3/panTro3full.fa
+Arabidopsis_thaliana_TAIR10	Arabidopsis_thaliana_TAIR10	Arabidopsis thaliana: Arabidopsis_thaliana_TAIR10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Arabidopsis_thaliana_TAIR10/bwa_mem_index/Arabidopsis_thaliana_TAIR10/Arabidopsis_thaliana_TAIR10.fa
+susScr3	susScr3	Pig (Sus scrofa): susScr3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/susScr3/bwa_mem_index/susScr3/susScr3.fa
+rheMac2	rheMac2	Rhesus Macaque (Macaca mulatta): rheMac2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rheMac2/bwa_mem_index/rheMac2/rheMac2.fa
+rn5	rn5	Rat (Rattus norvegicus): rn5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn5/bwa_mem_index/rn5/rn5.fa
+hg38	hg38	Human (Homo sapiens) (b38): hg38	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg38/bwa_mem_index/hg38/hg38.fa

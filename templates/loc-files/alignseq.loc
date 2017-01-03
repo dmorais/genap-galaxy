@@ -1,0 +1,1025 @@
+align	anoGam1	dm1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/anoGam1/align/dm1
+align	anoGam1	dm2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/anoGam1/align/dm2
+align	canFam1	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam1/align/hg17
+align	canFam1	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam1/align/mm6
+align	canFam2	canFam2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/align/canFam2
+align	canFam2	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/align/hg17
+align	canFam2	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/align/hg18
+align	canFam2	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/align/mm6
+align	canFam2	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/align/mm7
+align	canFam2	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/align/mm8
+align	canFam2	ratNor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/align/rn3
+align	canFam2	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/align/rn4
+align	danRer2	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer2/align/fr1
+align	danRer2	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer2/align/hg17
+align	danRer2	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer2/align/mm6
+align	danRer2	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer2/align/tetNig1
+align	danRer3	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer3/align/fr1
+align	danRer3	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer3/align/hg18
+align	danRer3	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer3/align/mm7
+align	danRer3	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer3/align/mm8
+align	danRer3	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer3/align/tetNig1
+align	danRer4	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer4/align/fr1
+align	danRer4	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer4/align/hg18
+align	danRer4	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer4/align/mm8
+align	danRer4	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer4/align/rn4
+align	danRer4	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer4/align/tetNig1
+align	dm2	anoGam1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/anoGam1
+align	dm2	apiMel1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/apiMel1
+align	dm2	apiMel2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/apiMel2
+align	dm2	dp2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/dp2
+align	dm2	dp3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/dp3
+align	dm2	droAna1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/droAna1
+align	dm2	droMoj1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/droMoj1
+align	dm2	droPer1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/droPer1
+align	dm2	droSec1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/droSec1
+align	dm2	droSim1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/droSim1
+align	dm2	droVir1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/droVir1
+align	dm2	droYak1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/align/droYak1
+align	dp3	dm2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dp3/align/dm2
+align	droSec1	dm2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droSec1/align/dm2
+align	droSec1	dm3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droSec1/align/dm3
+align	droSim1	dm2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droSim1/align/dm2
+align	droYak2	dm2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droYak2/align/dm2
+align	fr1	danRer2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr1/align/danRer2
+align	fr1	danRer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr1/align/danRer3
+align	fr1	danRer4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr1/align/danRer4
+align	fr1	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr1/align/hg18
+align	fr1	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr1/align/mm6
+align	fr1	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr1/align/mm7
+align	fr1	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr1/align/mm8
+align	galGal2	danRer2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/danRer2
+align	galGal2	hg16	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/hg16
+align	galGal2	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/hg17
+align	galGal2	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/hg18
+align	galGal2	monDom1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/monDom1
+align	galGal2	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/mm6
+align	galGal2	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/mm7
+align	galGal2	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/mm8
+align	galGal2	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/rn4
+align	galGal2	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/tetNig1
+align	galGal2	xenTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/align/xenTro1
+align	hg16	mm4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg16/align/mm4
+align	hg16	musMus3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg16/align/mm3
+align	hg16	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg16/align/mm6
+align	hg16	panTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg16/align/panTro1
+align	hg16	ratNor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg16/align/rn3
+align	hg17	bosTau1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/bosTau1
+align	hg17	bosTau2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/bosTau2
+align	hg17	canFam1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/canFam1
+align	hg17	canFam2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/canFam2
+align	hg17	danRer1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/danRer1
+align	hg17	danRer2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/danRer2
+align	hg17	danRer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/danRer3
+align	hg17	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/fr1
+align	hg17	galGal2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/galGal2
+align	hg17	monDom1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/monDom1
+align	hg17	musMus5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/mm5
+align	hg17	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/mm6
+align	hg17	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/mm7
+align	hg17	panTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/panTro1
+align	hg17	ratNor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/rn3
+align	hg17	rheMac1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/rheMac1
+align	hg17	rheMac2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/rheMac2
+align	hg17	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/align/tetNig1
+align	hg18	bosTau2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/bosTau2
+align	hg18	canFam2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/canFam2
+align	hg18	danRer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/danRer3
+align	hg18	danRer4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/danRer4
+align	hg18	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/fr1
+align	hg18	galGal2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/galGal2
+align	hg18	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/mm7
+align	hg18	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/mm8
+align	hg18	musMus9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/mm9
+align	hg18	panTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/panTro1
+align	hg18	panTro2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/panTro2
+align	hg18	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/rn4
+align	hg18	rheMac2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/rheMac2
+align	hg18	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/tetNig1
+align	hg18	xenTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/align/xenTro1
+align	musMus6	bosTau1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/bosTau1
+align	musMus6	canFam1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/canFam1
+align	musMus6	danRer2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/danRer2
+align	musMus6	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/fr1
+align	musMus6	galGal2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/galGal2
+align	musMus6	hg16	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/hg16
+align	musMus6	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/hg17
+align	musMus6	monDom1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/monDom1
+align	musMus6	panTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/panTro1
+align	musMus6	ratNor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/rn3
+align	musMus6	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/tetNig1
+align	musMus6	xenTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/align/xenTro1
+align	musMus7	bosTau2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/bosTau2
+align	musMus7	canFam2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/canFam2
+align	musMus7	danRer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/danRer3
+align	musMus7	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/fr1
+align	musMus7	galGal2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/galGal2
+align	musMus7	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/hg17
+align	musMus7	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/hg18
+align	musMus7	panTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/panTro1
+align	musMus7	ratNor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/rn3
+align	musMus7	rheMac1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/rheMac1
+align	musMus7	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/tetNig1
+align	musMus7	xenTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/align/xenTro1
+align	musMus8	bosTau2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/bosTau2
+align	musMus8	canFam2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/canFam2
+align	musMus8	danRer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/danRer3
+align	musMus8	danRer4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/danRer4
+align	musMus8	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/fr1
+align	musMus8	galGal2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/galGal2
+align	musMus8	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/hg17
+align	musMus8	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/hg18
+align	musMus8	monDom4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/monDom4
+align	musMus8	panTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/panTro1
+align	musMus8	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/rn4
+align	musMus8	rheMac2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/rheMac2
+align	musMus8	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/tetNig1
+align	musMus8	xenTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/xenTro1
+align	musMus8	xenTro2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/align/xenTro2
+align	panTro1	hg16	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro1/align/hg16
+align	panTro1	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro1/align/hg18
+align	panTro1	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro1/align/mm6
+align	panTro1	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro1/align/mm7
+align	panTro1	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro1/align/mm8
+align	ponAbe2	calJac1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/align/calJac1
+align	ponAbe2	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/align/hg18
+align	ponAbe2	mm9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/align/mm9
+align	ponAbe2	monDom4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/align/monDom4
+align	ponAbe2	ornAna1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/align/ornAna1
+align	ponAbe2	panTro2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/align/panTro2
+align	ponAbe2	rheMac2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/align/rheMac2
+align	ratNor3	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn3/align/hg18
+align	ratNor3	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn3/align/mm8
+align	ratNor3	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn3/align/rn4
+align	ratNor4	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn4/align/hg18
+align	ratNor4	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn4/align/mm8
+align	ratNor4	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn4/align/rn4
+align	rheMac2	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rheMac2/align/hg18
+align	rheMac2	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rheMac2/align/mm8
+align	rheMac2	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rheMac2/align/rn4
+align	tetNig1	danRer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/align/danRer3
+align	tetNig1	danRer4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/align/danRer4
+align	tetNig1	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/align/fr1
+align	tetNig1	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/align/hg17
+align	tetNig1	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/align/hg18
+align	tetNig1	musMus6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/align/mm6
+align	tetNig1	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/align/mm7
+align	tetNig1	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/align/mm8
+seq	100	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/100/seq
+seq	10616	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10616/seq
+seq	10638	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10638/seq
+seq	10639	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10639/seq
+seq	10645	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10645/seq
+seq	10675	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10675/seq
+seq	10676	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10676/seq
+seq	10679	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10679/seq
+seq	10687	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10687/seq
+seq	10689	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10689/seq
+seq	10690	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10690/seq
+seq	10694	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10694/seq
+seq	10697	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10697/seq
+seq	106	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/106/seq
+seq	10784	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10784/seq
+seq	10877	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10877/seq
+seq	10878	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/10878/seq
+seq	11752	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/11752/seq
+seq	12388	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12388/seq
+seq	12416	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12416/seq
+seq	12468	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12468/seq
+seq	12469	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12469/seq
+seq	12475	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12475/seq
+seq	12508	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12508/seq
+seq	12512	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12512/seq
+seq	12514	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12514/seq
+seq	12521	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12521/seq
+seq	12530	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12530/seq
+seq	12554	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12554/seq
+seq	12607	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12607/seq
+seq	12609	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12609/seq
+seq	12637	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12637/seq
+seq	12716	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12716/seq
+seq	12720	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12720/seq
+seq	12931	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12931/seq/12931.2bit
+seq	12950	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12950/seq
+seq	12952	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12952/seq
+seq	12953	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12953/seq
+seq	12997	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12997/seq
+seq	12	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/12/seq
+seq	13001	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13001/seq
+seq	13006	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13006/seq
+seq	13030	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13030/seq
+seq	13040	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13040/seq
+seq	13067	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13067/seq
+seq	13082	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13082/seq
+seq	13120	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13120/seq
+seq	13126	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13126/seq
+seq	13127	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13127/seq
+seq	13145	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13145/seq
+seq	13146	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13146/seq
+seq	13151	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13151/seq
+seq	13162	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13162/seq
+seq	13163	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13163/seq
+seq	13217	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13217/seq
+seq	13282	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13282/seq
+seq	13291	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13291/seq
+seq	13355	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13355/seq
+seq	13356	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13356/seq
+seq	13370	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13370/seq
+seq	13378	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13378/seq
+seq	13384	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13384/seq
+seq	13389	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13389/seq
+seq	13403	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13403/seq
+seq	13418	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13418/seq
+seq	13427	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13427/seq
+seq	13435	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13435/seq
+seq	13443	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13443/seq
+seq	13454	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13454/seq
+seq	13462	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13462/seq
+seq	13473	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13473/seq
+seq	13478	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13478/seq
+seq	13485	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13485/seq
+seq	13496	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13496/seq
+seq	13548	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13548/seq
+seq	13551	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13551/seq
+seq	13603	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13603/seq
+seq	13617	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13617/seq
+seq	13623	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13623/seq
+seq	13624	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13624/seq
+seq	13642	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13642/seq
+seq	13643	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13643/seq
+seq	13649	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13649/seq
+seq	13654	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13654/seq
+seq	13655	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13655/seq
+seq	13760	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13760/seq
+seq	13773	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13773/seq
+seq	13875	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13875/seq
+seq	13884	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13884/seq
+seq	13885	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13885/seq
+seq	13887	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13887/seq
+seq	13888	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13888/seq
+seq	13901	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13901/seq
+seq	13908	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13908/seq
+seq	13909	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13909/seq
+seq	13910	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13910/seq
+seq	13911	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13911/seq
+seq	13913	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13913/seq
+seq	13914	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13914/seq
+seq	13915	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13915/seq
+seq	13920	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13920/seq
+seq	13942	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13942/seq
+seq	13943	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13943/seq
+seq	13946	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13946/seq
+seq	13947	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13947/seq
+seq	13953	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13953/seq/13953.2bit
+seq	13954	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13954/seq/13954.2bit
+seq	13959	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13959/seq
+seq	13960	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13960/seq
+seq	13967	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/13967/seq
+seq	15596	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15596/seq
+seq	15604	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15604/seq
+seq	15642	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15642/seq
+seq	15644	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15644/seq
+seq	15660	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15660/seq
+seq	15691	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15691/seq
+seq	15708	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15708/seq
+seq	15746	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15746/seq
+seq	15747	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15747/seq
+seq	15749	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15749/seq
+seq	15750	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15750/seq
+seq	15751	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15751/seq
+seq	15754	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15754/seq
+seq	15755	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15755/seq
+seq	15756	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15756/seq
+seq	15757	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15757/seq
+seq	15758	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15758/seq
+seq	15759	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15759/seq
+seq	15760	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15760/seq
+seq	15761	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15761/seq
+seq	15762	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15762/seq
+seq	15766	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15766/seq
+seq	15770	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15770/seq
+seq	15	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/15/seq
+seq	16062	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16062/seq
+seq	16067	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16067/seq
+seq	16070	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16070/seq
+seq	16079	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16079/seq
+seq	16081	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16081/seq
+seq	16083	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16083/seq
+seq	16088	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16088/seq
+seq	16095	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16095/seq
+seq	16137	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16137/seq
+seq	16146	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16146/seq
+seq	16148	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16148/seq
+seq	16184	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16184/seq
+seq	16190	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16190/seq
+seq	16203	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16203/seq
+seq	16208	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16208/seq
+seq	16230	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16230/seq
+seq	16235	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16235/seq
+seq	16249	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16249/seq
+seq	16251	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16251/seq
+seq	16252	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16252/seq
+seq	16259	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16259/seq
+seq	16297	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16297/seq/16297.2bit
+seq	16304	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16304/seq
+seq	16306	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16306/seq
+seq	16313	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16313/seq
+seq	16319	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16319/seq
+seq	16321	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16321/seq
+seq	16351	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16351/seq/16351.2bit
+seq	16363	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16363/seq
+seq	16364	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16364/seq
+seq	16365	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16365/seq
+seq	16366	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16366/seq
+seq	16372	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16372/seq
+seq	16374	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16374/seq
+seq	16375	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16375/seq
+seq	16393	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16393/seq
+seq	16394	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16394/seq
+seq	16400	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16400/seq
+seq	16401	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16401/seq
+seq	16421	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16421/seq
+seq	16523	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16523/seq
+seq	16525	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16525/seq
+seq	16549	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16549/seq
+seq	16645	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16645/seq
+seq	16646	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16646/seq
+seq	16700	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16700/seq
+seq	16719	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16719/seq
+seq	16720	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16720/seq/16720.2bit
+seq	16721	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16721/seq
+seq	16723	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16723/seq
+seq	16791	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16791/seq
+seq	16800	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16800/seq
+seq	16817	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16817/seq
+seq	16820	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16820/seq
+seq	16841	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16841/seq
+seq	16871	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/16871/seq
+seq	17053	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17053/seq
+seq	17057	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17057/seq
+seq	17109	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17109/seq
+seq	17153	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17153/seq
+seq	17155	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17155/seq
+seq	17159	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17159/seq
+seq	17161	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17161/seq
+seq	17163	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17163/seq
+seq	17227	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17227/seq
+seq	17237	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17237/seq
+seq	17249	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17249/seq
+seq	17265	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17265/seq
+seq	17343	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17343/seq
+seq	17375	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17375/seq
+seq	17403	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17403/seq
+seq	17407	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17407/seq
+seq	17413	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17413/seq
+seq	17415	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17415/seq
+seq	17417	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17417/seq
+seq	17445	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17445/seq
+seq	17455	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17455/seq
+seq	17457	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17457/seq
+seq	17459	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17459/seq
+seq	17477	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17477/seq
+seq	17491	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17491/seq
+seq	17629	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17629/seq
+seq	17639	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17639/seq
+seq	17643	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17643/seq
+seq	17679	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17679/seq
+seq	176	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/176/seq
+seq	17729	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17729/seq
+seq	17811	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17811/seq
+seq	17823	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17823/seq
+seq	178	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/178/seq/178.2bit
+seq	17929	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17929/seq
+seq	17953	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/17953/seq
+seq	18007	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18007/seq
+seq	18059	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18059/seq
+seq	18083	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18083/seq
+seq	18255	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18255/seq
+seq	18267	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18267/seq
+seq	18271	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18271/seq
+seq	18459	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18459/seq
+seq	184	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/184/seq
+seq	18509	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18509/seq
+seq	18633	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18633/seq
+seq	18637	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18637/seq
+seq	18789	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18789/seq
+seq	18797	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18797/seq
+seq	18801	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18801/seq
+seq	18809	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18809/seq
+seq	18817	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18817/seq
+seq	18883	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18883/seq
+seq	18963	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18963/seq
+seq	18965	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18965/seq
+seq	18981	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/18981/seq
+seq	189	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/189/seq
+seq	19065	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19065/seq
+seq	19087	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19087/seq
+seq	190	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/190/seq
+seq	19135	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19135/seq
+seq	19193	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19193/seq
+seq	19227	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19227/seq
+seq	19259	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19259/seq
+seq	19265	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19265/seq
+seq	193	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/193/seq
+seq	19469	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19469/seq
+seq	19485	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19485/seq
+seq	19489	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19489/seq
+seq	19517	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19517/seq
+seq	19519	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19519/seq
+seq	19521	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19521/seq
+seq	19543	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19543/seq
+seq	19575	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19575/seq
+seq	19617	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19617/seq
+seq	19619	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19619/seq
+seq	19639	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19639/seq
+seq	19857	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19857/seq
+seq	19943	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19943/seq
+seq	19979	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/19979/seq
+seq	20039	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20039/seq
+seq	20079	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20079/seq/20079.2bit
+seq	20083	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20083/seq
+seq	20197	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20197/seq
+seq	20241	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20241/seq
+seq	20243	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20243/seq
+seq	20371	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20371/seq
+seq	20391	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/20391/seq
+seq	21047	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/21047/seq
+seq	213	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/213/seq
+seq	220	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/220/seq
+seq	223	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/223/seq
+seq	228	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/228/seq
+seq	229	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/229/seq
+seq	237	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/237/seq
+seq	238	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/238/seq
+seq	241	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/241/seq
+seq	247	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/247/seq
+seq	250	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/250/seq
+seq	256	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/256/seq
+seq	257	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/257/seq
+seq	259	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/259/seq/259.2bit
+seq	25	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/25/seq
+seq	264	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/264/seq
+seq	265	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/265/seq
+seq	266	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/266/seq
+seq	267	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/267/seq
+seq	26	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/26/seq
+seq	270	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/270/seq
+seq	276	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/276/seq
+seq	277	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/277/seq
+seq	27803	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/27803/seq
+seq	27835	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/27835/seq
+seq	27853	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/27853/seq
+seq	278	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/278/seq
+seq	279	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/279/seq
+seq	28035	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28035/seq
+seq	28109	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28109/seq
+seq	28111	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28111/seq
+seq	28135	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28135/seq
+seq	28247	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28247/seq
+seq	283	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/283/seq
+seq	28505	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28505/seq
+seq	28507	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28507/seq
+seq	28583	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28583/seq
+seq	28585	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28585/seq
+seq	285	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/285/seq
+seq	286	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/286/seq
+seq	28743	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28743/seq
+seq	288	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/288/seq
+seq	28921	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/28921/seq
+seq	297	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/297/seq
+seq	301	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/301/seq
+seq	304	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/304/seq
+seq	306	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/306/seq
+seq	307	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/307/seq
+seq	311	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/311/seq
+seq	312	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/312/seq
+seq	314	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/314/seq
+seq	31	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/31/seq
+seq	320	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/320/seq
+seq	323	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/323/seq
+seq	325	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/325/seq
+seq	326	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/326/seq
+seq	327	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/327/seq
+seq	329	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/329/seq
+seq	330	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/330/seq
+seq	333	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/333/seq
+seq	334	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/334/seq
+seq	336	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/336/seq
+seq	344	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/344/seq
+seq	355	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/355/seq
+seq	359	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/359/seq
+seq	370	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/370/seq
+seq	377	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/377/seq
+seq	384	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/384/seq
+seq	386	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/386/seq/386.2bit
+seq	388	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/388/seq
+seq	38	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/38/seq
+seq	401	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/401/seq
+seq	402	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/402/seq
+seq	403	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/403/seq
+seq	404	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/404/seq
+seq	408	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/408/seq
+seq	409	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/409/seq
+seq	420	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/420/seq
+seq	42	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/42/seq
+seq	43	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/43/seq
+seq	44	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/44/seq
+seq	46	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/46/seq
+seq	4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/4/seq
+seq	59	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/59/seq
+seq	63	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/63/seq
+seq	64	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/64/seq
+seq	66	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/66/seq
+seq	74	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/74/seq
+seq	77	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/77/seq
+seq	78	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/78/seq
+seq	79	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/79/seq
+seq	81	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/81/seq
+seq	82	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/82/seq
+seq	84	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/84/seq
+seq	85	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/85/seq
+seq	87	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/87/seq
+seq	88	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/88/seq
+seq	89	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/89/seq
+seq	90	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/90/seq
+seq	91	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/91/seq
+seq	92	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/92/seq
+seq	95	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/95/seq
+seq	9618	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/9618/seq
+seq	9619	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/9619/seq
+seq	9636	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/9636/seq
+seq	9638	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/9638/seq
+seq	99	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/99/seq
+seq	AaegL1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/AaegL1/seq/AaegL1.2bit
+seq	acidBact_ELLIN345	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/acidBact_ELLIN345/seq
+seq	acidCell_11B	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/acidCell_11B/seq
+seq	acidCryp_JF_5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/acidCryp_JF_5/seq
+seq	acidJS42	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/acidJS42/seq
+seq	acinSp_ADP1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/acinSp_ADP1/seq
+seq	actiPleu_L20	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/actiPleu_L20/seq
+seq	aeroHydr_ATCC7966	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/aeroHydr_ATCC7966/seq
+seq	aerPer1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/aerPer1/seq
+seq	AgamP3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/AgamP3/seq/AgamP3.2bit
+seq	ailMel1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ailMel1/seq/ailMel1.2bit
+seq	alcaBork_SK2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/alcaBork_SK2/seq
+seq	alkaEhrl_MLHE_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/alkaEhrl_MLHE_1/seq
+seq	anabVari_ATCC29413	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/anabVari_ATCC29413/seq
+seq	anaeDeha_2CP_C	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/anaeDeha_2CP_C/seq
+seq	anapMarg_ST_MARIES	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/anapMarg_ST_MARIES/seq
+seq	anoCar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/anoCar1/seq/anoCar1.2bit
+seq	anoCar2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/anoCar2/seq/anoCar2.2bit
+seq	anoGam1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/anoGam1/seq/anoGam1.2bit
+seq	apiMel1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/apiMel1/seq/apiMel1.2bit
+seq	apiMel2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/apiMel2/seq/apiMel2.2bit
+seq	apiMel3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/apiMel3/seq/apiMel3.2bit
+seq	aplCal1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/aplCal1/seq/aplCal1.2bit
+seq	aquiAeol	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/aquiAeol/seq
+seq	arabidopsis	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Arabidopsis_thaliana_TAIR9/seq/Arabidopsis_thaliana_TAIR9.2bit
+seq	Arabidopsis_thaliana_TAIR10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Arabidopsis_thaliana_TAIR10/seq/Arabidopsis_thaliana_TAIR10.2bit
+seq	Araly1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Araly1/seq/Araly1.2bit
+seq	archFulg1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/archFulg1/seq
+seq	arthFB24	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/arthFB24/seq
+seq	azoaSp_EBN1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/azoaSp_EBN1/seq
+seq	azorCaul2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/azorCaul2/seq
+seq	baciAnth_AMES	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/baciAnth_AMES/seq
+seq	baciHalo	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/baciHalo/seq
+seq	baciSubt	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/baciSubt/seq
+seq	baciSubt	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/baciSubt/seq/baciSubt.2bit
+seq	bactThet_VPI_5482	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/bactThet_VPI_5482/seq
+seq	bartHens_HOUSTON_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/bartHens_HOUSTON_1/seq
+seq	baumCica_HOMALODISCA	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/baumCica_HOMALODISCA/seq
+seq	bdelBact	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/bdelBact/seq
+seq	bifiLong	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/bifiLong/seq
+seq	blocFlor	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/blocFlor/seq
+seq	Bombyx_mori_p50T_2.0	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Bombyx_mori_p50T_2.0/seq/Bombyx_mori_p50T_2.0.2bit
+seq	bordBron	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/bordBron/seq
+seq	bordBron	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/bordBron/seq/bordBron.2bit
+seq	borEut13	/cvmfs/ref.galaxy/genomicdata/dataset/genome/borEut13/seq/borEut13.2bit
+seq	borrBurg	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/borrBurg/seq
+seq	bosTau2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau2/seq/bosTau2.2bit
+seq	bosTau3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau3/seq/bosTau3.2bit
+seq	bosTau4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau4/seq/bosTau4.2bit
+seq	bosTau5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau5/seq/bosTau5.2bit
+seq	bosTau6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau6/seq/bosTau6.2bit
+seq	bosTau7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTau7/seq/bosTau7.2bit
+seq	bosTauMd3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/bosTauMd3/seq/bosTauMd3.2bit
+seq	bradJapo	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/bradJapo/seq
+seq	braFlo1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/braFlo1/seq/braFlo1.2bit
+seq	brucMeli	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/brucMeli/seq
+seq	buchSp	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/buchSp/seq
+seq	burk383	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burk383/seq
+seq	burkCeno_AU_1054	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkCeno_AU_1054/seq
+seq	burkCeno_HI2424	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkCeno_HI2424/seq
+seq	burkCepa_AMMD	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkCepa_AMMD/seq
+seq	burkMall_ATCC23344	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkMall_ATCC23344/seq
+seq	burkPseu_1106A	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkPseu_1106A/seq/burkPseu_1106A.2bit
+seq	burkThai_E264	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkThai_E264/seq
+seq	burkViet_G4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkViet_G4/seq
+seq	burkXeno_LB400	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/burkXeno_LB400/seq
+seq	caeJap1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeJap1/seq/caeJap1.2bit
+seq	caeJap2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeJap2/seq/caeJap2.2bit
+seq	caeJap3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeJap3/seq/caeJap3.2bit
+seq	caeJap4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeJap4/seq/caeJap4.2bit
+seq	caePb1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caePb1/seq/caePb1.2bit
+seq	caePb2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caePb2/seq/caePb2.2bit
+seq	caePb3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caePb3/seq/caePb3.2bit
+seq	caeRem1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeRem1/seq/caeRem1.2bit
+seq	caeRem2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeRem2/seq/caeRem2.2bit
+seq	caeRem3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeRem3/seq/caeRem3.2bit
+seq	caeRem4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/caeRem4/seq/caeRem4.2bit
+seq	caldMaqu1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/caldMaqu1/seq
+seq	caldSacc_DSM8903	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/caldSacc_DSM8903/seq
+seq	calJac1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/calJac1/seq/calJac1.2bit
+seq	calJac3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/calJac3/seq/calJac3.2bit
+seq	campFetu_82_40	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/campFetu_82_40/seq
+seq	campJeju_81_176	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/campJeju_81_176/seq
+seq	campJeju	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/campJeju/seq
+seq	campJeju_RM1221	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/campJeju_RM1221/seq
+seq	candCars_RUDDII	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/candCars_RUDDII/seq
+seq	candPela_UBIQUE_HTCC1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/candPela_UBIQUE_HTCC1/seq
+seq	canFam1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam1/seq/canFam1.2bit
+seq	canFam2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam2/seq/canFam2.2bit
+seq	canFam3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/canFam3/seq/canFam3.2bit
+seq	carbHydr_Z_2901	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/carbHydr_Z_2901/seq
+seq	caulCres	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/caulCres/seq
+seq	cavPor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/cavPor3/seq/cavPor3.2bit
+seq	cb3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/cb3/seq/cb3full.2bit
+seq	ce10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce10/seq/ce10.2bit
+seq	ce2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce2/seq/ce2.2bit
+seq	ce3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce3/seq/ce3.2bit
+seq	ce4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce4/seq/ce4.2bit
+seq	ce5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce5/seq/ce5.2bit
+seq	ce6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce6/seq/ce6.2bit
+seq	ce7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce7/seq/ce7.2bit
+seq	ce8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce8/seq/ce8.2bit
+seq	ce9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ce9/seq/ce9.2bit
+seq	chlaPneu_CWL029	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/chlaPneu_CWL029/seq
+seq	chlaTrac	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/chlaTrac/seq
+seq	chloChlo_CAD3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/chloChlo_CAD3/seq
+seq	chloTepi_TLS	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/chloTepi_TLS/seq
+seq	choHof1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/choHof1/seq/choHof1.2bit
+seq	chroSale_DSM3043	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/chroSale_DSM3043/seq
+seq	chroViol	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/chroViol/seq
+seq	chrPic1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/chrPic1/seq/chrPic1.2bit
+seq	ci2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ci2/seq/ci2.2bit
+seq	clavMich_NCPPB_382	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/clavMich_NCPPB_382/seq
+seq	colwPsyc_34H	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/colwPsyc_34H/seq
+seq	coryEffi_YS_314	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/coryEffi_YS_314/seq
+seq	coxiBurn	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/coxiBurn/seq
+seq	CpipJ1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/CpipJ1/seq/CpipJ1.2bit
+seq	cytoHutc_ATCC33406	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/cytoHutc_ATCC33406/seq
+seq	danRer2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer2/seq/danRer2.2bit
+seq	danRer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer3/seq/danRer3.2bit
+seq	danRer4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer4/seq/danRer4.2bit
+seq	danRer5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer5/seq/danRer5.2bit
+seq	danRer6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer6/seq/danRer6.2bit
+seq	danRer7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/danRer7/seq/danRer7.2bit
+seq	dasNov1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dasNov1/seq/dasNov1.2bit
+seq	dechArom_RCB	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/dechArom_RCB/seq
+seq	dehaEthe_195	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/dehaEthe_195/seq
+seq	deinGeot_DSM11300	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/deinGeot_DSM11300/seq
+seq	deinRadi	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/deinRadi/seq
+seq	desuHafn_Y51	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/desuHafn_Y51/seq
+seq	desuPsyc_LSV54	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/desuPsyc_LSV54/seq
+seq	desuRedu_MI_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/desuRedu_MI_1/seq
+seq	desuVulg_HILDENBOROUG	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/desuVulg_HILDENBOROUG/seq
+seq	dichNodo_VCS1703A	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/dichNodo_VCS1703A/seq
+seq	dipOrd1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dipOrd1/seq/dipOrd1.2bit
+seq	dm2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm2/seq/dm2.2bit
+seq	dm3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dm3/seq/dm3.2bit
+seq	dp3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dp3/seq/dp3.2bit
+seq	dp4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/dp4/seq/dp4.2bit
+seq	droAna1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droAna1/seq/droAna1.2bit
+seq	droAna2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droAna2/seq/droAna2.2bit
+seq	droAna3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droAna3/seq/droAna3.2bit
+seq	droEre1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droEre1/seq/droEre1.2bit
+seq	droEre2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droEre2/seq/droEre2.2bit
+seq	droGri1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droGri1/seq/droGri1.2bit
+seq	droGri2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droGri2/seq/droGri2.2bit
+seq	droMoj1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droMoj1/seq/droMoj1.2bit
+seq	droMoj2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droMoj2/seq/droMoj2.2bit
+seq	droMoj3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droMoj3/seq/droMoj3.2bit
+seq	droPer1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droPer1/seq/droPer1.2bit
+seq	droSec1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droSec1/seq/droSec1.2bit
+seq	droSim1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droSim1/seq/droSim1.2bit
+seq	droVir1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droVir1/seq/droVir1.2bit
+seq	droVir2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droVir2/seq/droVir2.2bit
+seq	droVir3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droVir3/seq/droVir3.2bit
+seq	droWil1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droWil1/seq/droWil1.2bit
+seq	droYak1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droYak1/seq/droYak1.2bit
+seq	droYak2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/droYak2/seq/droYak2.2bit
+seq	echTel1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/echTel1/seq/echTel1.2bit
+seq	ehrlRumi_WELGEVONDEN	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/ehrlRumi_WELGEVONDEN/seq
+seq	ente638	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/ente638/seq
+seq	ente638	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/ente638/seq/enterobacter_sp_638.2bit
+seq	enteFaec_V583	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/enteFaec_V583/seq
+seq	equCab1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/equCab1/seq/equCab1.2bit
+seq	equCab2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/equCab2/seq/equCab2.2bit
+seq	eriEur1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/eriEur1/seq/eriEur1.2bit
+seq	erwiCaro_ATROSEPTICA	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/erwiCaro_ATROSEPTICA/seq
+seq	erytLito_HTCC2594	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/erytLito_HTCC2594/seq
+seq	eschColi_APEC_O1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_APEC_O1/seq/eschColi_APEC_O1.2bit
+seq	eschColi_CFT073	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_CFT073/seq/eschColi_CFT073.2bit
+seq	eschColi_EC4115	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_EC4115/seq/eschColi_EC4115.2bit
+seq	eschColi_K12	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_K12/seq/eschColi_K12.2bit
+seq	eschColi_O157H7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_O157H7/seq/eschColi_O157H7.2bit
+seq	eschColi_TW14359	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/eschColi_TW14359/seq/eschColi_TW14359.2bit
+seq	felCat3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/felCat3/seq/felCat3.2bit
+seq	felCat4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/felCat4/seq/felCat4full.2bit
+seq	felCat5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/felCat5/seq/felCat5.2bit
+seq	flavJohn_UW101	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/flavJohn_UW101/seq
+seq	fr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr1/seq/fr1.2bit
+seq	fr2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/fr2/seq/fr2.2bit
+seq	franCcI3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/franCcI3/seq
+seq	franTula_TULARENSIS	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/franTula_TULARENSIS/seq
+seq	fusoNucl	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/fusoNucl/seq
+seq	galGal2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal2/seq/galGal2.2bit
+seq	galGal3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal3/seq/galGal3.2bit
+seq	galGal4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/galGal4/seq/galGal4.2bit
+seq	gasAcu1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/gasAcu1/seq/gasAcu1.2bit
+seq	geobKaus_HTA426	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/geobKaus_HTA426/seq
+seq	geobMeta_GS15	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/geobMeta_GS15/seq
+seq	geobSulf	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/geobSulf/seq
+seq	geobTher_NG80_2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/geobTher_NG80_2/seq
+seq	geobUran_RF4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/geobUran_RF4/seq
+seq	geoFor1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/geoFor1/seq/geoFor1.2bit
+seq	gloeViol	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/gloeViol/seq
+seq	glucOxyd_621H	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/glucOxyd_621H/seq
+seq	gorGor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/gorGor3/seq/gorGor3.2bit
+seq	gramFors_KT0803	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/gramFors_KT0803/seq
+seq	granBeth_CGDNIH1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/granBeth_CGDNIH1/seq
+seq	haemInfl_KW20	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/haemInfl_KW20/seq
+seq	haemSomn_129PT	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/haemSomn_129PT/seq
+seq	haheChej_KCTC_2396	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/haheChej_KCTC_2396/seq
+seq	halMar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/halMar1/seq
+seq	haloHalo1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/haloHalo1/seq
+seq	haloHalo_SL1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/haloHalo_SL1/seq
+seq	haloWals1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/haloWals1/seq
+seq	heliAcin_SHEEBA	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/heliAcin_SHEEBA/seq
+seq	heliHepa	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/heliHepa/seq
+seq	heliPylo_26695	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/heliPylo_26695/seq
+seq	heliPylo_HPAG1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/heliPylo_HPAG1/seq
+seq	heliPylo_J99	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/heliPylo_J99/seq
+seq	hermArse	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/hermArse/seq
+seq	hetGla1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hetGla1/seq/hetGla1.2bit
+seq	hg17	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg17/seq/hg17.2bit
+seq	hg18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg18/seq/hg18.2bit
+seq	hg19	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg19/seq/hg19.2bit
+seq	hg38	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg38/seq/hg38.2bit
+seq	hg_g1k_v37	/cvmfs/ref.galaxy/genomicdata/dataset/genome/hg_g1k_v37/seq/hg_g1k_v37.2bit
+seq	Homo_sapiens_AK1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Homo_sapiens_AK1/seq/Homo_sapiens_AK1.2bit
+seq	Homo_sapiens_nuHg19_mtrCRS	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Homo_sapiens_nuHg19_mtrCRS/seq/Homo_sapiens_nuHg19_mtrCRS.2bit
+seq	Hydra_JCVI	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Hydra_JCVI/seq/Hydra_JCVI.2bit
+seq	hypeButy1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/hypeButy1/seq
+seq	hyphNept_ATCC15444	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/hyphNept_ATCC15444/seq
+seq	idioLoih_L2TR	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/idioLoih_L2TR/seq
+seq	IscaW1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/IscaW1/seq/IscaW1.2bit
+seq	jannCCS1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/jannCCS1/seq
+seq	lactLact	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/lactLact/seq
+seq	lactPlan	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/lactPlan/seq
+seq	lactSali_UCC118	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/lactSali_UCC118/seq
+seq	lawsIntr_PHE_MN1_00	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/lawsIntr_PHE_MN1_00/seq
+seq	legiPneu_PHILADELPHIA	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/legiPneu_PHILADELPHIA/seq
+seq	leifXyli_XYLI_CTCB0	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/leifXyli_XYLI_CTCB0/seq
+seq	leptInte	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/leptInte/seq
+seq	leucMese_ATCC8293	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/leucMese_ATCC8293/seq
+seq	listInno	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/listInno/seq
+seq	lMaj5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/lMaj5/seq/lMaj5.2bit
+seq	loxAfr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/loxAfr1/seq/loxAfr1.2bit
+seq	loxAfr3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/loxAfr3/seq/loxAfr3.2bit
+seq	magnMagn_AMB_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/magnMagn_AMB_1/seq
+seq	magnMC1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/magnMC1/seq
+seq	mannSucc_MBEL55E	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/mannSucc_MBEL55E/seq
+seq	mariAqua_VT8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/mariAqua_VT8/seq
+seq	mariMari_MCS10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/mariMari_MCS10/seq
+seq	mculMari1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/mculMari1/seq
+seq	melGal1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/melGal1/seq/melGal1.2bit
+seq	melUnd1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/melUnd1/seq/melUnd1.2bit
+seq	mesoFlor_L1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/mesoFlor_L1/seq
+seq	mesoLoti	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/mesoLoti/seq
+seq	metAce1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/metAce1/seq
+seq	metaSedu	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/metaSedu/seq
+seq	methAeol1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methAeol1/seq
+seq	methBark1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methBark1/seq
+seq	methBoon1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methBoon1/seq
+seq	methBurt2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methBurt2/seq
+seq	methCaps_BATH	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methCaps_BATH/seq
+seq	methFlag_KT	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methFlag_KT/seq
+seq	methHung1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methHung1/seq
+seq	methJann1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methJann1/seq
+seq	methKand1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methKand1/seq
+seq	methLabrZ_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methLabrZ_1/seq
+seq	methMari_C5_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methMari_C5_1/seq
+seq	methMari_C7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methMari_C7/seq
+seq	methMaze1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methMaze1/seq
+seq	methPetr_PM1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methPetr_PM1/seq
+seq	methSmit1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methSmit1/seq
+seq	methStad1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methStad1/seq
+seq	methTher1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methTher1/seq
+seq	methTherPT1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methTherPT1/seq
+seq	methVann1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/methVann1/seq
+seq	metMar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/metMar1/seq
+seq	micMur1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/micMur1/seq/micMur1.2bit
+seq	mm10	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm10/seq/mm10.2bit
+seq	mm5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm5/seq
+seq	mm6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm6/seq
+seq	mm7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/seq/mm7.2bit
+seq	mm8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/seq/mm8.2bit
+seq	mm9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/seq/mm9.2bit
+seq	monDom1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/monDom1/seq/monDom1.2bit
+seq	monDom4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/monDom4/seq/monDom4.2bit
+seq	monDom5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/monDom5/seq/monDom5.2bit
+seq	moorTher_ATCC39073	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/moorTher_ATCC39073/seq
+seq	musMus7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm7/seq/mm7.2bit
+seq	musMus8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm8/seq/mm8.2bit
+seq	musMus9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/mm9/seq/mm9.2bit
+seq	mycoGeni	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/mycoGeni/seq
+seq	mycoTube_H37RV	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/mycoTube_H37RV/seq
+seq	myoLuc2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/myoLuc2/seq/myoLuc2.2bit
+seq	myxoXant_DK_1622	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/myxoXant_DK_1622/seq
+seq	nanEqu1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/nanEqu1/seq
+seq	natrPhar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/natrPhar1/seq
+seq	neisGono_FA1090_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/neisGono_FA1090_1/seq
+seq	neisMeni_FAM18_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/neisMeni_FAM18_1/seq
+seq	neisMeni_MC58_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/neisMeni_MC58_1/seq
+seq	neisMeni_Z2491_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/neisMeni_Z2491_1/seq
+seq	neorSenn_MIYAYAMA	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/neorSenn_MIYAYAMA/seq
+seq	nitrEuro	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/nitrEuro/seq
+seq	nitrMult_ATCC25196	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/nitrMult_ATCC25196/seq
+seq	nitrOcea_ATCC19707	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/nitrOcea_ATCC19707/seq
+seq	nitrWino_NB_255	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/nitrWino_NB_255/seq
+seq	nocaFarc_IFM10152	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/nocaFarc_IFM10152/seq
+seq	nocaJS61	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/nocaJS61/seq
+seq	nomLeu1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/nomLeu1/seq/nomLeu1.2bit
+seq	nomLeu2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/nomLeu2/seq/nomLeu2.2bit
+seq	nostSp	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/nostSp/seq
+seq	novoArom_DSM12444	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/novoArom_DSM12444/seq
+seq	oceaIhey	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/oceaIhey/seq
+seq	oenoOeni_PSU_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/oenoOeni_PSU_1/seq
+seq	onioYell_PHYTOPLASMA	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/onioYell_PHYTOPLASMA/seq
+seq	orieTsut_BORYONG	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/orieTsut_BORYONG/seq
+seq	ornAna1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ornAna1/seq/ornAna1.2bit
+seq	oryCun1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryCun1/seq/oryCun1.2bit
+seq	oryCun2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryCun2/seq/oryCun2.2bit
+seq	oryLat1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryLat1/seq/oryLat1.2bit
+seq	oryLat2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryLat2/seq/oryLat2.2bit
+seq	oryza_sativa_japonica_nipponbare_IRGSP4.0	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oryza_sativa_japonica_nipponbare_IRGSP4.0/seq/oryza_sativa_japonica_nipponbare_IRGSP4.0.2bit
+seq	otoGar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/otoGar1/seq/otoGar1.2bit
+seq	otoGar3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/otoGar3/seq/otoGar3.2bit
+seq	oviAri1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/oviAri1/seq/oviAri1.2bit
+seq	panTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro1/seq/panTro1.2bit
+seq	panTro2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro2/seq/panTro2.2bit
+seq	panTro3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro3/seq/panTro3.2bit
+seq	panTro4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/panTro4/seq/panTro4.2bit
+seq	papHam1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/papHam1/seq/papHam1.2bit
+seq	paraDeni_PD1222	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/paraDeni_PD1222/seq
+seq	paraSp_UWE25	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/paraSp_UWE25/seq
+seq	pastMult	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pastMult/seq
+seq	pediPent_ATCC25745	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pediPent_ATCC25745/seq
+seq	peloCarb	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/peloCarb/seq
+seq	peloLute_DSM273	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/peloLute_DSM273/seq
+seq	peloTher_SI	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/peloTher_SI/seq
+seq	petMar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/petMar1/seq/petMar1.2bit
+seq	phiX	/cvmfs/ref.galaxy/genomicdata/dataset/genome/phiX/seq/phiX.2bit
+seq	photLumi	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/photLumi/seq
+seq	photProf_SS9	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/photProf_SS9/seq
+seq	PhumU1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/PhumU1/seq/PhumU1.2bit
+seq	picrTorr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/picrTorr1/seq
+seq	pireSp	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pireSp/seq
+seq	polaJS66	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/polaJS66/seq
+seq	polyQLWP	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/polyQLWP/seq
+seq	ponAbe2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/ponAbe2/seq/ponAbe2.2bit
+seq	porpGing_W83	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/porpGing_W83/seq
+seq	priPac1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/priPac1/seq/priPac1.2bit
+seq	procMari_CCMP1375	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/procMari_CCMP1375/seq
+seq	propAcne_KPA171202	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/propAcne_KPA171202/seq
+seq	pseuAeru	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pseuAeru/seq/pseuAeru.2bit
+seq	pseuHalo_TAC125	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pseuHalo_TAC125/seq
+seq	psycArct_273_4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/psycArct_273_4/seq
+seq	psycIngr_37	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/psycIngr_37/seq
+seq	Ptrichocarpa_156	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Ptrichocarpa_156/seq/Ptrichocarpa_156.2bit
+seq	pUC18	/cvmfs/ref.galaxy/genomicdata/dataset/genome/pUC18/seq/pUC18.2bit
+seq	pyrAby1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pyrAby1/seq
+seq	pyrAer1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pyrAer1/seq
+seq	pyrFur2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pyrFur2/seq
+seq	pyrHor1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pyrHor1/seq
+seq	pyroArse1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pyroArse1/seq
+seq	pyroCali1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pyroCali1/seq
+seq	pyroIsla1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/pyroIsla1/seq
+seq	ralsEutr_JMP134	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/ralsEutr_JMP134/seq
+seq	ralsSola	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/ralsSola/seq
+seq	ratNor3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn3/seq/rn3.2bit
+seq	ratNor4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn4/seq/rn4.2bit
+seq	rheMac2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rheMac2/seq/rheMac2.2bit
+seq	rheMac3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rheMac3/seq/rheMac3.2bit
+seq	rhizEtli_CFN_42	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/rhizEtli_CFN_42/seq
+seq	rhodPalu_CGA009	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/rhodPalu_CGA009/seq
+seq	rhodRHA1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/rhodRHA1/seq
+seq	rhodRubr_ATCC11170	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/rhodRubr_ATCC11170/seq
+seq	rhodSpha_2_4_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/rhodSpha_2_4_1/seq
+seq	rickBell_RML369_C	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/rickBell_RML369_C/seq
+seq	rn3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn3/seq/rn3.2bit
+seq	rn4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn4/seq/rn4.2bit
+seq	rn5	/cvmfs/ref.galaxy/genomicdata/dataset/genome/rn5/seq/rn5.2bit
+seq	roseDeni_OCH_114	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/roseDeni_OCH_114/seq
+seq	rubrXyla_DSM9941	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/rubrXyla_DSM9941/seq
+seq	saccDegr_2_40	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/saccDegr_2_40/seq
+seq	sacCer1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sacCer1/seq/sacCer1.2bit
+seq	sacCer2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sacCer2/seq/sacCer2.2bit
+seq	sacCer3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sacCer3/seq/sacCer3.2bit
+seq	saccEryt_NRRL_2338	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/saccEryt_NRRL_2338/seq
+seq	saiBol1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/saiBol1/seq/saiBol1.2bit
+seq	saliRube_DSM13855	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/saliRube_DSM13855/seq
+seq	saliTrop_CNB_440	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/saliTrop_CNB_440/seq
+seq	salmEnte_PARATYPI_ATC	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/salmEnte_PARATYPI_ATC/seq
+seq	salmTyph	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/salmTyph/seq
+seq	salmTyph_TY2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/salmTyph_TY2/seq
+seq	sarHar1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sarHar1/seq/sarHar1.2bit
+seq	Schizosaccharomyces_pombe_1.1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Schizosaccharomyces_pombe_1.1/seq/Schizosaccharomyces_pombe_1.1.2bit
+seq	shewAmaz	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewAmaz/seq
+seq	shewANA3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewANA3/seq
+seq	shewBalt	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewBalt/seq
+seq	shewDeni	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewDeni/seq
+seq	shewFrig	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewFrig/seq
+seq	shewLoihPV4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewLoihPV4/seq
+seq	shewMR4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewMR4/seq
+seq	shewMR7	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewMR7/seq
+seq	shewOnei	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewOnei/seq
+seq	shewPutrCN32	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewPutrCN32/seq
+seq	shewW318	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shewW318/seq
+seq	shigFlex_2A	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/shigFlex_2A/seq
+seq	siliPome_DSS_3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/siliPome_DSS_3/seq
+seq	sinoMeli	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/sinoMeli/seq
+seq	sodaGlos_MORSITANS	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/sodaGlos_MORSITANS/seq
+seq	soliUsit_ELLIN6076	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/soliUsit_ELLIN6076/seq
+seq	sorAra1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/sorAra1/seq/sorAra1.2bit
+seq	speTri2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/speTri2/seq/speTri2.2bit
+seq	sphiAlas_RB2256	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/sphiAlas_RB2256/seq
+seq	Spur_v2.6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Spur_v2.6/seq/Spur_v2.6.2bit
+seq	Sscrofa9.58	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Sscrofa9.58/seq/Sscrofa9.58.2bit
+seq	stapAure_MU50	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/stapAure_MU50/seq
+seq	stapMari1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/stapMari1/seq
+seq	streCoel	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/streCoel/seq
+seq	strePyog_M1_GAS	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/strePyog_M1_GAS/seq
+seq	strPur2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/strPur2/seq/strPur2.2bit
+seq	strPur3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/strPur3/seq/strPur3.2bit
+seq	sulfAcid1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/sulfAcid1/seq
+seq	sulfToko1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/sulfToko1/seq
+seq	sulSol1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/sulSol1/seq
+seq	susScr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/susScr1/seq/susScr1.2bit
+seq	susScr2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/susScr2/seq/susScr2.2bit
+seq	susScr3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/susScr3/seq/susScr3.2bit
+seq	symbTher_IAM14863	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/symbTher_IAM14863/seq
+seq	synePCC6	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/synePCC6/seq
+seq	syneSp_WH8102	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/syneSp_WH8102/seq
+seq	syntAcid_SB	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/syntAcid_SB/seq
+seq	syntFuma_MPOB	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/syntFuma_MPOB/seq
+seq	syntWolf_GOETTINGEN	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/syntWolf_GOETTINGEN/seq
+seq	taeGut1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/taeGut1/seq/taeGut1.2bit
+seq	tarSyr1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tarSyr1/seq/tarSyr1.2bit
+seq	Tcacao_1.0	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Tcacao_1.0/seq/Tcacao_1.2bit
+seq	Tcas_3.0	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Tcas_3.0/seq/Tcas_3.0.2bit
+seq	tetNig1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig1/seq/tetNig1.2bit
+seq	tetNig2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tetNig2/seq/tetNig2.2bit
+seq	therAcid1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therAcid1/seq
+seq	therElon	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therElon/seq
+seq	therFusc_YX	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therFusc_YX/seq
+seq	therKoda1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therKoda1/seq
+seq	therMari	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therMari/seq
+seq	therPend1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therPend1/seq
+seq	therPetr_RKU_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therPetr_RKU_1/seq
+seq	therTeng	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therTeng/seq
+seq	therTher_HB27	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therTher_HB27/seq
+seq	therTher_HB8	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therTher_HB8/seq
+seq	therVolc1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/therVolc1/seq
+seq	thioCrun_XCL_2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/thioCrun_XCL_2/seq
+seq	thioDeni_ATCC25259	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/thioDeni_ATCC25259/seq
+seq	thioDeni_ATCC33889	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/thioDeni_ATCC33889/seq
+seq	trepPall	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/trepPall/seq
+seq	triCas2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/triCas2/seq/triCas2.2bit
+seq	tricEryt_IMS101	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/tricEryt_IMS101/seq
+seq	tropWhip_TW08_27	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/tropWhip_TW08_27/seq
+seq	tupBel1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/tupBel1/seq/tupBel1.2bit
+seq	turTru2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/turTru2/seq/turTru2.2bit
+seq	uncuMeth_RCI	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/uncuMeth_RCI/seq
+seq	ureaUrea	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/ureaUrea/seq
+seq	venter1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/venter1/seq/venter1.2bit
+seq	vermEise_EF01_2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/vermEise_EF01_2/seq
+seq	vibrChol1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/vibrChol1/seq
+seq	vibrChol_O395_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/vibrChol_O395_1/seq
+seq	vibrFisc_ES114_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/vibrFisc_ES114_1/seq
+seq	vibrPara1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/vibrPara1/seq
+seq	vibrVuln_CMCP6_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/vibrVuln_CMCP6_1/seq
+seq	vibrVuln_YJ016_1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/vibrVuln_YJ016_1/seq
+seq	wiggBrev	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/wiggBrev/seq
+seq	wolbEndo_OF_DROSOPHIL	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/wolbEndo_OF_DROSOPHIL/seq
+seq	woliSucc	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/woliSucc/seq
+seq	xantCamp	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/xantCamp/seq
+seq	Xanthomonas_oryzae_PXO99A	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/Xanthomonas_oryzae_PXO99A/seq/Xanthomonas_oryzae_PXO99A.2bit
+seq	xenTro1	/cvmfs/ref.galaxy/genomicdata/dataset/genome/xenTro1/seq/xenTro1.2bit
+seq	xenTro2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/xenTro2/seq/xenTro2.2bit
+seq	xenTro3	/cvmfs/ref.galaxy/genomicdata/dataset/genome/xenTro3/seq/xenTro3.2bit
+seq	xyleFast	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/xyleFast/seq
+seq	yersPest_CO92	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/yersPest_CO92/seq
+seq	Zea_mays_B73_RefGen_v2	/cvmfs/ref.galaxy/genomicdata/dataset/genome/Zea_mays_B73_RefGen_v2/seq/Zea_mays_B73_RefGen_v2.2bit
+seq	zymoMobi_ZM4	/cvmfs/ref.galaxy/genomicdata/dataset/genome/microbes/zymoMobi_ZM4/seq

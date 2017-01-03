@@ -1,5 +1,5 @@
 ---
-- name: Install Galaxy tools
+- name: Post installation configurations
   hosts: galaxyservers
   become: yes
   become_method: sudo
@@ -14,3 +14,25 @@
         state: link
         group: galaxy
         owner: galaxy
+
+    - name: Copy loc Files
+      copy:
+        src: "{{ item }}"
+        dest: "{{ galaxy_server_dir }}/tool-data"
+        owner: galaxy
+        mode: 0644
+      with_fileglob: templates/loc-files/*
+      tags: loc
+
+    - name: Delete Shared dir
+      file:
+        path:  "{{ galaxy_server_dir }}/tool-data/shared/"
+        state: absent
+      tags: delete-share
+
+    - name: Copy new Shared dir
+      copy:
+        src:  templates/share-files/shared
+        dest: "{{ galaxy_server_dir }}/tool-data"
+        owner: galaxy
+      tags: copy-share

@@ -36,3 +36,11 @@
         dest: "{{ galaxy_server_dir }}/tool-data"
         owner: galaxy
       tags: copy-share
+
+    - name: Create symlink of genome directory
+      file:
+        src: /cvmfs/ref.galaxy/genomicdata/dataset/genome
+        dest: "{{ galaxy_server_dir }}/tool-data/genome"
+        state: link
+        owner: galaxy
+      tags: genome-link

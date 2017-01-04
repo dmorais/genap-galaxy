@@ -38,6 +38,7 @@
         - blas-devel
         - atlas
         - expat-devel
+        - java-1.7.0-openjdk-devel
 
     - name: Create Galaxy server directory
       file:

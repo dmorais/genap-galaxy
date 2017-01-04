@@ -37,35 +37,35 @@
 #                               dependencies or not. (default: True)
 
 tools:
-- name: uniprot_rest_interface
-  owner: bgruening
-  tool_panel_section_label: 'Text Manipulation'
-  tool_panel_section_id: 'textutil'
-  install_resolver_dependencies: True
-  revisions:
-  - 48522382b6a4 # '0.1'
-- name: unique
-  owner: bgruening
-  tool_panel_section_label: 'Text Manipulation'
-  tool_panel_section_id: 'textutil'
-  install_resolver_dependencies: True
-  revisions:
-  - 7ce75adb93be # '0.3'
-- name: column_maker
-  owner: devteam
-  tool_panel_section_label: 'Text Manipulation'
-  tool_panel_section_id: 'textutil'
-  install_resolver_dependencies: True
-  revisions:
-  - 08a01b2ce4cd # 1.1.0
-- name: text_processing
-  owner: bgruening
-  tool_panel_section_label: 'Text Manipulation'
-  tool_panel_section_id: 'textutil'
-  install_resolver_dependencies: True
-  revisions:
-  - 288462ec2630 # 0.1.0
-  - 20344ce0c811 #  1.1.0
+#- name: uniprot_rest_interface
+#  owner: bgruening
+#  tool_panel_section_label: 'Text Manipulation'
+#  tool_panel_section_id: 'textutil'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - 48522382b6a4 # '0.1'
+#- name: unique
+#  owner: bgruening
+#  tool_panel_section_label: 'Text Manipulation'
+#  tool_panel_section_id: 'textutil'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - 7ce75adb93be # '0.3'
+#- name: column_maker
+#  owner: devteam
+#  tool_panel_section_label: 'Text Manipulation'
+#  tool_panel_section_id: 'textutil'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - 08a01b2ce4cd # 1.1.0
+#- name: text_processing
+#  owner: bgruening
+#  tool_panel_section_label: 'Text Manipulation'
+#  tool_panel_section_id: 'textutil'
+#  install_resolver_dependencies: True
+#  revisions:
+#  - 288462ec2630 # 0.1.0
+#  - 20344ce0c811 #  1.1.0
 - name: datamash_ops
   owner: iuc
   tool_panel_section_label: 'Datamash'

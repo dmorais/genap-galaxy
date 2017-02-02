@@ -4,7 +4,7 @@
   become: yes
   become_method: sudo
   become_user: "{{ galaxy_user }}"
-  remote_user: root
+  remote_user: "{{ remote_user }}"
   gather_facts: False
   tasks:
     - name: Create symlink to samtools

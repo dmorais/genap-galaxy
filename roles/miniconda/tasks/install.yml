@@ -26,7 +26,7 @@
   become: yes
   become_method: sudo
   #become_user: "{{ galaxy_user }}"
-  remote_user: root
+  remote_user: "{{ remote_user }}" 
   shell: "/tmp/miniconda.sh -b -p {{ miniconda_home }} creates={{ miniconda_home }} executable=/bin/bash"
   register: miniconda_installed
   when: miniconda_downloaded | success
@@ -37,6 +37,6 @@
   become: yes
   become_method: sudo
   #become_user: "{{ galaxy_user }}"
-  remote_user: root
+  remote_user: "{{ remote_user }}"
   shell: "chown -R galaxy:galaxy {{ host_tool_dependency_dir }}"
 

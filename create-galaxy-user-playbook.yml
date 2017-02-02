@@ -4,7 +4,7 @@
   become_method: sudo
   become: yes
   #become_user: vagrant
-  remote_user: root
+  remote_user: "{{ remote_user }}"
   tasks:
     - name: Create Galaxy user
       user:

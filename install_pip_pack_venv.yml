@@ -3,10 +3,10 @@
   hosts: galaxyservers
   become_method: sudo
   become: yes
-  remote_user: root
+  remote_user: "{{ remote_user }}"
   tasks:
     - name: install uwsig
       become: yes
       become_user: "{{ galaxy_user }}"
-      remote_user: root
+      remote_user: "{{ remote_user }}"
       shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && pip install uwsgi

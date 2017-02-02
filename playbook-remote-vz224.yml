@@ -3,7 +3,7 @@
   hosts: galaxyservers
   become_method: sudo
   become: yes
-  remote_user: root
+  remote_user: "{{ remote_user }}"  
   tasks:
     - name: Create Galaxy user
       user:
@@ -70,7 +70,7 @@
   hosts: galaxyservers
   become: yes
   become_user: postgres
-  remote_user: root
+  remote_user: "{{ remote_user }}" 
   roles:
     - natefoo.postgresql_objects
 
@@ -79,12 +79,12 @@
   hosts: galaxyservers
   become: yes
   become_user: "{{ galaxy_user }}"
-  remote_user: root
+  remote_user: "{{ remote_user }}"
   roles:
     - galaxyprojectdotorg.galaxy
 
 - name: Install and configure supervisor
   hosts: galaxyservers
-  remote_user: root
+  remote_user: "{{ remote_user }}"
   roles:
     - supervisor

@@ -3,7 +3,7 @@
   hosts: galaxyservers
   become_method: sudo
   become: yes
-  remote_user: root
+  remote_user: "{{ remote_user }}"
   tasks:
   - name: install gcc required to build some Perl modules
     yum: name=gcc

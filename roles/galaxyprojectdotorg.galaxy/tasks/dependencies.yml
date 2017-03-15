@@ -13,6 +13,19 @@
     replace: '0.8.4+gx1'
     backup: yes
 
+- name: Commeting bx-python order
+  lineinfile:
+    dest: "/srv/galaxy/server/requirements.txt"
+    regexp: '^bx-python'
+    line: '#bx-python==0.7.3'
+
+- name: Add bx-python after numpy
+  lineinfile:
+    dest: "/srv/galaxy/server/requirements.txt"
+    insertafter: 'pycrypto==2.6.1'
+    line: 'bx-python==0.7.3'
+
+
 - name: Fetch Galaxy eggs
   command: "{{ galaxy_venv_dir }}/bin/python {{ galaxy_server_dir }}/scripts/fetch_eggs.py -c {{ galaxy_config_file }} chdir={{ galaxy_server_dir }}"
   environment:

@@ -1,11 +1,16 @@
 - name: Install supervisor
+  become: yes
   shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && pip install supervisor
 - name: Create supervisor config dir
+  become: yes
   file: path=/etc/supervisor/conf.d/  state=directory   mode=0755
 - name: Install supervisor configs
+  become: yes
   template:
     src: "templates/supervisor/{{ item }}.j2"
     dest: "/etc/supervisor/conf.d/{{ item }}.conf"
   with_items: "{{ supervisor_configs }}"
+  tags:
+    new-config
 #  notify:
 #    - update supervisor

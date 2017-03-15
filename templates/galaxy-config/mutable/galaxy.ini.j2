@@ -45,7 +45,7 @@
 #threadpool_kill_thread_limit = 10800
 
 [uwsgi]
-processes = 8
+processes = 2
 pythonpath = lib
 threads = 4
 logto = /srv/galaxy/server/uwsgi.log
@@ -57,28 +57,28 @@ chmod-socket = 770
 chown-socket = galaxy
 socket = /srv/galaxy/sock/uwsgi.sock
 #
-#[server:handler0]
-#use = egg:Paste#http
-#port = 8088
-#host = 0.0.0.0
-#use_threadpool = true
-#threadpool_workers = 5
-#
-#
-#[server:handler1]
-#use = egg:Paste#http
-#port = 8089
-#host = 0.0.0.0
-#use_threadpool = true
-#threadpool_workers = 5
-#
-#
-#[server:handler2]
-#use = egg:Paste#http
-#port = 8090
-#host = 0.0.0.0
-#use_threadpool = true
-#threadpool_workers = 5
+[server:handler0]
+use = egg:Paste#http
+port = 8088
+host = 0.0.0.0
+use_threadpool = true
+threadpool_workers = 5
+
+
+[server:handler1]
+use = egg:Paste#http
+port = 8089
+host = 0.0.0.0
+use_threadpool = true
+threadpool_workers = 5
+
+
+[server:handler2]
+use = egg:Paste#http
+port = 8090
+host = 0.0.0.0
+use_threadpool = true
+threadpool_workers = 5
 
 # ---- Filters --------------------------------------------------------------
 
@@ -233,7 +233,24 @@ conda_auto_install = True
 # if it cannot find a local copy and conda_exec is not configured.
 conda_auto_init = True
 
+# You must set this to True if conda_prefix and job_working_directory are not on the same
+# volume, or some conda dependencies will fail to execute at job runtime.
+# Conda will copy packages content instead of creating hardlinks or symlinks.
+# This will prevent problems with some specific packages (perl, R), at the cost
+# of extra disk space usage and extra time spent copying packages.
+conda_copy_dependencies = True
 
+# Certain dependency resolvers (namely Conda) take a considerable amount of
+# time to build an isolated job environment in the job_working_directory if the
+# job working directory is on a network share.  Set the following option to True
+# to cache the dependencies in a folder. This option is beta and should only be
+# used if you experience long waiting times before a job is actually submitted
+# to your cluster.
+use_cached_dependency_manager = True
+
+# By default the tool_dependency_cache_dir is the _cache directory
+# of the tool dependency directory
+tool_dependency_cache_dir = /cvmfs/soft.galaxy/galaxy/tool-dependency/_cache
 
 # Enable automatic polling of relative tool sheds to see if any updates
 # are available for installed repositories.  Ideally only one Galaxy

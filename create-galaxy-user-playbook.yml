@@ -37,12 +37,6 @@
         update_cache: yes
         state: present
 
-#    - name: Add EPEL repository
-#      yum_repository:
-#        name: epel
-#        description: EPEL YUM repo
-#        baseurl: http://download.fedoraproject.org/pub/epel/$releasever/$basearch/
-
     - name: Add EPEL
       command: yum install -y epel-release
 
@@ -52,6 +46,15 @@
     - name: Update EPEL
       command: yum -y update
 
+    - name: Install base packages1
+      yum:
+        pkg: "{{ item }}"
+        update_cache: yes
+        state: present
+      with_items:
+        - vim
+        - tar
+        - bzip2
 
 
 

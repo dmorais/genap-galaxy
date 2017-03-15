@@ -6,6 +6,6 @@
 #   task: ...
 
 - include: create-galaxy-user-playbook.yml
-#- include: install_miniconda.yml
-#- include: playbook-remote-vz224.yml
-#- include: install_pip_pack_venv.yml
+- include: install_miniconda.yml
+- include: playbook-remote-vz224.yml
+- include: install_pip_pack_venv.yml

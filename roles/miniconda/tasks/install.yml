@@ -5,7 +5,7 @@
   become: yes
   become_method: sudo
   become_user: "{{ galaxy_user }}"
-  #remote_user: root
+  remote_user: "{{ remote_user }}"
   stat: path={{ miniconda_home }}/bin/conda
   register: bin_conda
   changed_when: bin_conda.stat.exists == False
@@ -24,7 +24,7 @@
 
 - name: install miniconda
   become: yes
-  become_method: sudo
+  #become_method: sudo
   #become_user: "{{ galaxy_user }}"
   remote_user: "{{ remote_user }}" 
   shell: "/tmp/miniconda.sh -b -p {{ miniconda_home }} creates={{ miniconda_home }} executable=/bin/bash"

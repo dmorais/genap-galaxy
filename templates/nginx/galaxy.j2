@@ -1,21 +1,21 @@
 server {
     listen *:80 default_server;
-    server_name galaxy;
+    server_name {{ host_server_name }} ;
+    client_max_body_size 20G;
 
     location / {
 
         proxy_set_header   X-Forwarded-Host $host;
         proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
-        return 301 http://$host/galaxy;
-
+        return 301 http://$server_name/galaxy;
     }
 
     location /galaxy {
-            uwsgi_pass  unix://///srv/galaxy/sock/uwsgi.sock;
-            include uwsgi_params;
-            proxy_set_header   X-Forwarded-Host $host;
-            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
-        }
+        uwsgi_pass  unix://///srv/galaxy/sock/uwsgi.sock;
+        include uwsgi_params;
+        proxy_set_header   X-Forwarded-Host $host;
+        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+    }
 
     location /galaxy/static {
         alias {{ galaxy_server_dir }}/static;
@@ -26,4 +26,17 @@ server {
     location /galaxy/static/welcome.html {
         alias {{ galaxy_server_dir }}/static/welcome.html.sample;
     }
+
+    location /galaxy/root/display_as {
+        uwsgi_pass  unix://///srv/galaxy/sock/uwsgi.sock;
+        include uwsgi_params;
+        proxy_set_header   X-Forwarded-Host $host;
+        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+    }
+
+    location /_x_accel_redirect {
+        internal;
+        alias /;
+    }
+
 }

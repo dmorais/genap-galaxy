@@ -179,10 +179,10 @@ genome_data_path = tool-data/genome
 #rsync_url = rsync://datacache.galaxyproject.org/indexes
 
 # Dataset files are stored in this directory.
-file_path = /srv/galaxy/database/files
+file_path = {{ host_root_database_dir }}/files
 
 # Temporary files are stored in this directory.
-new_file_path = /srv/galaxy/database/tmp
+new_file_path = {{ host_root_database_dir }}/tmp
 
 # Tool config files, defines what tools are available in Galaxy.
 # Tools can be locally developed or installed from Galaxy tool sheds.
@@ -250,7 +250,7 @@ use_cached_dependency_manager = True
 
 # By default the tool_dependency_cache_dir is the _cache directory
 # of the tool dependency directory
-tool_dependency_cache_dir = /cvmfs/soft.galaxy/galaxy/tool-dependency/_cache
+tool_dependency_cache_dir =  {{ host_tool_dependency_dir }}/_cache
 
 # Enable automatic polling of relative tool sheds to see if any updates
 # are available for installed repositories.  Ideally only one Galaxy
@@ -297,15 +297,15 @@ visualization_plugins_directory = config/plugins/visualizations
 # Each job is given a unique empty directory as its current working directory.
 # This option defines in what parent directory those directories will be
 # created.
-job_working_directory = /srv/galaxy/database/job-working-directory
+job_working_directory = {{ host_root_database_dir }}/job-working-directory
 
 # If using a cluster, Galaxy will write job scripts and stdout/stderr to this
 # directory.
-cluster_files_directory = /srv/galaxy/database/pbs
+cluster_files_directory = {{ host_root_database_dir }}/pbs
 
 # Mako templates are compiled as needed and cached for reuse, this directory is
 # used for the cache
-template_cache_path = /srv/galaxy/database/compiled-templates
+template_cache_path = {{ host_root_database_dir }}/compiled-templates
 
 # External service types config file, defines what types of external_services configurations
 # are available in Galaxy.
@@ -368,8 +368,8 @@ tour_config_dir = config/plugins/tours
 # external sources such as http://dx.doi.org/ by Galaxy - the following
 # parameters can be used to control the caching used to store this information.
 citation_cache_type = file
-citation_cache_data_dir = database/citations/data
-citation_cache_lock_dir = database/citations/lock
+citation_cache_data_dir = {{ host_root_database_dir }}/citations/data
+citation_cache_lock_dir = {{ host_root_database_dir }}/citations/lock
 
 
 # -- Data Storage (Object Store)
@@ -859,7 +859,7 @@ allow_library_path_paste = True
 # Search data libraries with whoosh
 enable_whoosh_library_search = True
 # Whoosh indexes are stored in this directory.
-whoosh_index_dir = database/whoosh_indexes
+whoosh_index_dir = {{ host_root_database_dir }}/whoosh_indexes
 
 # Search data libraries with lucene
 #enable_lucene_library_search = False

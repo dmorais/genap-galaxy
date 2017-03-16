@@ -1,7 +1,7 @@
 remote_user: root
 galaxy_user: galaxy
 galaxy_root: /srv/galaxy
-galaxy_server_dir: "{{ galaxy_root }}"/server
+galaxy_server_dir: "{{ galaxy_root }}/server"
 galaxy_vcs: git
 galaxy_changeset_id: release_17.01 
 galaxy_force_checkout: yes
@@ -41,7 +41,7 @@ galaxy_config:
   "app:main":
     database_connection: postgresql:///galaxy?host=/srv/galaxy/sock/postgresql/
     admin_users: dmorais@galaxy.genap.ca
-    tool_dependency_dir: "{{ galaxy_root }}"/deps
+    tool_dependency_dir: /srv/galaxy/deps
   "uwsgi":
     processes: 1
     socket: 127.0.0.1:4001

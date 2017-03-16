@@ -1054,7 +1054,7 @@ enable_beta_ts_api_install = True
 #ftp_upload_dir = /home/genapprojects/brd-010-gen01/.galaxy_do_not_touch/1.0.1_public/../../upload
 {% if host_ftp|bool %}
 
-{{host_ftp_upload_dir}}
+ftp_upload_dir={{host_ftp_upload_dir}}
 
 {% endif %}
 

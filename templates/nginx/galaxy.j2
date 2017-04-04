@@ -28,7 +28,7 @@ server {
     }
 
     location /galaxy/root/display_as {
-        uwsgi_pass  unix://///srv/galaxy/sock/uwsgi.sock;
+        uwsgi_pass  unix://///srv/sock/uwsgi.sock;
         include uwsgi_params;
         proxy_set_header   X-Forwarded-Host $host;
         proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;

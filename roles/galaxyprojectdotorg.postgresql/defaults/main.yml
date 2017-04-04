@@ -8,7 +8,7 @@ postgresql_backup_rotate: true
 postgresql_conf_dir: /var/lib/pgsql/9.4/data/
 postgresql_conf:
   listen_addresses: "' '"
-  unix_socket_directories: "'/srv/galaxy/sock/postgresql'"
+  unix_socket_directories: "'/srv/sock/postgresql'"
   unix_socket_permissions: 0770
   unix_socket_group: "'galaxy'"
 

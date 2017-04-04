@@ -20,13 +20,13 @@ users: galaxy
 
 postgresql_objects_users:
   - name: galaxy
-    postgresql_login_unix_socket: /srv/galaxy/sock/postgresql/
+    postgresql_login_unix_socket: /srv/sock/postgresql/
 
 
 postgresql_objects_databases:
   - name: galaxy
     owner: galaxy
-    postgresql_login_unix_socket: /srv/galaxy/sock/postgresql/
+    postgresql_login_unix_socket: /srv/sock/postgresql/
 
 postgresql_pg_hba_conf:
   - host  all all  0.0.0.0/0 trust
@@ -39,7 +39,7 @@ postgresql_objects_privileges: []
 
 galaxy_config:
   "app:main":
-    database_connection: postgresql:///galaxy?host=/srv/galaxy/sock/postgresql/
+    database_connection: postgresql:///galaxy?host=/srv/sock/postgresql/
     admin_users: dmorais@galaxy.genap.ca
     tool_dependency_dir: /srv/galaxy/deps
   "uwsgi":

@@ -48,7 +48,7 @@
 
 - name: Create postgres socket dir
   file:
-    path: /srv/galaxy/sock/postgresql/
+    path: /srv/sock/postgresql/
     state: directory
     mode: 0770
     owner: postgres

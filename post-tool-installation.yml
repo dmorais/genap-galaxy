@@ -14,6 +14,7 @@
         state: link
         group: galaxy
         owner: galaxy
+      tags: samtools
 
     - name: Copy loc Files
       copy:

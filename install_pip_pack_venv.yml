@@ -9,9 +9,12 @@
       become: yes
       become_user: "{{ galaxy_user }}"
       remote_user: "{{ remote_user }}"
-      shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && pip install uwsgi
+      shell: source "{{ galaxy_venv_dir }}"/bin/activate && pip install uwsgi
     - name: install cython
       become: yes
       become_user: "{{ galaxy_user }}"
       remote_user: "{{ remote_user }}"
-      shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && pip install cython
+      shell: source "{{ galaxy_venv_dir }}"/bin/activate && pip install cython
+
+#    - name: Move tools dir to server dir
+#      command: mv "{{ galaxy_server_dir }}/tools" "{{ cvmfs_server_dir }}"

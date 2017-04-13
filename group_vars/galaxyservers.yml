@@ -7,16 +7,9 @@ galaxy_changeset_id: release_17.01
 galaxy_force_checkout: yes
 users: galaxy
 
-# MOVED to HOST_VARS
-##########################
-#miniconda_home: /cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/
-#miniconda_modify_path: yes
-#miniconda_rcfile: /home/galaxy/.bashrc
-#miniconda_installed: yes
-#miniconda_lib: "{{ miniconda_home }}/lib"
-#
-#pip_virtualenv_command: "/cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/bin/virtualenv -p  /cvmfs/soft.galaxy/galaxy/tool-dependency/_conda/bin/python"
-#######################
+
+nginx_conf_worker_processes: 2
+
 
 postgresql_objects_users:
   - name: galaxy

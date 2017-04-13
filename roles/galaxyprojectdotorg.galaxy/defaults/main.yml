@@ -31,7 +31,7 @@ galaxy_changeset_id: stable
 galaxy_download_url: "{{ galaxy_repo }}/get/{{ galaxy_changeset_id }}.tar.gz"
 
 # This will automatically be used by run.sh
-galaxy_venv_dir: "{{ galaxy_server_dir }}/.venv"
+galaxy_venv_dir: "{{ cvmfs_server_dir }}/.venv"
 
 # TODO: Implement something like this for starter/restarter
 #galaxy_server_type: paste_singleprocess

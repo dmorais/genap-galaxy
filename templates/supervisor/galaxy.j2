@@ -33,7 +33,7 @@ history_file=%(here)s/.sc_history      ; use readline history if available
 
 
 [program:galaxy]
-command         = {{ galaxy_server_dir }}/.venv/bin/uwsgi --plugin python --virtualenv {{ galaxy_server_dir }}/.venv --ini-paste {{ galaxy_server_dir }}/config/galaxy.ini
+command         = {{ galaxy_venv_dir }}/bin/uwsgi --plugin python --virtualenv {{ galaxy_venv_dir }} --ini-paste {{ galaxy_server_dir }}/config/galaxy.ini
 directory       = {{ galaxy_server_dir }}
 autostart       = true
 autorestart     = true
@@ -44,7 +44,7 @@ stderr_logfile=/var/uwsgi.err
 stdout_logfile=/var/uwsgi.log
 
 [program:handler]
-command        = {{ galaxy_server_dir }}/.venv/bin/python {{ galaxy_server_dir }}/scripts/paster.py serve {{ galaxy_server_dir }}/config/galaxy.ini  --server-name=handler%(process_num)s --pid-file={{ galaxy_server_dir }}/handler%(process_num)s.pid --log-file={{ galaxy_server_dir }}/handler%(process_num)s.log
+command        = {{ galaxy_venv_dir }}/bin/python {{ galaxy_server_dir }}/scripts/paster.py serve {{ galaxy_server_dir }}/config/galaxy.ini  --server-name=handler%(process_num)s --pid-file={{ galaxy_server_dir }}/handler%(process_num)s.pid --log-file={{ galaxy_server_dir }}/handler%(process_num)s.log
 directory      = {{ galaxy_server_dir }}
 process_name   =  handler%(process_num)s
 numprocs       = 3

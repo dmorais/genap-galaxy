@@ -167,7 +167,9 @@ database_engine_option_strategy = threadlocal
 # instances with pretested installs.  The following option can be used to
 # separate the tool shed install database (all other options listed above
 # but prefixed with install_ are also available).
-install_database_connection = sqlite:///./database/universe.sqlite?isolation_level=IMMEDIATE
+#install_database_connection = sqlite:///./database/universe.sqlite?isolation_level=IMMEDIATE
+install_database_connection = sqlite:///{{host_tool_dependency_dir}}/universe.sqlite?isolation_level=IMMEDIATE
+
 
 
 # -- Files and directories
@@ -190,7 +192,7 @@ tool_config_file = config/tool_conf.xml,config/shed_tool_conf.xml
 
 # Default path to the directory containing the tools defined in tool_conf.xml.
 # Other tool config files must include the tool_path as an attribute in the <toolbox> tag.
-tool_path = tools
+tool_path = {{ cvmfs_server_dir }}/tools
 
 # Path to the directory in which tool dependencies are placed.  This is used by
 # the tool shed to install dependencies and can also be used by administrators

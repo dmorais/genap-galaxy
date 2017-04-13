@@ -55,4 +55,5 @@
     group: galaxy
 
 - name: Ensure PostgreSQL is running
-  service: name={{ postgresql_service_name }} enabled=yes state=started
+  shell: service postgresql-9.4 initdb
+  #service: name={{ postgresql_service_name }} enabled=yes state=started

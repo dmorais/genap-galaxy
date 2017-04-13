@@ -5,31 +5,31 @@
   become: yes
   tasks:
     - name: Start Supervisord
-      shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisord -c  /etc/supervisor/conf.d/galaxy.conf
+      shell: source "{{ cvmfs_server_dir }}"/.venv/bin/activate && supervisord -c  /etc/supervisor/conf.d/galaxy.conf
       register: status
       tags:
         - supervisor-start
 
     - name: Stop Supervisord
-      shell: source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf shutdown
+      shell: source "{{ cvmfs_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf shutdown
       register: status
       tags:
         - supervisor-stop
 
     - name: start Galaxy
-      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf start main:'
+      shell: 'source "{{ cvmfs_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf start main:'
       register: status
       tags:
         - galaxy-start
 
     - name: start handlers
-      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf start handler:'
+      shell: 'source "{{ cvmfs_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf start handler:'
       register: status
       tags:
         - handler-start
 
     - name: stop handlers
-      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf stop handler:'
+      shell: 'source "{{ cvmfs_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf stop handler:'
       register: status
       tags:
         - handler-stop
@@ -41,19 +41,19 @@
         - handler-restart
 
     - name: Check if Galaxy it is up
-      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf status main:'
+      shell: 'source "{{ cvmfs_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf status main:'
       register: status
       tags:
         - galaxy-status
 
     - name: Stop Galaxy
-      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf stop main:'
+      shell: 'source "{{ cvmfs_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf stop main:'
       register: status
       tags:
         - galaxy-stop
 
     - name: Restart Galaxy
-      shell: 'source "{{ galaxy_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf restart main:'
+      shell: 'source "{{ cvmfs_server_dir }}"/.venv/bin/activate && supervisorctl -c  /etc/supervisor/conf.d/galaxy.conf restart main:'
       register: status
       tags:
         - galaxy-restart

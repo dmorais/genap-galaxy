@@ -74,6 +74,13 @@
   roles:
     - natefoo.postgresql_objects
 
+- name: Move PosgreSQL data Dir
+  hosts: galaxyservers
+  become_method: sudo
+  become: yes
+  remote_user: "{{ remote_user }}"
+  roles:
+    - move.postgres
 
 - name: Install and configure Galaxy
   hosts: galaxyservers
